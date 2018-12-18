@@ -1,0 +1,52 @@
+<header class="masterhead">
+
+<!-- Burgermenu -->
+<nav>
+    <div class="dropdown">
+        <div onclick="myFunction()" class="dropbtn">
+                    <span ></span>
+                    <span></span>
+                    <span></span>
+    </div>
+    
+<!-- Menu indhold -->
+    <div id="myDropdown" class="dropdown-content">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Webudvikling</a></li>
+            <li><a href="#">Kommunikation</a></li>
+            <li><a href="#">Design</a></li>
+            <li><a href="#">Online marketing</a></li>
+            <li><a href="#">Design thinking</a></li>
+            <li><a href="#">One page projekt</a></li>
+            <li><a href="#">Reflektioner</a></li>
+        </ul>
+    </div>
+</div>           
+</nav>
+        
+	</header>
+
+	
+
+<script>
+    // Skifter mellem at vise og skjule menuen når der klikkes på knappen.
+        function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Luk dropdown hvis brugeren klikker uden for menuen
+        window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
