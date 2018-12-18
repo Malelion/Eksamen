@@ -129,7 +129,7 @@ CSS Grid layout for tablet:
         
         .refl {
             grid-column: 1/3;
-            grid-row: 6;
+            grid-row: 5;
             display: flex;
             align-self: center;
         }
