@@ -8,7 +8,7 @@ End Reset
 --------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
-Typografi
+Generel styling
 --------------------------------------------------------------*/
 
 body {
@@ -19,12 +19,6 @@ body {
 figure {
 	margin: 0;
     }
-
-
-/*--------------------------------------------------------------
-Generel styling
---------------------------------------------------------------*/
-
 
 img {
 	display: block;
@@ -37,7 +31,7 @@ footer {
     background-color: #b44057;
     font-family: 'Helvetica', 'Arial', sans-serif;
     font-weight: normal;
-    font-size: 0.9em;
+    font-size: .9em;
     padding: 0.3em;
     text-align: center;
     color: black;
@@ -62,22 +56,16 @@ Index:
 	text-decoration: none;
 }
 
-h2 {
-	padding: 1em;
-	font-size: 100%;
+.index h2 {
+	font-size: 1.2em;
+    line-height: 1em;
+    margin: 0;
 	color: black;
 }
 
-p {
-	padding: 1em;
-	font-size: 100%;
+.kort p {
+	font-size: 1em;
 	color: black;
-}
-
-.billedtekst-titel {
-	margin: 0;
-	font-size: 1.5em;
-	line-height: 1em;
 }
 
 .billedtekst p {
@@ -245,3 +233,4 @@ CSS Grid layout for desktop:
             align-self: center;
         }
 }
+        
