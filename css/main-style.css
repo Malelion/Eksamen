@@ -78,6 +78,19 @@ Index:
 	background: #f7f7f7;
 }
 
+.index {
+            margin: 0;
+            padding: 1em;
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+    
+        .kort {
+            margin: 1em 0;
+            padding: .5em;
+            display: grid;
+            grid-template-columns: 1fr;
+        }
 /*--------------------------------------------------------------
 CSS Grid layout for tablet:
 --------------------------------------------------------------*/
