@@ -11,7 +11,7 @@
 </head>
     <body>
         <?php 
-            include "include/menu.inc";
+            include "menu.html";
             include "forside.html";
             include "include/footer.inc";    
         ?>
