@@ -1,37 +1,3 @@
-<main>
-<body>
-
-    <header class="masterhead">
-
-<nav>
-    <div class="dropdown">
-        <div onclick="myFunction()" class="dropbtn">
-                    <span ></span>
-                    <span></span>
-                    <span></span>
-        </div>
-    
-<div id="myDropdown" class="dropdown-content">
-    <h1>   
-        <ul>
-
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Webudvikling</a></li>
-            <li><a href="#">Kommunikation</a></li>
-            <li><a href="#">Design</a></li>
-            <li><a href="#">Online marketing</a></li>
-            <li><a href="#">Design thinking</a></li>
-            <li><a href="#">One page projekt</a></li>
-            <li><a href="#">Reflektioner</a></li>
-
-        </ul>
-    </h1>
-</div>
-    </div>           
-</nav>
-        
-	</header><!-- .masthead -->
-
     <main id="content" class="main-area">
         <ul class="subindex">
             <li class="subkort-emne subpsd">
