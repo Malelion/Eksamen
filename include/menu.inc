@@ -16,7 +16,7 @@
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Webudvikling</a></li>
                 <li><a href="#">Kommunikation</a></li>
-                <li><a href="#">Design</a></li>
+                <li><a href="design.php">Design</a></li>
                 <li><a href="#">Online marketing</a></li>
                 <li><a href="#">Design thinking</a></li>
                 <li><a href="#">One page projekt</a></li>
