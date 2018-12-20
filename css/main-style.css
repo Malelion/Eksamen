@@ -186,7 +186,7 @@ CSS Grid layout for tablet:
         
         .billedtekst {
             margin-left: .5em;
-            grid-column: 3/5;
+            grid-column: 2/5;
             grid-row: 1;
         }
         
@@ -467,6 +467,6 @@ CSS Grid layout for desktop:
             grid-column: 1/5;
             grid-row: 5;
         }
-
+Farver og typografi
 }
         
