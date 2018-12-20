@@ -12,7 +12,7 @@
     <body>
         <?php 
             include "reflmenu.html"; 
-            include "include/refl.html";
+            include "include/refl.inc";
             include "include/footer.inc";    
         ?>
     </body>
