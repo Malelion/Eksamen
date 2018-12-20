@@ -23,7 +23,7 @@
                     <figure class="subkort">
                         <img class="subcsspic" src="F:\Arbejdsmappe\Eksamen/img/kommunikation.jpg" alt="Noget om CSS.">
                         <figcaption class="billedtekst">
-                            <h2 class="billedtekst-titel">Illustrator</h2>
+                            <h2 class="billedtekst-titel">CSS</h2>
 							<p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
                             <p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
                         </figcaption>
@@ -40,7 +40,7 @@
                     <figure class="subkort">
                         <img class="subserverpic" src="F:\Arbejdsmappe\Eksamen/img/web-design.png" alt="Servere.">
                         <figcaption class="billedtekst">
-                            <h2 class="billedtekst-titel">Farver og typografi</h2>
+                            <h2 class="billedtekst-titel">Servere</h2>
 							<p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
                             <p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
                         </figcaption>
@@ -57,7 +57,7 @@
                     <figure class="subkort">
                         <img class="subhistoriepic" src="F:\Arbejdsmappe\Eksamen/img/dsthink.png" alt="Internettets historie">
                         <figcaption class="billedtekst">
-                            <h2 class="billedtekst-titel">Gestaltlove</h2>
+                            <h2 class="billedtekst-titel">Historie</h2>
 							<p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
                             <p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
                         </figcaption>
@@ -74,7 +74,7 @@
                     <figure class="subkort">
                         <img class="subgridpic" src="F:\Arbejdsmappe\Eksamen/img/mark.jpg" alt="CSS Grid.">
                         <figcaption class="billedtekst">
-                            <h2 class="billedtekst-titel">Fotografering</h2>
+                            <h2 class="billedtekst-titel">CSS Grid</h2>
 							<p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
                             <p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
                         </figcaption>
@@ -91,7 +91,7 @@
                     <figure class="subkort">
                         <img class="subversionpic" src="F:\Arbejdsmappe\Eksamen/img/mark.jpg" alt="Versionsstyring.">
                         <figcaption class="billedtekst">
-                            <h2 class="billedtekst-titel">Fotografering</h2>
+                            <h2 class="billedtekst-titel">Versionsstyring</h2>
 							<p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
                             <p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
                         </figcaption>
@@ -103,12 +103,12 @@
                 </a>
             </li>
             
-            <li class="subkort-emne subarkitekttur" id="arkitektur">
+            <li class="subkort-emne subarkitektur" id="arkitektur">
                 <a href="#">
                     <figure class="subkort">
-                        <img class="subarkitektturpic" src="F:\Arbejdsmappe\Eksamen/img/mark.jpg" alt="Informationsarkitektur.">
+                        <img class="subarkitekturpic" src="F:\Arbejdsmappe\Eksamen/img/mark.jpg" alt="Informationsarkitektur.">
                         <figcaption class="billedtekst">
-                            <h2 class="billedtekst-titel">Fotografering</h2>
+                            <h2 class="billedtekst-titel">Informationsarkitektur</h2>
 							<p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
                             <p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
                         </figcaption>
