@@ -10,7 +10,7 @@
                             <p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
                         </figcaption>
                         
-                        <figcaption class="billedtekst2"  id="reflekt">
+                        <figcaption class="billedtekst2"  id="tekst1">
                     <p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
                             <p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
                         </figcaption>
