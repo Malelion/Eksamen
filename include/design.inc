@@ -12,7 +12,7 @@
                         
                         <figcaption class="billedtekst2">
                     <p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
-                            <p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p></div>
+                            <p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
                         </figcaption>
                     </figure>
                 </a>
@@ -69,7 +69,7 @@
                 </a>
             </li>
             
-            <li class="subkort-emne subfoto">
+            <li class="subkort-emne subfoto" id="foto">
                 <a href="#">
                     <figure class="subkort">
                         <img class="subfotopic" src="F:\Arbejdsmappe\Eksamen/img/mark.jpg" alt="Fotografering.">
