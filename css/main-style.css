@@ -337,7 +337,7 @@ CSS Grid layout for desktop:
 			
 		}
         
-/* Design */
+/* Design Start  */
         
 /* Photoshop */
         
@@ -459,7 +459,7 @@ CSS Grid layout for desktop:
             grid-row: 5;
         }
         
-/* Webudvikling */
+/* Webudvikling Start  */
                 
 /* HTML */
         
@@ -629,7 +629,7 @@ CSS Grid layout for desktop:
             grid-row: 5;
         }
         
-/* Kommunikation */
+/* Kommunikation Start */
         
 /* Præsentationsteknik */
         
@@ -680,7 +680,7 @@ CSS Grid layout for desktop:
             grid-row: 3;
         }
         
-/* Tekstproduktion */
+/* Tekstproduktion Start */
         
         .subtekst {
             grid-column: span 4;
@@ -1101,7 +1101,7 @@ CSS Grid layout for tablet:
 			
 		}
         
-/* Design */
+/* Design Start  */
         
 /* Photoshop */
         
@@ -1223,7 +1223,7 @@ CSS Grid layout for tablet:
             grid-row: 5;
         }
         
-/* Webudvikling */
+/* Webudvikling Start */
                 
 /* HTML */
         
@@ -1393,7 +1393,7 @@ CSS Grid layout for tablet:
             grid-row: 5;
         }
         
-/* Kommunikation */
+/* Kommunikation Start */
         
 /* Præsentationsteknik */
         
@@ -1444,7 +1444,7 @@ CSS Grid layout for tablet:
             grid-row: 3;
         }
         
-/* Tekstproduktion */
+/* Tekstproduktion Start */
         
         .subtekst {
             grid-column: span 4;
@@ -1614,7 +1614,7 @@ CSS Grid layout for tablet:
 
 
 /*--------------------------------------------------------------
-CSS Grid layout for telefon:
+CSS Grid layout for mobil:
 --------------------------------------------------------------*/
 
 @media screen and (max-width: 449px) {
@@ -1854,7 +1854,7 @@ CSS Grid layout for telefon:
 			
 		}
         
-/* Design */
+/* Design Start  */
         
 /* Photoshop */
         
@@ -1976,7 +1976,7 @@ CSS Grid layout for telefon:
             grid-row: 5;
         }
         
-/* Webudvikling */
+/* Webudvikling Start  */
                 
 /* HTML */
         
@@ -2146,7 +2146,7 @@ CSS Grid layout for telefon:
             grid-row: 5;
         }
         
-/* Kommunikation */
+/* Kommunikation Start */
         
 /* Præsentationsteknik */
         
@@ -2197,7 +2197,7 @@ CSS Grid layout for telefon:
             grid-row: 3;
         }
         
-/* Tekstproduktion */
+/* Tekstproduktion Start */
         
         .subtekst {
             grid-column: span 4;
