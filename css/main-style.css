@@ -27,8 +27,10 @@ img {
 	height: auto;
 }
 
-footer { 
+footer {
     background-color: #b44057;
+    max-width: 97%;
+    margin: auto;
     font-family: 'Helvetica', 'Arial', sans-serif;
     font-weight: normal;
     font-size: .9em;
@@ -52,13 +54,21 @@ Index:
 
 .index a {
 	display: block;
-	margin-bottom: 1em;
+	/*margin-bottom: 1em;*/
 	text-decoration: none;
 }
 
 .index a:focus .billedtekst,
 .index a:hover .billedtekst {
 	background: #f7f7f7;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
 }
 
 body h2 {
@@ -71,142 +81,33 @@ body h2 {
 .billedtekst p {
 	margin-top: 0.5em;
     font-size: 1em
-	margin-bottom: 0;
+	margin-bottom: 0;*/
     color: black;
 }
 
 .billedtekst2 p {
 	margin-top: 0.5em;
     font-size: 1em
-	margin-bottom: 0;
+	margin-bottom: 0;*/
     color: black;
 }
-
-.index {
-            margin: 0;
-            padding: 1em;
-            display: grid;
-            grid-template-columns: 1fr;
-        }
-    
-        .kort {
-            margin: 1em 0;
-            padding: .5em;
-            display: grid;
-            grid-template-columns: 1fr;
-        }
-
-    
-        .subkort {
-            margin: 1em 0;
-            padding: .5em;
-            display: grid;
-            grid-template-columns: 1fr;
-        }
-
-/*--------------------------------------------------------------
-CSS Grid layout for tablet:
---------------------------------------------------------------*/
-
-
-	@media screen and (min-width: 450px) {
-        
-        .index {
-            margin: 0;
-            padding: 1em;
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-        }
- 
-/* Main Side */
-        
-        .kort {
-            margin: 1em 0;
-            padding: .5em;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-        }
-        
-        .index a:focus,
-        .index a:hover {
-            outline: 1px solid #cccccc;
-        }
-        
-        .billedtekst {
-            margin-left: .5em;
-        }
-        
-/* Om mig og denne side */
-        
-        .me {
-            grid-column: 1/3;
-            grid-row: 1;
-            display: flex;
-            align-self: center;
-		}
-        
-/* Reflektioner */
-        
-        .refl {
-            grid-column: 1/3;
-            grid-row: 5;
-            display: flex;
-            align-self: center;
-        }
- 
-/* sub sider */
-                
-        .subindex {
-            margin: 0;
-            padding: 1em;
-            display: grid;
-            grid-template-columns: repeat(8, 1fr);
-        }
-        
-        .subkort {
-            margin: 1em 0;
-            padding: .5em;
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-        }
-        
-/* Design */
-        
-        .subdesign {
-            grid-column: 1/4;
-            grid-row: 2;
-            display: flex;
-            align-self: center;
-        }
-        
-        .subdesign .subdesignpic {
-            grid-column: 1/3;
-            grid-row: 1;
-        }
-        
-        .billedtekst {
-            margin-left: .5em;
-            grid-column: 2/5;
-            grid-row: 1;
-        }
-        
-        .billedtekst2 {
-            margin-left: .5em;
-            grid-column: 1/5;
-            grid-row: 2;
-        }
-        
-        
-
 
 /*--------------------------------------------------------------
 CSS Grid layout for desktop:
 --------------------------------------------------------------*/
 
-	@media screen and (min-width: 1200px) {
 
+
+        .main-area {
+          /*  max-width: none;*/
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-gap: 1em;
+            justify-content: center;
+        }
+    
         .index {
-            max-width: none;
+        /*    max-width: none;*/
             display: grid;
             grid-template-columns: repeat(6, 1fr);
             grid-gap: 1em;
@@ -215,108 +116,199 @@ CSS Grid layout for desktop:
         
 /* Main Side Start */
         
-        .kort a {
-            width: 100%;
+        .kort {
+           /* margin: .5em 0;*/
+            padding: .5em;
+            display: grid;
+            grid-gap: .4em;
+            grid-template-columns: repeat(6, 1fr);
         }
         
-        .kort a {
-			max-width: 100%;
-			display: grid;
-			grid-template-columns: repeat(4, 1fr);
-            grid-gap: 1em;
-			
-		}
-        
-/* Om mmig og denne side */
+/* Om mig og denne side */
         
         .me {
-			grid-row: 1/3;
             grid-column: 3/5;
+            grid-row: 1/3;
             display: flex;
+            justify-content: center;
+            align-self: center;
+           
+		}
+        
+        .me .mepic {
+            grid-column: 1/7;
+            grid-row: 1;
+        }
+        
+       .me .billedtekst {
+            grid-column: 1/7;
+            grid-row: 2;
+        }
+        
+        .me .billedtekst2 {
+            grid-column: 1/7;
+            grid-row: 3;
+        }
+    
+        .web {
+            grid-column: 1/3;
+            grid-row: 1;
+            display: flex;
+            justify-content: center;
             align-self: center;
 		}
         
-        .me .kort {
-            display: block;
+        .web .webpic {
+            grid-column: 1/3;
+            grid-row: 1;
         }
         
+       .web .billedtekst {
+            grid-column: 3/7;
+            grid-row: 1;
+        }
+        
+        .web .billedtekst2 {
+            grid-column: 1/7;
+            grid-row: 2;
+        }
+    
         .design {
             grid-column: 5/7;
-            grid-row: 2;
+            grid-row: 1;
             display: flex;
+            justify-content: center;
             align-self: center;
+		}
+        
+        .design .designpic {
+            grid-column: 5/7;
+            grid-row: 1;
         }
         
        .design .billedtekst {
-            grid-column: 1;
-            grid-row: 2;
-        }
-        
-        .design .designpic {
-            grid-column: 2;
-            grid-row: 2;
-        }
-        
-/* Webudvikling */
-        
-        .web {
-            grid-column: span 2;
+            grid-column: 1/5;
             grid-row: 1;
-            display: flex;
-            align-self: center;
         }
         
-/* Kommunikation */
-        
+        .design .billedtekst2 {
+            grid-column: 1/7;
+            grid-row: 2;
+        }
+    
         .komm {
             grid-column: 5/7;
-            grid-row: 1;
+            grid-row: 2;
             display: flex;
+            justify-content: center;
             align-self: center;
-            
+		}
+        
+        .komm .kommpic {
+            grid-column: 5/7;
+            grid-row: 1;
         }
         
-/* Design Thinking */
+       .komm .billedtekst {
+            grid-column: 1/5;
+            grid-row: 1;
+        }
         
-            .think {
+        .komm .billedtekst2 {
+            grid-column: 1/7;
+            grid-row: 2;
+        }
+    
+        .think {
             grid-column: 1/3;
             grid-row: 2;
             display: flex;
+            justify-content: center;
             align-self: center;
-        }
-        
-            .think .billedtekst {
-            grid-column: 1/2;
-            grid-row: 2;
-        }
+		}
         
         .think .thinkpic {
-            grid-column: 2/3;
-            grid-row: 2
-    
-        }
-        
-/* One Page Projekt */
-        
-        .onepage {
-            grid-column: 3/5;
-            grid-row: 3;
-            display: flex;
-            align-self: center;
-        }
-        
-        .refl {
             grid-column: 5/7;
-            grid-row: 3;
-            display: flex;
-            align-self: center;
+            grid-row: 1;
         }
         
+       .think .billedtekst {
+            grid-column: 1/5;
+            grid-row: 1;
+        }
+        
+        .think .billedtekst2 {
+            grid-column: 1/7;
+            grid-row: 2;
+        }
+    
         .mark {
             grid-column: 1/3;
             grid-row: 3;
             display: flex;
+            justify-content: center;
             align-self: center;
+		}
+        
+        .mark .markpic {
+            grid-column: 1/3;
+            grid-row: 1;
+        }
+        
+       .mark .billedtekst {
+            grid-column: 3/7;
+            grid-row: 1;
+        }
+        
+        .mark .billedtekst2 {
+            grid-column: 1/7;
+            grid-row: 2;
+        }
+    
+        .onepage {
+            grid-column: 3/5;
+            grid-row: 3;
+            display: flex;
+            justify-content: center;
+            align-self: center;
+		}
+        
+        .onepage .onepagepic {
+            grid-column: 1/3;
+            grid-row: 1;
+        }
+        
+       .onepage .billedtekst {
+            grid-column: 3/7;
+            grid-row: 1;
+        }
+        
+        .onepage .billedtekst2 {
+            grid-column: 1/7;
+            grid-row: 2;
+        }
+    
+        .refl {
+            grid-column: 5/7;
+            grid-row: 3;
+            display: flex;
+            justify-content: center;
+            align-self: center;
+		}
+        
+        .refl .reflpic {
+            grid-column: 1/3;
+            grid-row: 1;
+        }
+        
+       .refl .billedtekst {
+            grid-column: 3/7;
+            grid-row: 1;
+        }
+        
+        .refl .billedtekst2 {
+            grid-column: 1/7;
+            grid-row: 2;
         }
         
                                  /* Main Side Slut */
@@ -858,5 +850,1517 @@ CSS Grid layout for desktop:
             grid-column: 1/9;
             grid-row: 3;
         }
-}
         
+                                 /* Main Side Slut */
+
+
+/*--------------------------------------------------------------
+CSS Grid layout for tablet:
+--------------------------------------------------------------*/
+
+@media screen and (min-width: 450px) and (max-width: 1100px) {
+
+        .main-area {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-gap: 1em;
+            justify-content: center;
+            align-self: center;
+        }
+    
+        .index {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 1em;
+            justify-content: center;
+            align-self: center;
+        }
+        
+/* Main Side Start */
+        
+        .kort {
+            padding: .5em;
+            display: grid;
+            grid-gap: .4em;
+            grid-template-columns: repeat(6, 1fr);
+        }
+    
+/* Om mig og denne side */
+        
+       .me {
+           grid-column: span 2;
+           grid-row: 1;
+           display: flex;
+           justify-content: center;
+           align-self: center;
+           
+		}
+        
+        .me .mepic {
+            grid-column: 1/4;
+            grid-row: 1;
+        }
+        
+        .me .billedtekst {
+            grid-column: 4/7;
+            grid-row: 1;
+        }
+        
+        .me .billedtekst2 {
+            grid-column: 1/7;
+            grid-row: 2;
+        }
+    
+        .web {
+            grid-column: 1;
+            grid-row: 2;
+            display: flex;
+            justify-content: center;
+            align-self: center;
+		}
+        
+        .web .webpic {
+            grid-column: 1/3;
+            grid-row: 1;
+        }
+        
+       .web .billedtekst {
+            grid-column: 3/7;
+            grid-row: 1;
+        }
+        
+        .web .billedtekst2 {
+            grid-column: 1/7;
+            grid-row: 2;
+        }
+    
+        .design {
+            grid-column: 2;
+            grid-row: 2;
+            display: flex;
+            justify-content: center;
+            align-self: center;
+		}
+        
+        .design .designpic {
+            grid-column: 1/3;
+            grid-row: 1;
+        }
+        
+       .design .billedtekst {
+            grid-column: 3/7;
+            grid-row: 1;
+        }
+        
+        .design .billedtekst2 {
+            grid-column: 1/7;
+            grid-row: 2;
+        }
+    
+        .komm {
+            grid-column: 1;
+            grid-row: 3;
+            display: flex;
+            justify-content: center;
+            align-self: center;
+		}
+        
+        .komm .kommpic {
+            grid-column: 5/7;
+            grid-row: 1;
+        }
+        
+       .komm .billedtekst {
+            grid-column: 1/5;
+            grid-row: 1;
+        }
+        
+        .komm .billedtekst2 {
+            grid-column: 1/7;
+            grid-row: 2;
+        }
+    
+        .think {
+            grid-column: 2;
+            grid-row: 3;
+            display: flex;
+            justify-content: center;
+            align-self: center;
+		}
+        
+        .think .thinkpic {
+            grid-column: 5/7;
+            grid-row: 1;
+        }
+        
+       .think .billedtekst {
+            grid-column: 1/5;
+            grid-row: 1;
+        }
+        
+        .think .billedtekst2 {
+            grid-column: 1/7;
+            grid-row: 2;
+        }
+    
+        .mark {
+            grid-column: 1;
+            grid-row: 4;
+            display: flex;
+            justify-content: center;
+            align-self: center;
+		}
+        
+        .mark .markpic {
+            grid-column: 1/3;
+            grid-row: 1;
+        }
+        
+       .mark .billedtekst {
+            grid-column: 3/7;
+            grid-row: 1;
+        }
+        
+        .mark .billedtekst2 {
+            grid-column: 1/7;
+            grid-row: 2;
+        }
+    
+        .onepage {
+            grid-column: 2;
+            grid-row: 4;
+            display: flex;
+            justify-content: center;
+            align-self: center;
+		}
+        
+        .onepage .onepagepic {
+            grid-column: 1/3;
+            grid-row: 1;
+        }
+        
+       .onepage .billedtekst {
+            grid-column: 3/7;
+            grid-row: 1;
+        }
+        
+        .onepage .billedtekst2 {
+            grid-column: 1/7;
+            grid-row: 2;
+        }
+    
+        .refl {
+            grid-column: span 2;
+            grid-row: 5;
+            display: flex;
+            justify-content: center;
+            align-self: center;
+		}
+        
+        .refl .reflpic {
+            grid-column: 5/7;
+            grid-row: 1;
+        }
+        
+       .refl .billedtekst {
+            grid-column: 1/5;
+            grid-row: 1;
+        }
+        
+        .refl .billedtekst2 {
+            grid-column: 1/7;
+            grid-row: 2;
+        }
+}
+
+                                 /* Main Side Slut */
+}        
+/* Undersider Start */
+        
+        .subindex {
+            max-width: none;
+            display: grid;
+            grid-template-columns: repeat(8, 1fr);
+            grid-gap: 1em;
+            justify-content: center;
+        }
+        
+        .subindex a:focus,
+        .subindex a:hover {
+            outline: 1px solid #cccccc;
+        }
+        
+        .subkort a {
+            width: 100%;
+        }
+        
+        .subkort a {
+			max-width: 100%;
+			display: grid;
+			grid-template-columns: repeat(4, 1fr);
+            grid-gap: 1em;
+			
+		}
+        
+/* Design */
+        
+/* Photoshop */
+        
+        .subpsd {
+            grid-column: span 4;
+            grid-row: 1;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .subpsd .subpsdpic {
+            grid-column: 1/3;
+            grid-row: 1;
+        }
+        
+       .subpsd .billedtekst {
+            grid-column: 3/5;
+            grid-row: 1;
+        }
+        
+       .subpsd .billedtekst2 {
+            grid-column: 1/5;
+            grid-row: 2;
+        }
+        
+/* Illustrator */
+        
+        .subill {
+            grid-column: span 4;
+            grid-row: 1;
+            display: flex;
+            align-self: center;
+        }
+        
+        .subill .subillpic {
+            grid-column: 5/7;
+            grid-row: 1;
+        }
+        
+       .subill .billedtekst {
+            grid-column: 7/9;
+            grid-row: 1;
+        }
+        
+       .subill .billedtekst2 {
+            grid-column: 4/8;
+            grid-row: 2;
+        }
+        
+/* Farve og typografi */
+        
+        .subft {
+            grid-column: 1/3;
+            grid-row: 2;
+            display: flex;
+            align-self: center;
+        }
+        
+        .subft .subftpic {
+            grid-column: 1/5;
+            grid-row: 2;
+        }
+        
+       .subft .billedtekst {
+            grid-column: 1/5;
+            grid-row: 3;
+        }
+        
+       .subft .billedtekst2 {
+            grid-column: 1/5;
+            grid-row: 4;
+        }
+        
+/* Gestaltlove */
+        
+        .subges {
+            grid-column: 3/6;
+            grid-row: 2;
+            display: flex;
+            align-self: center;
+        }
+        
+        .subges .subgespic {
+            grid-column: 1/5;
+            grid-row: 3;
+        }
+        
+       .subges .billedtekst {
+            grid-column: 1/5;
+            grid-row: 2;
+        }
+        
+       .subges .billedtekst2 {
+            grid-column: 1/5;
+            grid-row: 4;
+        }
+        
+/* Fotografering */
+        
+        .subfoto {
+            grid-column: 6/9;
+            grid-row: 2;
+            display: flex;
+            align-self: center;
+        }
+        
+        .subfoto .subfotopic {
+            grid-column: 1/5;
+            grid-row: 3;
+        }
+        
+       .subfoto .billedtekst {
+            grid-column: 1/5;
+            grid-row: 4;
+        }
+        
+       .subfoto .billedtekst2 {
+            grid-column: 1/5;
+            grid-row: 5;
+        }
+        
+/* Webudvikling */
+                
+/* HTML */
+        
+        .subhtml {
+            grid-column: span 4;
+            grid-row: 1;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .subhtml .subhtmlpic {
+            grid-column: 1/3;
+            grid-row: 1;
+        }
+        
+       .subhtml .billedtekst {
+            grid-column: 3/5;
+            grid-row: 1;
+        }
+        
+       .subhtml .billedtekst2 {
+            grid-column: 1/5;
+            grid-row: 2;
+        }
+        
+/* CSS */
+        
+        .subcss {
+            grid-column: span 4;
+            grid-row: 1;
+            display: flex;
+            align-self: center;
+        }
+        
+        .subcss .subcsspic {
+            grid-column: 5/7;
+            grid-row: 1;
+        }
+        
+       .subcss .billedtekst {
+            grid-column: 7/9;
+            grid-row: 1;
+        }
+        
+       .subcss .billedtekst2 {
+            grid-column: 4/8;
+            grid-row: 2;
+        }
+        
+/* Server */
+        
+        .subserver {
+            grid-column: 1/3;
+            grid-row: 2;
+            display: flex;
+            align-self: center;
+        }
+        
+        .subserver .subserverpic {
+            grid-column: 1/5;
+            grid-row: 2;
+        }
+        
+       .subserver .billedtekst {
+            grid-column: 1/5;
+            grid-row: 3;
+        }
+        
+       .subserver .billedtekst2 {
+            grid-column: 1/5;
+            grid-row: 4;
+        }
+        
+/* Internettets historie */
+        
+        .subhistorie {
+            grid-column: 3/6;
+            grid-row: 2;
+            display: flex;
+            align-self: center;
+        }
+        
+        .subhistorie .subhistoriepic {
+            grid-column: 1/5;
+            grid-row: 3;
+        }
+        
+       .subhistorie .billedtekst {
+            grid-column: 1/5;
+            grid-row: 2;
+        }
+        
+       .subhistorie .billedtekst2 {
+            grid-column: 1/5;
+            grid-row: 4;
+        }
+        
+/* CSS Grid */
+        
+        .subgrid {
+            grid-column: 6/9;
+            grid-row: 2;
+            display: flex;
+            align-self: center;
+        }
+        
+        .subgrid .subgridpic {
+            grid-column: 1/5;
+            grid-row: 3;
+        }
+        
+       .subgrid .billedtekst {
+            grid-column: 1/5;
+            grid-row: 4;
+        }
+        
+       .subgrid .billedtekst2 {
+            grid-column: 1/5;
+            grid-row: 5;
+        }
+        
+/* Versionsstyring */
+        
+        .subversion {
+            grid-column: span 4;
+            grid-row: 4;
+            display: flex;
+            align-self: center;
+        }
+        
+        .subversion .subversionpic {
+            grid-column: 1/3;
+            grid-row: 4;
+        }
+        
+       .subversion .billedtekst {
+            grid-column: 3/5;
+            grid-row: 4;
+        }
+        
+       .subversion .billedtekst2 {
+            grid-column: 1/5;
+            grid-row: 5;
+        }
+        
+/* Informationarkitektur */
+        
+        .subarkitektur {
+            grid-column: span 4;
+            grid-row: 4;
+            display: flex;
+            align-self: center;
+        }
+        
+        .subarkitektur .subarkitekturpic {
+            grid-column: 5/7;
+            grid-row: 4;
+        }
+        
+       .subarkitektur .billedtekst {
+            grid-column: 7/9;
+            grid-row: 4;
+        }
+        
+       .subarkitektur .billedtekst2 {
+            grid-column: 5/9;
+            grid-row: 5;
+        }
+        
+/* Kommunikation */
+        
+/* Præsentationsteknik */
+        
+        .subkommunikation {
+            grid-column: span 4;
+            grid-row: 1;
+            display: flex;
+            align-self: center;
+        }
+        
+        .subkommunikation .subkommunikationpic {
+            grid-column: 1/5;
+            grid-row: 1;
+        }
+        
+       .subkommunikation .billedtekst {
+            grid-column: 1/5;
+            grid-row: 2;
+        }
+        
+       .subkommunikation .billedtekst2 {
+            grid-column: 1/5;
+            grid-row: 3;
+        }
+        
+        
+/* Præsentationsteknik */
+        
+        .subpræsentation {
+            grid-column: span 4;
+            grid-row: 1;
+            display: flex;
+            align-self: center;
+        }
+        
+        .subpræsentation .subpræsentationpic {
+            grid-column: 5/9;
+            grid-row: 1;
+        }
+        
+       .subpræsentation .billedtekst {
+            grid-column: 5/9;
+            grid-row: 2;
+        }
+        
+       .subpræsentation .billedtekst2 {
+            grid-column: 5/9;
+            grid-row: 3;
+        }
+        
+/* Tekstproduktion */
+        
+        .subtekst {
+            grid-column: span 4;
+            grid-row: 4;
+            display: flex;
+            align-self: center;
+        }
+        
+        .subtekst .subtekstpic {
+            grid-column: 1/5;
+            grid-row: 4;
+        }
+        
+       .subtekst .billedtekst {
+            grid-column: 1/5;
+            grid-row: 5;
+        }
+        
+       .subtekst .billedtekst2 {
+            grid-column: 1/5;
+            grid-row: 6;
+        }
+        
+/* Business Model Canvas */
+        
+        .subbusiness {
+            grid-column: span 4;
+            grid-row: 4;
+            display: flex;
+            align-self: center;
+        }
+        
+        .subbusiness .subbusinesspic {
+            grid-column: 5/9;
+            grid-row: 4;
+        }
+        
+       .subbusiness .billedtekst {
+            grid-column: 5/9;
+            grid-row: 5;
+        }
+        
+       .subbusiness .billedtekst2 {
+            grid-column: 5/9;
+            grid-row: 6;
+        }
+        
+/* Online Marketing */
+        
+        .submarketing {
+            grid-column: span 8;
+            grid-row: 1;
+            display: flex;
+            align-self: center;
+        }
+        
+        .submarketing .submarketingpic {
+            grid-column: 1/3;
+            grid-row: 1;
+        }
+        
+       .submarketing .billedtekst {
+            grid-column: 1/9;
+            grid-row: 2;
+        }
+        
+       .submarketing .billedtekst2 {
+            grid-column: 1/9;
+            grid-row: 3;
+        }
+        
+/* Design Thinking */
+        
+        .subdthinking {
+            grid-column: span 8;
+            grid-row: 1;
+            display: flex;
+            align-self: center;
+        }
+        
+        .subdthinking .subdthinkingpic {
+            grid-column: 1/3;
+            grid-row: 1;
+        }
+        
+       .subdthinking .billedtekst {
+            grid-column: 1/9;
+            grid-row: 2;
+        }
+        
+       .subdthinking .billedtekst2 {
+            grid-column: 1/9;
+            grid-row: 3;
+        }
+        
+/* Design Thinking Projekt */
+        
+        .subdthinking {
+            grid-column: span 8;
+            grid-row: 4;
+            display: flex;
+            align-self: center;
+        }
+        
+        .subdthinking .subdthinkingpic {
+            grid-column: 1/3;
+            grid-row: 4;
+        }
+        
+       .subdthinking .billedtekst {
+            grid-column: 1/9;
+            grid-row: 5;
+        }
+        
+       .subdthinking .billedtekst2 {
+            grid-column: 1/9;
+            grid-row: 5;
+        }
+        
+/* One Page Projekt */
+        
+        .subonep {
+            grid-column: span 8;
+            grid-row: 1;
+            display: flex;
+            align-self: center;
+        }
+        
+        .subonep .suboneppic {
+            grid-column: 1/3;
+            grid-row: 1;
+        }
+        
+       .subonep .billedtekst {
+            grid-column: 1/9;
+            grid-row: 2;
+        }
+        
+       .subonep .billedtekst2 {
+            grid-column: 1/9;
+            grid-row: 3;
+        }
+        
+/* Reflektioner */
+        
+        .subrefl {
+            grid-column: span 8;
+            grid-row: 1;
+            display: flex;
+            align-self: center;
+        }
+        
+        .subrefl .subreflpic {
+            grid-column: 1/3;
+            grid-row: 1;
+        }
+        
+       .subrefl .billedtekst {
+            grid-column: 1/9;
+            grid-row: 2;
+        }
+        
+       .subrefl .billedtekst2 {
+            grid-column: 1/9;
+            grid-row: 3;
+        }
+
+
+/*--------------------------------------------------------------
+CSS Grid layout for telefon:
+--------------------------------------------------------------*/
+
+@media screen and (max-width: 449px) {
+
+        .index {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-gap: 1em;
+            justify-content: center;
+        }
+        
+/* Main Side Start */
+        
+        .kort {
+          /*  margin: .5em 0;*/
+            padding: .5em;
+            display: grid;
+            grid-gap: .3em;
+            grid-template-columns: repeat(3, 1fr);
+        }
+        
+/* Om mig og denne side */
+        
+        .me {
+            grid-column: span 2;
+            grid-row: 1;
+            display: flex;
+            justify-content: center;
+            align-self: center;
+		}
+        
+        .me .mepic {
+            grid-column: 1/3;
+            grid-row: 1;
+        }
+        
+       .me .billedtekst {
+            grid-column: 3/4;
+            grid-row: 1;
+        }
+        
+        .me .billedtekst2 {
+            grid-column: 1/4;
+            grid-row: 2;
+        }
+    
+        .web {
+            grid-column: 1;
+            grid-row: 2;
+            display: flex;
+            justify-content: center;
+            align-self: center;
+		}
+        
+        .web .webpic {
+            grid-column: 3/4;
+            grid-row: 1;
+        }
+        
+       .web .billedtekst {
+            grid-column: 1/3;
+            grid-row: 1;
+        }
+        
+        .web .billedtekst2 {
+            grid-column: 1/5;
+            grid-row: 2;
+        }
+    
+        .design {
+            grid-column: 1;
+            grid-row: 3;
+            display: flex;
+            justify-content: center;
+            align-self: center;
+		}
+        
+        .design .designpic {
+            grid-column: 1;
+            grid-row: 1;
+        }
+        
+       .design .billedtekst {
+            grid-column: 2/5;
+            grid-row: 1;
+        }
+        
+        .design .billedtekst2 {
+            grid-column: 1/5;
+            grid-row: 2;
+        }
+    
+        .komm {
+            grid-column: 1;
+            grid-row: 4;
+            display: flex;
+            justify-content: center;
+            align-self: center;
+		}
+        
+        .komm .kommpic {
+            grid-column: 3/4;
+            grid-row: 1;
+        }
+        
+       .komm .billedtekst {
+            grid-column: 1/3;
+            grid-row: 1;
+        }
+        
+        .komm .billedtekst2 {
+            grid-column: 1/5;
+            grid-row: 2;
+        }
+    
+        .think {
+            grid-column: 1;
+            grid-row: 5;
+            display: flex;
+            justify-content: center;
+            align-self: center;
+		}
+        
+        .think .thinkpic {
+            grid-column: 1;
+            grid-row: 1;
+        }
+        
+       .think .billedtekst {
+            grid-column: 2/4;
+            grid-row: 1;
+        }
+        
+        .think .billedtekst2 {
+            grid-column: 1/4;
+            grid-row: 2;
+        }
+    
+        .mark {
+            grid-column: 1;
+            grid-row: 6;
+            display: flex;
+            justify-content: center;
+            align-self: center;
+		}
+        
+        .mark .markpic {
+            grid-column: 3/4;
+            grid-row: 1;
+        }
+        
+       .mark .billedtekst {
+            grid-column: 1/3;
+            grid-row: 1;
+        }
+        
+        .mark .billedtekst2 {
+            grid-column: 1/4;
+            grid-row: 2;
+        }
+    
+        .onepage {
+            grid-column: 1;
+            grid-row: 7;
+            display: flex;
+            justify-content: center;
+            align-self: center;
+		}
+        
+        .onepage .onepagepic {
+            grid-column: 1;
+            grid-row: 1;
+        }
+        
+       .onepage .billedtekst {
+            grid-column: 2/4;
+            grid-row: 1;
+        }
+        
+        .onepage .billedtekst2 {
+            grid-column: 1/5;
+            grid-row: 2;
+        }
+    
+        .refl {
+            grid-column: 1;
+            grid-row: 8;
+            display: flex;
+            justify-content: center;
+            align-self: center;
+		}
+        
+        .refl .reflpic {
+            grid-column: 1;
+            grid-row: 1;
+        }
+        
+       .refl .billedtekst {
+            grid-column: 2/4;
+            grid-row: 1;
+        }
+        
+        .refl .billedtekst2 {
+            grid-column: 1/4;
+            grid-row: 2;
+        }
+}
+
+                                 /* Main Side Slut */
+}        
+/* Undersider Start */
+        
+        .subindex {
+            max-width: none;
+            display: grid;
+            grid-template-columns: repeat(8, 1fr);
+            grid-gap: 1em;
+            justify-content: center;
+        }
+        
+        .subindex a:focus,
+        .subindex a:hover {
+            outline: 1px solid #cccccc;
+        }
+        
+        .subkort a {
+            width: 100%;
+        }
+        
+        .subkort a {
+			max-width: 100%;
+			display: grid;
+			grid-template-columns: repeat(4, 1fr);
+            grid-gap: 1em;
+			
+		}
+        
+/* Design */
+        
+/* Photoshop */
+        
+        .subpsd {
+            grid-column: span 4;
+            grid-row: 1;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .subpsd .subpsdpic {
+            grid-column: 1/3;
+            grid-row: 1;
+        }
+        
+       .subpsd .billedtekst {
+            grid-column: 3/5;
+            grid-row: 1;
+        }
+        
+       .subpsd .billedtekst2 {
+            grid-column: 1/5;
+            grid-row: 2;
+        }
+        
+/* Illustrator */
+        
+        .subill {
+            grid-column: span 4;
+            grid-row: 1;
+            display: flex;
+            align-self: center;
+        }
+        
+        .subill .subillpic {
+            grid-column: 5/7;
+            grid-row: 1;
+        }
+        
+       .subill .billedtekst {
+            grid-column: 7/9;
+            grid-row: 1;
+        }
+        
+       .subill .billedtekst2 {
+            grid-column: 4/8;
+            grid-row: 2;
+        }
+        
+/* Farve og typografi */
+        
+        .subft {
+            grid-column: 1/3;
+            grid-row: 2;
+            display: flex;
+            align-self: center;
+        }
+        
+        .subft .subftpic {
+            grid-column: 1/5;
+            grid-row: 2;
+        }
+        
+       .subft .billedtekst {
+            grid-column: 1/5;
+            grid-row: 3;
+        }
+        
+       .subft .billedtekst2 {
+            grid-column: 1/5;
+            grid-row: 4;
+        }
+        
+/* Gestaltlove */
+        
+        .subges {
+            grid-column: 3/6;
+            grid-row: 2;
+            display: flex;
+            align-self: center;
+        }
+        
+        .subges .subgespic {
+            grid-column: 1/5;
+            grid-row: 3;
+        }
+        
+       .subges .billedtekst {
+            grid-column: 1/5;
+            grid-row: 2;
+        }
+        
+       .subges .billedtekst2 {
+            grid-column: 1/5;
+            grid-row: 4;
+        }
+        
+/* Fotografering */
+        
+        .subfoto {
+            grid-column: 6/9;
+            grid-row: 2;
+            display: flex;
+            align-self: center;
+        }
+        
+        .subfoto .subfotopic {
+            grid-column: 1/5;
+            grid-row: 3;
+        }
+        
+       .subfoto .billedtekst {
+            grid-column: 1/5;
+            grid-row: 4;
+        }
+        
+       .subfoto .billedtekst2 {
+            grid-column: 1/5;
+            grid-row: 5;
+        }
+        
+/* Webudvikling */
+                
+/* HTML */
+        
+        .subhtml {
+            grid-column: span 4;
+            grid-row: 1;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .subhtml .subhtmlpic {
+            grid-column: 1/3;
+            grid-row: 1;
+        }
+        
+       .subhtml .billedtekst {
+            grid-column: 3/5;
+            grid-row: 1;
+        }
+        
+       .subhtml .billedtekst2 {
+            grid-column: 1/5;
+            grid-row: 2;
+        }
+        
+/* CSS */
+        
+        .subcss {
+            grid-column: span 4;
+            grid-row: 1;
+            display: flex;
+            align-self: center;
+        }
+        
+        .subcss .subcsspic {
+            grid-column: 5/7;
+            grid-row: 1;
+        }
+        
+       .subcss .billedtekst {
+            grid-column: 7/9;
+            grid-row: 1;
+        }
+        
+       .subcss .billedtekst2 {
+            grid-column: 4/8;
+            grid-row: 2;
+        }
+        
+/* Server */
+        
+        .subserver {
+            grid-column: 1/3;
+            grid-row: 2;
+            display: flex;
+            align-self: center;
+        }
+        
+        .subserver .subserverpic {
+            grid-column: 1/5;
+            grid-row: 2;
+        }
+        
+       .subserver .billedtekst {
+            grid-column: 1/5;
+            grid-row: 3;
+        }
+        
+       .subserver .billedtekst2 {
+            grid-column: 1/5;
+            grid-row: 4;
+        }
+        
+/* Internettets historie */
+        
+        .subhistorie {
+            grid-column: 3/6;
+            grid-row: 2;
+            display: flex;
+            align-self: center;
+        }
+        
+        .subhistorie .subhistoriepic {
+            grid-column: 1/5;
+            grid-row: 3;
+        }
+        
+       .subhistorie .billedtekst {
+            grid-column: 1/5;
+            grid-row: 2;
+        }
+        
+       .subhistorie .billedtekst2 {
+            grid-column: 1/5;
+            grid-row: 4;
+        }
+        
+/* CSS Grid */
+        
+        .subgrid {
+            grid-column: 6/9;
+            grid-row: 2;
+            display: flex;
+            align-self: center;
+        }
+        
+        .subgrid .subgridpic {
+            grid-column: 1/5;
+            grid-row: 3;
+        }
+        
+       .subgrid .billedtekst {
+            grid-column: 1/5;
+            grid-row: 4;
+        }
+        
+       .subgrid .billedtekst2 {
+            grid-column: 1/5;
+            grid-row: 5;
+        }
+        
+/* Versionsstyring */
+        
+        .subversion {
+            grid-column: span 4;
+            grid-row: 4;
+            display: flex;
+            align-self: center;
+        }
+        
+        .subversion .subversionpic {
+            grid-column: 1/3;
+            grid-row: 4;
+        }
+        
+       .subversion .billedtekst {
+            grid-column: 3/5;
+            grid-row: 4;
+        }
+        
+       .subversion .billedtekst2 {
+            grid-column: 1/5;
+            grid-row: 5;
+        }
+        
+/* Informationarkitektur */
+        
+        .subarkitektur {
+            grid-column: span 4;
+            grid-row: 4;
+            display: flex;
+            align-self: center;
+        }
+        
+        .subarkitektur .subarkitekturpic {
+            grid-column: 5/7;
+            grid-row: 4;
+        }
+        
+       .subarkitektur .billedtekst {
+            grid-column: 7/9;
+            grid-row: 4;
+        }
+        
+       .subarkitektur .billedtekst2 {
+            grid-column: 5/9;
+            grid-row: 5;
+        }
+        
+/* Kommunikation */
+        
+/* Præsentationsteknik */
+        
+        .subkommunikation {
+            grid-column: span 4;
+            grid-row: 1;
+            display: flex;
+            align-self: center;
+        }
+        
+        .subkommunikation .subkommunikationpic {
+            grid-column: 1/5;
+            grid-row: 1;
+        }
+        
+       .subkommunikation .billedtekst {
+            grid-column: 1/5;
+            grid-row: 2;
+        }
+        
+       .subkommunikation .billedtekst2 {
+            grid-column: 1/5;
+            grid-row: 3;
+        }
+        
+        
+/* Præsentationsteknik */
+        
+        .subpræsentation {
+            grid-column: span 4;
+            grid-row: 1;
+            display: flex;
+            align-self: center;
+        }
+        
+        .subpræsentation .subpræsentationpic {
+            grid-column: 5/9;
+            grid-row: 1;
+        }
+        
+       .subpræsentation .billedtekst {
+            grid-column: 5/9;
+            grid-row: 2;
+        }
+        
+       .subpræsentation .billedtekst2 {
+            grid-column: 5/9;
+            grid-row: 3;
+        }
+        
+/* Tekstproduktion */
+        
+        .subtekst {
+            grid-column: span 4;
+            grid-row: 4;
+            display: flex;
+            align-self: center;
+        }
+        
+        .subtekst .subtekstpic {
+            grid-column: 1/5;
+            grid-row: 4;
+        }
+        
+       .subtekst .billedtekst {
+            grid-column: 1/5;
+            grid-row: 5;
+        }
+        
+       .subtekst .billedtekst2 {
+            grid-column: 1/5;
+            grid-row: 6;
+        }
+        
+/* Business Model Canvas */
+        
+        .subbusiness {
+            grid-column: span 4;
+            grid-row: 4;
+            display: flex;
+            align-self: center;
+        }
+        
+        .subbusiness .subbusinesspic {
+            grid-column: 5/9;
+            grid-row: 4;
+        }
+        
+       .subbusiness .billedtekst {
+            grid-column: 5/9;
+            grid-row: 5;
+        }
+        
+       .subbusiness .billedtekst2 {
+            grid-column: 5/9;
+            grid-row: 6;
+        }
+        
+/* Online Marketing */
+        
+        .submarketing {
+            grid-column: span 8;
+            grid-row: 1;
+            display: flex;
+            align-self: center;
+        }
+        
+        .submarketing .submarketingpic {
+            grid-column: 1/3;
+            grid-row: 1;
+        }
+        
+       .submarketing .billedtekst {
+            grid-column: 1/9;
+            grid-row: 2;
+        }
+        
+       .submarketing .billedtekst2 {
+            grid-column: 1/9;
+            grid-row: 3;
+        }
+        
+/* Design Thinking */
+        
+        .subdthinking {
+            grid-column: span 8;
+            grid-row: 1;
+            display: flex;
+            align-self: center;
+        }
+        
+        .subdthinking .subdthinkingpic {
+            grid-column: 1/3;
+            grid-row: 1;
+        }
+        
+       .subdthinking .billedtekst {
+            grid-column: 1/9;
+            grid-row: 2;
+        }
+        
+       .subdthinking .billedtekst2 {
+            grid-column: 1/9;
+            grid-row: 3;
+        }
+        
+/* Design Thinking Projekt */
+        
+        .subdthinking {
+            grid-column: span 8;
+            grid-row: 4;
+            display: flex;
+            align-self: center;
+        }
+        
+        .subdthinking .subdthinkingpic {
+            grid-column: 1/3;
+            grid-row: 4;
+        }
+        
+       .subdthinking .billedtekst {
+            grid-column: 1/9;
+            grid-row: 5;
+        }
+        
+       .subdthinking .billedtekst2 {
+            grid-column: 1/9;
+            grid-row: 5;
+        }
+        
+/* One Page Projekt */
+        
+        .subonep {
+            grid-column: span 8;
+            grid-row: 1;
+            display: flex;
+            align-self: center;
+        }
+        
+        .subonep .suboneppic {
+            grid-column: 1/3;
+            grid-row: 1;
+        }
+        
+       .subonep .billedtekst {
+            grid-column: 1/9;
+            grid-row: 2;
+        }
+        
+       .subonep .billedtekst2 {
+            grid-column: 1/9;
+            grid-row: 3;
+        }
+        
+/* Reflektioner */
+        
+        .subrefl {
+            grid-column: span 8;
+            grid-row: 1;
+            display: flex;
+            align-self: center;
+        }
+        
+        .subrefl .subreflpic {
+            grid-column: 1/3;
+            grid-row: 1;
+        }
+        
+       .subrefl .billedtekst {
+            grid-column: 1/9;
+            grid-row: 2;
+        }
+        
+       .subrefl .billedtekst2 {
+            grid-column: 1/9;
+            grid-row: 3;
+        }
+
