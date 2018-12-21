@@ -62,6 +62,10 @@ Index:
 .index a:hover .billedtekst {
 	background: #f7f7f7;
 }
+        
+.kort a {
+    width: 100%;
+}
 
 a:link {
   color: black;
