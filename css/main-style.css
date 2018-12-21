@@ -96,10 +96,7 @@ body h2 {
 CSS Grid layout for desktop:
 --------------------------------------------------------------*/
 
-
-
         .main-area {
-          /*  max-width: none;*/
             display: grid;
             grid-template-columns: 1fr;
             grid-gap: 1em;
@@ -107,7 +104,6 @@ CSS Grid layout for desktop:
         }
     
         .index {
-        /*    max-width: none;*/
             display: grid;
             grid-template-columns: repeat(6, 1fr);
             grid-gap: 1em;
@@ -316,7 +312,8 @@ CSS Grid layout for desktop:
 /* Undersider Start */
         
         .subindex {
-            max-width: none;
+            max-width: 97%;
+            margin: auto;
             display: grid;
             grid-template-columns: repeat(8, 1fr);
             grid-gap: 1em;
@@ -1078,6 +1075,8 @@ CSS Grid layout for tablet:
 /* Undersider Start */
         
         .subindex {
+            width: 97%;
+            margin: auto;
             max-width: none;
             display: grid;
             grid-template-columns: repeat(8, 1fr);
@@ -1829,6 +1828,8 @@ CSS Grid layout for telefon:
 /* Undersider Start */
         
         .subindex {
+            width: 97%;
+            margin: auto;
             max-width: none;
             display: grid;
             grid-template-columns: repeat(8, 1fr);
