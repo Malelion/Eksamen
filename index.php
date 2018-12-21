@@ -12,7 +12,7 @@
     <body>
         <?php 
             include "menu.html";
-            include "forside.inc";
+            include "include/forside.inc";
             include "include/footer.inc";    
         ?>
     </body>
