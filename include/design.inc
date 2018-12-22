@@ -3,7 +3,7 @@
             <li class="subkort-emne subpsd">
                 <a href="#">
                     <figure class="subkort">
-                        <img class="subpsdpic" src="F:\Arbejdsmappe\Eksamen/img/farvel.jpg" alt="Adobe Photoshop">
+                        <img class="subpsdpic" src="img/photoshop-logo.png" alt="Adobe Photoshop">
                         <figcaption class="billedtekst">
                             <h2 class="billedtekst-titel">Photoshop</h2>
 							<p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
@@ -21,7 +21,7 @@
             <li class="subkort-emne subill">
                 <a href="#">
                     <figure class="subkort">
-                        <img class="subillpic" src="F:\Arbejdsmappe\Eksamen/img/kommunikation.jpg" alt="Adobe Illustrator.">
+                        <img class="subillpic" src="img/illustrator-logo.png" alt="Adobe Illustrator.">
                         <figcaption class="billedtekst">
                             <h2 class="billedtekst-titel">Illustrator</h2>
 							<p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
