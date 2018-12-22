@@ -1,9 +1,9 @@
     <main id="content" class="main-area">
         <ul class="index">
             <li class="kort-emne me">
-                <a href="#">
+                <a>
                     <figure class="kort">
-                        <img class="mepic" src="img/gj900.jpg" alt="Kursist billede.">
+                        <img class="mepic" src="img/gj600.jpg" alt="Kursist billede.">
                             <figcaption class="billedtekst">
                             <h2 class="billedtekst-titel">Læringsportefolio</h2>
 							<p>Jeg hedder Gert, jeg studerer til multimediedesigner på Erhverveakademi Dania i Skive.</p>
@@ -11,27 +11,29 @@
                         </figcaption>
                         
                         <figcaption class="billedtekst2">
-                    <p>Denne side udgør eksamensprojekt for 1. semester, og består af en læringsportefølje.
+                            <p>Denne side udgør eksamensprojekt for 1. semester.
                             </p>
-                            <p>Jeg vil efter bedste evne gennemgå de forskellige fag og projekter der er blevet arbejdet med. Jeg vil også komme med lidt personlige reflektioner i forhold til uddannelsen.
+                            <p>Jeg vil på denne side gennemgå de forskellinge fag og projekter der er blevet arbejdet med. Det vil ikke være en fuldstændig fyldestgørende gennemgang af hele semestret, men mere beskrivelse af det jeg har fundet mest væsentligt.Jeg vil også komme med lidt personlige reflektioner i forhold til uddannelsen.
+                            </p>
+                            <p>Jeg vil også komme med lidt personlige reflektioner i forhold til uddannelsen.
                             </p>
                         </figcaption>
                     </figure>
                 </a>
             </li>
             <li class="kort-emne web">
-                <a href="design.php">
+                <a href="web.php">
                     <figure class="kort">
                         <img class="webpic" src="img/web-design.png" alt="Webudvikling.">
-                        <figcaption class="billedtekst">
+                       <figcaption class="billedtekst">
                             <h2 class="billedtekst-titel">Webudvikling</h2>
-							<p>Photoshop. Illustrator. Farver og typografi. Gestaltlove. Fotografering.</p>
+							<p>HTML. CSS. CSS Grid. Versionsstyring. Servere og klienter. Lidt historie.</p>
                         </figcaption>
                         
                         <figcaption class="billedtekst2">
-                    <p>Denne side udgør eksamensprojekt for 1. semester, og består af en læringsportefølje.
+                            <p>Hvad er HTML og CSS? Det vil jeg blandt andet forsøge at give et lille indblik i under dette emne.
                             </p>
-                            <p>Jeg vil efter bedste evne gennemgå de forskellige fag og projekter der er blevet arbejdet med. Jeg vil også komme med lidt personlige reflektioner i forhold til uddannelsen.
+                            <p>Der vil også være lidt om versionsstyring og hvorfor der er vigtigt, samt en en smule om internettets historie.
                             </p>
                         </figcaption>
                     </figure>
@@ -47,27 +49,32 @@
                         </figcaption>
                         
                         <figcaption class="billedtekst2">
-                    <p>Denne side udgør eksamensprojekt for 1. semester, og består af en læringsportefølje.
+                    <p>Her vil jeg fortælle om hvad vi har beskæftiget os med indenfor design.
                             </p>
-                            <p>Jeg vil efter bedste evne gennemgå de forskellige fag og projekter der er blevet arbejdet med. Jeg vil også komme med lidt personlige reflektioner i forhold til uddannelsen.
+                            <p>Hvad er Photshop og Illustrator?.
+                            </p>
+                            <p>Hvad er forskellen på RBG og CMYK farver?.
+                            </p>
+                            <p>Typografi, det er da bare de fonts jeg bruger, eller hvad?.
+                            </p>
+                            <p>Fotografering, hvorfor det er vigtigt selv at have kontrollen med kameraet.
+                            Vi krattet lidt i overfladen i forhold til hvad der har betydning.
                             </p>
                         </figcaption>
                     </figure>
                 </a>
             </li>
             <li class="kort-emne komm">
-                <a href="design.php">
+                <a href="kommunikation.php">
                     <figure class="kort">
                         <img class="kommpic" src="img/kommunikation.jpg" alt="Kommunikation.">
                         <figcaption class="billedtekst">
                             <h2 class="billedtekst-titel">Kommunikation</h2>
-							<p>Photoshop. Illustrator. Farver og typografi. Gestaltlove. Fotografering.</p>
+							<p>Kommunikation og produktionsmodeller. Præsentationsteknik. Tekstproduktion. Business Model Canvas</p>
                         </figcaption>
                         
                         <figcaption class="billedtekst2">
-                    <p>Denne side udgør eksamensprojekt for 1. semester, og består af en læringsportefølje.
-                            </p>
-                            <p>Jeg vil efter bedste evne gennemgå de forskellige fag og projekter der er blevet arbejdet med. Jeg vil også komme med lidt personlige reflektioner i forhold til uddannelsen.
+                    <p>En lille gennemgang af de værktøjer der kan være en hjælp til en bedre kommunikation.
                             </p>
                         </figcaption>
                     </figure>
@@ -83,63 +90,63 @@
                         </figcaption>
                         
                         <figcaption class="billedtekst2">
-                    <p>Denne side udgør eksamensprojekt for 1. semester, og består af en læringsportefølje.
+                            <p>Kort fortalt om Design Thinking.
                             </p>
-                            <p>Jeg vil efter bedste evne gennemgå de forskellige fag og projekter der er blevet arbejdet med. Jeg vil også komme med lidt personlige reflektioner i forhold til uddannelsen.
+                            <p>Arbejdet i forbindelse med vores Design Thinking projekt og hvad det endte ud i.
                             </p>
                         </figcaption>
                     </figure>
                 </a>
             </li>
             <li class="kort-emne mark">
-                <a href="design.php">
+                <a href="marketing.php">
                     <figure class="kort">
                         <img class="markpic" src="img/mark.jpg" alt="Marketing.">
                         <figcaption class="billedtekst">
                             <h2 class="billedtekst-titel">Online Marketing</h2>
-							<p>Photoshop. Illustrator. Farver og typografi. Gestaltlove. Fotografering.</p>
+							<p>SEO. Sociale medier. Google Add Words.</p>
                         </figcaption>
                         
                         <figcaption class="billedtekst2">
-                    <p>Denne side udgør eksamensprojekt for 1. semester, og består af en læringsportefølje.
+                            <p>Online marketing er mere end blot betalte annoncer.
                             </p>
-                            <p>Jeg vil efter bedste evne gennemgå de forskellige fag og projekter der er blevet arbejdet med. Jeg vil også komme med lidt personlige reflektioner i forhold til uddannelsen.
+                            <p>Vil man betale for al sin annoncering eller er tanken mere at få den gratis reklame med.
                             </p>
                         </figcaption>
                     </figure>
                 </a>
             </li>
             <li class="kort-emne onepage">
-                <a href="design.php">
+                <a href="onep.php">
                     <figure class="kort">
                         <img class="onepagepic" src="img/bent.png" alt="Onepage.">
                         <figcaption class="billedtekst">
                             <h2 class="billedtekst-titel">One Page Projekt</h2>
-							<p>Photoshop. Illustrator. Farver og typografi. Gestaltlove. Fotografering.</p>
+							<p>Vores One page projekt. Biotex Bent.</p>
                         </figcaption>
                         
                         <figcaption class="billedtekst2">
-                    <p>Denne side udgør eksamensprojekt for 1. semester, og består af en læringsportefølje.
+                    <p>Denn første rigtige store udfordring i forbindelse med programmering og styling.
                             </p>
-                            <p>Jeg vil efter bedste evne gennemgå de forskellige fag og projekter der er blevet arbejdet med. Jeg vil også komme med lidt personlige reflektioner i forhold til uddannelsen.
+                            <p>Sejre, nederlag, frustrationer, glæde og så selvfølgelig Biotex Bent.
                             </p>
                         </figcaption>
                     </figure>
                 </a>
             </li>
             <li class="kort-emne refl">
-                <a href="design.php">
+                <a href="refl.php">
                     <figure class="kort">
                         <img class="reflpic" src="img/reflek.jpg" alt="Reflektioner.">
                         <figcaption class="billedtekst">
                             <h2 class="billedtekst-titel">Reflektioner</h2>
-							<p>Photoshop. Illustrator. Farver og typografi. Gestaltlove. Fotografering.</p>
+							<p>Tanker omkring uddannelse og undervisning.</p>
                         </figcaption>
                         
                         <figcaption class="billedtekst2">
-                    <p>Denne side udgør eksamensprojekt for 1. semester, og består af en læringsportefølje.
+                    <p>Her vil jeg forsøge at beskrive mine tanker og ideer..
                             </p>
-                            <p>Jeg vil efter bedste evne gennemgå de forskellige fag og projekter der er blevet arbejdet med. Jeg vil også komme med lidt personlige reflektioner i forhold til uddannelsen.
+                            <p>Giver det mening?.
                             </p>
                         </figcaption>
                     </figure>
