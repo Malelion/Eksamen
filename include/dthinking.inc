@@ -18,10 +18,10 @@
                 </a>
             </li>
             
-            <li class="subkort-emne subdthinkingp" id="dthinkingp">
+            <li class="subkort-emne subdtprojekt" id="dthinkingp">
                 <a href="#">
                     <figure class="subkort">
-                        <img class="subdthinkingppic" src="F:\Arbejdsmappe\Eksamen/img/kommunikation.jpg" alt="Vores Design Thinking Projekt">
+                        <img class="subdtprojektpic" src="F:\Arbejdsmappe\Eksamen/img/kommunikation.jpg" alt="Vores Design Thinking Projekt">
                         <figcaption class="billedtekst">
                             <h2 class="billedtekst-titel">Vores Design Thinking Projekt</h2>
 							<p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
