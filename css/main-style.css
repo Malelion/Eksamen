@@ -54,13 +54,13 @@ Index:
 
 .index a {
 	display: block;
-	/*margin-bottom: 1em;*/
 	text-decoration: none;
 }
 
-.index a:focus .billedtekst,
-.index a:hover .billedtekst {
-	background: #f7f7f7;
+.index a:active,
+.index a:hover {
+	font-size: 110%;
+    box-shadow: 5px 5px 0px 0px #b3b3b3;
 }
         
 .kort a {
@@ -99,6 +99,7 @@ body h2 {
 /*--------------------------------------------------------------
 CSS Grid layout for desktop:
 --------------------------------------------------------------*/
+@media screen and (min-width: 1101px) {
 
         .main-area {
             display: grid;
@@ -117,7 +118,6 @@ CSS Grid layout for desktop:
 /* Main Side Start */
         
         .kort {
-           /* margin: .5em 0;*/
             padding: .5em;
             display: grid;
             grid-gap: .4em;
@@ -131,7 +131,7 @@ CSS Grid layout for desktop:
             grid-row: 1/3;
             display: flex;
             justify-content: center;
-            align-self: center;
+
            
 		}
         
@@ -155,16 +155,15 @@ CSS Grid layout for desktop:
             grid-row: 1;
             display: flex;
             justify-content: center;
-            align-self: center;
 		}
         
         .web .webpic {
-            grid-column: 1/3;
+            grid-column: 1/4;
             grid-row: 1;
         }
         
        .web .billedtekst {
-            grid-column: 3/7;
+            grid-column: 4/7;
             grid-row: 1;
         }
         
@@ -178,16 +177,16 @@ CSS Grid layout for desktop:
             grid-row: 1;
             display: flex;
             justify-content: center;
-            align-self: center;
+
 		}
         
         .design .designpic {
-            grid-column: 5/7;
+            grid-column: 4/7;
             grid-row: 1;
         }
         
        .design .billedtekst {
-            grid-column: 1/5;
+            grid-column: 1/4;
             grid-row: 1;
         }
         
@@ -201,7 +200,7 @@ CSS Grid layout for desktop:
             grid-row: 2;
             display: flex;
             justify-content: center;
-            align-self: center;
+
 		}
         
         .komm .kommpic {
@@ -224,7 +223,7 @@ CSS Grid layout for desktop:
             grid-row: 2;
             display: flex;
             justify-content: center;
-            align-self: center;
+
 		}
         
         .think .thinkpic {
@@ -247,7 +246,7 @@ CSS Grid layout for desktop:
             grid-row: 3;
             display: flex;
             justify-content: center;
-            align-self: center;
+
 		}
         
         .mark .markpic {
@@ -270,7 +269,7 @@ CSS Grid layout for desktop:
             grid-row: 3;
             display: flex;
             justify-content: center;
-            align-self: center;
+
 		}
         
         .onepage .onepagepic {
@@ -293,7 +292,7 @@ CSS Grid layout for desktop:
             grid-row: 3;
             display: flex;
             justify-content: center;
-            align-self: center;
+
 		}
         
         .refl .reflpic {
@@ -333,8 +332,10 @@ CSS Grid layout for desktop:
             width: 100%;
         }
         
-        .subkort a {
+        .subkort {
 			max-width: 100%;
+            margin: .5em;
+            padding: .3;
 			display: grid;
 			grid-template-columns: repeat(4, 1fr);
             grid-gap: 1em;
@@ -373,94 +374,94 @@ CSS Grid layout for desktop:
             grid-column: span 4;
             grid-row: 1;
             display: flex;
-            align-self: center;
+
         }
         
         .subill .subillpic {
-            grid-column: 5/7;
+            grid-column: 1/3;
             grid-row: 1;
         }
         
        .subill .billedtekst {
-            grid-column: 7/9;
+            grid-column: 3/5;
             grid-row: 1;
         }
         
        .subill .billedtekst2 {
-            grid-column: 4/8;
+            grid-column: 1/5;
             grid-row: 2;
         }
         
 /* Farve og typografi */
         
         .subft {
-            grid-column: 1/3;
+            grid-column: span 4;
             grid-row: 2;
             display: flex;
-            align-self: center;
+
         }
         
         .subft .subftpic {
-            grid-column: 1/5;
-            grid-row: 2;
+            grid-column: 3/5;
+            grid-row: 1;
         }
         
        .subft .billedtekst {
-            grid-column: 1/5;
-            grid-row: 3;
+            grid-column: 1/3;
+            grid-row: 1;
         }
         
        .subft .billedtekst2 {
             grid-column: 1/5;
-            grid-row: 4;
+            grid-row: 2;
         }
         
 /* Gestaltlove */
         
         .subges {
-            grid-column: 3/6;
-            grid-row: 2;
+            grid-column: span 8;
+            grid-row: 3;
             display: flex;
-            align-self: center;
+
         }
         
         .subges .subgespic {
-            grid-column: 1/5;
-            grid-row: 3;
+            grid-column: 3/5;
+            grid-row: 1;
         }
         
        .subges .billedtekst {
-            grid-column: 1/5;
-            grid-row: 2;
+            grid-column: 1/3;
+            grid-row: 1;
         }
         
        .subges .billedtekst2 {
             grid-column: 1/5;
-            grid-row: 4;
+            grid-row: 2;
         }
         
 /* Fotografering */
         
         .subfoto {
-            grid-column: 6/9;
+            grid-column: span 4;
             grid-row: 2;
             display: flex;
-            align-self: center;
+
         }
         
         .subfoto .subfotopic {
-            grid-column: 1/5;
-            grid-row: 3;
+            grid-column: 1/3;
+            grid-row: 1;
         }
         
        .subfoto .billedtekst {
-            grid-column: 1/5;
-            grid-row: 4;
+            grid-column: 3/5;
+            grid-row: 1;
         }
         
        .subfoto .billedtekst2 {
             grid-column: 1/5;
-            grid-row: 5;
+            grid-row: 2;
         }
         
 /* Webudvikling Start  */
@@ -495,7 +496,7 @@ CSS Grid layout for desktop:
             grid-column: span 4;
             grid-row: 1;
             display: flex;
-            align-self: center;
+
         }
         
         .subcss .subcsspic {
@@ -516,121 +517,121 @@ CSS Grid layout for desktop:
 /* Server */
         
         .subserver {
-            grid-column: 1/3;
-            grid-row: 2;
+            grid-column: 1/5;
+            grid-row: 4;
             display: flex;
-            align-self: center;
+
         }
         
         .subserver .subserverpic {
-            grid-column: 1/5;
-            grid-row: 2;
+            grid-column: 1/3;
+            grid-row: 1;
         }
         
        .subserver .billedtekst {
-            grid-column: 1/5;
-            grid-row: 3;
+            grid-column: 3/5;
+            grid-row: 1;
         }
         
        .subserver .billedtekst2 {
             grid-column: 1/5;
-            grid-row: 4;
+            grid-row: 2;
         }
         
 /* Internettets historie */
         
         .subhistorie {
-            grid-column: 3/6;
-            grid-row: 2;
+            grid-column: 5/9;
+            grid-row: 4;
             display: flex;
-            align-self: center;
+
         }
         
         .subhistorie .subhistoriepic {
             grid-column: 1/5;
-            grid-row: 3;
+            grid-row: 1;
         }
         
        .subhistorie .billedtekst {
-            grid-column: 1/5;
-            grid-row: 2;
+            grid-column: 3/5;
+            grid-row: 1;
         }
         
        .subhistorie .billedtekst2 {
             grid-column: 1/5;
-            grid-row: 4;
+            grid-row: 2;
         }
         
 /* CSS Grid */
         
         .subgrid {
-            grid-column: 6/9;
+            grid-column: span 8;
             grid-row: 2;
             display: flex;
-            align-self: center;
+
         }
         
         .subgrid .subgridpic {
-            grid-column: 1/5;
-            grid-row: 3;
+            grid-column: 3/5;
+            grid-row: 1;
         }
         
        .subgrid .billedtekst {
-            grid-column: 1/5;
-            grid-row: 4;
+            grid-column: 1/3;
+            grid-row: 1;
         }
         
        .subgrid .billedtekst2 {
             grid-column: 1/5;
-            grid-row: 5;
+            grid-row: 2;
         }
         
 /* Versionsstyring */
         
         .subversion {
-            grid-column: span 4;
-            grid-row: 4;
+            grid-column: 5/9;
+            grid-row: 3;
             display: flex;
-            align-self: center;
+
         }
         
         .subversion .subversionpic {
-            grid-column: 1/3;
-            grid-row: 4;
+            grid-column: 3/5;
+            grid-row: 1;
         }
         
        .subversion .billedtekst {
-            grid-column: 3/5;
-            grid-row: 4;
+            grid-column: 1/3;
+            grid-row: 1;
         }
         
        .subversion .billedtekst2 {
             grid-column: 1/5;
-            grid-row: 5;
+            grid-row: 2;
         }
         
 /* Informationarkitektur */
         
         .subarkitektur {
-            grid-column: span 4;
-            grid-row: 4;
+            grid-column: 1/5;
+            grid-row: 3;
             display: flex;
-            align-self: center;
+
         }
         
         .subarkitektur .subarkitekturpic {
-            grid-column: 5/7;
-            grid-row: 4;
+            grid-column: 3/5;
+            grid-row: 1;
         }
         
        .subarkitektur .billedtekst {
-            grid-column: 7/9;
-            grid-row: 4;
+            grid-column: 1/3;
+            grid-row: 1;
         }
         
        .subarkitektur .billedtekst2 {
-            grid-column: 5/9;
-            grid-row: 5;
+            grid-column: 1/5;
+            grid-row: 2;
         }
         
 /* Kommunikation Start */
@@ -641,7 +642,7 @@ CSS Grid layout for desktop:
             grid-column: span 4;
             grid-row: 1;
             display: flex;
-            align-self: center;
+
         }
         
         .subkommunikation .subkommunikationpic {
@@ -666,7 +667,7 @@ CSS Grid layout for desktop:
             grid-column: span 4;
             grid-row: 1;
             display: flex;
-            align-self: center;
+
         }
         
         .subpræsentation .subpræsentationpic {
@@ -690,7 +691,7 @@ CSS Grid layout for desktop:
             grid-column: span 4;
             grid-row: 4;
             display: flex;
-            align-self: center;
+
         }
         
         .subtekst .subtekstpic {
@@ -714,7 +715,7 @@ CSS Grid layout for desktop:
             grid-column: span 4;
             grid-row: 4;
             display: flex;
-            align-self: center;
+
         }
         
         .subbusiness .subbusinesspic {
@@ -738,7 +739,7 @@ CSS Grid layout for desktop:
             grid-column: span 8;
             grid-row: 1;
             display: flex;
-            align-self: center;
+
         }
         
         .submarketing .submarketingpic {
@@ -762,7 +763,7 @@ CSS Grid layout for desktop:
             grid-column: span 8;
             grid-row: 1;
             display: flex;
-            align-self: center;
+
         }
         
         .subdthinking .subdthinkingpic {
@@ -786,7 +787,7 @@ CSS Grid layout for desktop:
             grid-column: span 8;
             grid-row: 4;
             display: flex;
-            align-self: center;
+
         }
         
         .subdthinking .subdthinkingpic {
@@ -810,7 +811,7 @@ CSS Grid layout for desktop:
             grid-column: span 8;
             grid-row: 1;
             display: flex;
-            align-self: center;
+
         }
         
         .subonep .suboneppic {
@@ -834,7 +835,7 @@ CSS Grid layout for desktop:
             grid-column: span 8;
             grid-row: 1;
             display: flex;
-            align-self: center;
+
         }
         
         .subrefl .subreflpic {
@@ -854,7 +855,7 @@ CSS Grid layout for desktop:
         
                                  /* Main Side Slut */
 
-
+}
 /*--------------------------------------------------------------
 CSS Grid layout for tablet:
 --------------------------------------------------------------*/
@@ -866,7 +867,7 @@ CSS Grid layout for tablet:
             grid-template-columns: 1fr;
             grid-gap: 1em;
             justify-content: center;
-            align-self: center;
+
         }
     
         .index {
@@ -874,7 +875,7 @@ CSS Grid layout for tablet:
             grid-template-columns: 1fr 1fr;
             grid-gap: 1em;
             justify-content: center;
-            align-self: center;
+
         }
         
 /* Main Side Start */
@@ -917,7 +918,7 @@ CSS Grid layout for tablet:
             grid-row: 2;
             display: flex;
             justify-content: center;
-            align-self: center;
+
 		}
         
         .web .webpic {
@@ -940,7 +941,7 @@ CSS Grid layout for tablet:
             grid-row: 2;
             display: flex;
             justify-content: center;
-            align-self: center;
+
 		}
         
         .design .designpic {
@@ -963,7 +964,7 @@ CSS Grid layout for tablet:
             grid-row: 3;
             display: flex;
             justify-content: center;
-            align-self: center;
+
 		}
         
         .komm .kommpic {
@@ -986,7 +987,7 @@ CSS Grid layout for tablet:
             grid-row: 3;
             display: flex;
             justify-content: center;
-            align-self: center;
+
 		}
         
         .think .thinkpic {
@@ -1009,7 +1010,7 @@ CSS Grid layout for tablet:
             grid-row: 4;
             display: flex;
             justify-content: center;
-            align-self: center;
+
 		}
         
         .mark .markpic {
@@ -1032,7 +1033,7 @@ CSS Grid layout for tablet:
             grid-row: 4;
             display: flex;
             justify-content: center;
-            align-self: center;
+
 		}
         
         .onepage .onepagepic {
@@ -1055,12 +1056,12 @@ CSS Grid layout for tablet:
             grid-row: 5;
             display: flex;
             justify-content: center;
-            align-self: center;
+
 		}
         
         .refl .reflpic {
             grid-column: 5/7;
-            grid-row: 1;
+            grid-row: 1/3;
         }
         
        .refl .billedtekst {
@@ -1072,10 +1073,10 @@ CSS Grid layout for tablet:
             grid-column: 1/7;
             grid-row: 2;
         }
-}
+
 
                                  /* Main Side Slut */
-}        
+        
 /* Undersider Start */
         
         .subindex {
@@ -1083,7 +1084,7 @@ CSS Grid layout for tablet:
             margin: auto;
             max-width: none;
             display: grid;
-            grid-template-columns: repeat(8, 1fr);
+            grid-template-columns: repeat(2, 1fr);
             grid-gap: 1em;
             justify-content: center;
         }
@@ -1097,8 +1098,10 @@ CSS Grid layout for tablet:
             width: 100%;
         }
         
-        .subkort a {
+        .subkort {
 			max-width: 100%;
+            margin: .5em;
+            padding-top: .3em;
 			display: grid;
 			grid-template-columns: repeat(4, 1fr);
             grid-gap: 1em;
@@ -1110,7 +1113,7 @@ CSS Grid layout for tablet:
 /* Photoshop */
         
         .subpsd {
-            grid-column: span 4;
+            grid-column: 1;
             grid-row: 1;
             display: flex;
             justify-content: center;
@@ -1134,97 +1137,97 @@ CSS Grid layout for tablet:
 /* Illustrator */
         
         .subill {
-            grid-column: span 4;
+            grid-column: 2/3;
             grid-row: 1;
             display: flex;
-            align-self: center;
+
         }
         
         .subill .subillpic {
-            grid-column: 5/7;
+            grid-column: 3/5;
             grid-row: 1;
         }
         
        .subill .billedtekst {
-            grid-column: 7/9;
+            grid-column: 1/3;
             grid-row: 1;
         }
         
        .subill .billedtekst2 {
-            grid-column: 4/8;
+            grid-column: 1/5;
             grid-row: 2;
         }
         
 /* Farve og typografi */
         
         .subft {
-            grid-column: 1/3;
+            grid-column: 1;
             grid-row: 2;
             display: flex;
-            align-self: center;
+
         }
         
         .subft .subftpic {
-            grid-column: 1/5;
-            grid-row: 2;
+            grid-column: 1/3;
+            grid-row: 1;
         }
         
        .subft .billedtekst {
-            grid-column: 1/5;
-            grid-row: 3;
+            grid-column: 3/5;
+            grid-row: 1;
         }
         
        .subft .billedtekst2 {
             grid-column: 1/5;
-            grid-row: 4;
+            grid-row: 2;
         }
         
 /* Gestaltlove */
         
         .subges {
-            grid-column: 3/6;
+            grid-column: 2;
             grid-row: 2;
             display: flex;
-            align-self: center;
+
         }
         
         .subges .subgespic {
-            grid-column: 1/5;
-            grid-row: 3;
+            grid-column: 1/3;
+            grid-row: 1;
         }
         
        .subges .billedtekst {
-            grid-column: 1/5;
-            grid-row: 2;
+            grid-column: 3/5;
+            grid-row: 1;
         }
         
        .subges .billedtekst2 {
             grid-column: 1/5;
-            grid-row: 4;
+            grid-row: 2;
         }
         
 /* Fotografering */
         
         .subfoto {
-            grid-column: 6/9;
-            grid-row: 2;
+            grid-column: 1/3;
+            grid-row: 3;
             display: flex;
-            align-self: center;
+
         }
         
         .subfoto .subfotopic {
-            grid-column: 1/5;
-            grid-row: 3;
+            grid-column: 1/3;
+            grid-row: 1;
         }
         
        .subfoto .billedtekst {
-            grid-column: 1/5;
-            grid-row: 4;
+            grid-column: 3/5;
+            grid-row: 1;
         }
         
        .subfoto .billedtekst2 {
             grid-column: 1/5;
-            grid-row: 5;
+            grid-row: 2;
         }
         
 /* Webudvikling Start */
@@ -1232,7 +1235,7 @@ CSS Grid layout for tablet:
 /* HTML */
         
         .subhtml {
-            grid-column: span 4;
+            grid-column: 1;
             grid-row: 1;
             display: flex;
             justify-content: center;
@@ -1256,145 +1259,145 @@ CSS Grid layout for tablet:
 /* CSS */
         
         .subcss {
-            grid-column: span 4;
+            grid-column: 2;
             grid-row: 1;
             display: flex;
-            align-self: center;
+
         }
         
         .subcss .subcsspic {
-            grid-column: 5/7;
+            grid-column: 3/5;
             grid-row: 1;
         }
         
        .subcss .billedtekst {
-            grid-column: 7/9;
+            grid-column: 1/3;
             grid-row: 1;
         }
         
        .subcss .billedtekst2 {
-            grid-column: 4/8;
+            grid-column: 1/5;
             grid-row: 2;
         }
         
 /* Server */
         
         .subserver {
-            grid-column: 1/3;
-            grid-row: 2;
+            grid-column: 1;
+            grid-row: 4;
             display: flex;
-            align-self: center;
+
         }
         
         .subserver .subserverpic {
-            grid-column: 1/5;
-            grid-row: 2;
+            grid-column: 3/5;
+            grid-row: 1;
         }
         
        .subserver .billedtekst {
-            grid-column: 1/5;
-            grid-row: 3;
+            grid-column: 3/5;
+            grid-row: 1;
         }
         
        .subserver .billedtekst2 {
-            grid-column: 1/5;
-            grid-row: 4;
+            grid-column: 1/3;
+            grid-row: 2;
         }
         
 /* Internettets historie */
         
         .subhistorie {
-            grid-column: 3/6;
-            grid-row: 2;
+            grid-column: 1/3;
+            grid-row: 3;
             display: flex;
-            align-self: center;
+
         }
         
         .subhistorie .subhistoriepic {
-            grid-column: 1/5;
-            grid-row: 3;
+            grid-column: 1/3;
+            grid-row: 1;
         }
         
        .subhistorie .billedtekst {
-            grid-column: 1/5;
-            grid-row: 2;
+            grid-column: 3/5;
+            grid-row: 1;
         }
         
        .subhistorie .billedtekst2 {
             grid-column: 1/5;
-            grid-row: 4;
+            grid-row: 2;
         }
         
 /* CSS Grid */
         
         .subgrid {
-            grid-column: 6/9;
-            grid-row: 2;
+            grid-column: 2;
+            grid-row: 4;
             display: flex;
-            align-self: center;
+
         }
         
         .subgrid .subgridpic {
-            grid-column: 1/5;
-            grid-row: 3;
+            grid-column: 3/5;
+            grid-row: 1;
         }
         
        .subgrid .billedtekst {
-            grid-column: 1/5;
-            grid-row: 4;
+            grid-column: 1/3;
+            grid-row: 1;
         }
         
        .subgrid .billedtekst2 {
             grid-column: 1/5;
-            grid-row: 5;
+            grid-row: 2;
         }
         
 /* Versionsstyring */
         
         .subversion {
-            grid-column: span 4;
-            grid-row: 4;
+            grid-column: 2;
+            grid-row: 2;
             display: flex;
-            align-self: center;
+
         }
         
         .subversion .subversionpic {
-            grid-column: 1/3;
-            grid-row: 4;
+            grid-column: 3/5;
+            grid-row: 1;
         }
         
        .subversion .billedtekst {
-            grid-column: 3/5;
-            grid-row: 4;
+            grid-column: 1/3;
+            grid-row: 1;
         }
         
        .subversion .billedtekst2 {
             grid-column: 1/5;
-            grid-row: 5;
+            grid-row: 2;
         }
         
 /* Informationarkitektur */
         
         .subarkitektur {
-            grid-column: span 4;
-            grid-row: 4;
+            grid-column: 1;
+            grid-row: 2;
             display: flex;
-            align-self: center;
+
         }
         
         .subarkitektur .subarkitekturpic {
-            grid-column: 5/7;
-            grid-row: 4;
+            grid-column: 3/5;
+            grid-row: 1;
         }
         
        .subarkitektur .billedtekst {
-            grid-column: 7/9;
-            grid-row: 4;
+            grid-column: 1/3;
+            grid-row: 1;
         }
         
        .subarkitektur .billedtekst2 {
-            grid-column: 5/9;
-            grid-row: 5;
+            grid-column: 1/5;
+            grid-row: 2;
         }
         
 /* Kommunikation Start */
@@ -1402,98 +1405,98 @@ CSS Grid layout for tablet:
 /* Præsentationsteknik */
         
         .subkommunikation {
-            grid-column: span 4;
+            grid-column: span 3;
             grid-row: 1;
             display: flex;
-            align-self: center;
+
         }
         
         .subkommunikation .subkommunikationpic {
-            grid-column: 1/5;
+            grid-column: 1/3;
             grid-row: 1;
         }
         
        .subkommunikation .billedtekst {
-            grid-column: 1/5;
-            grid-row: 2;
+            grid-column: 3/5;
+            grid-row: 1;
         }
         
        .subkommunikation .billedtekst2 {
             grid-column: 1/5;
-            grid-row: 3;
+            grid-row: 2;
         }
         
         
 /* Præsentationsteknik */
         
         .subpræsentation {
-            grid-column: span 4;
-            grid-row: 1;
+            grid-column: span 3;
+            grid-row: 2;
             display: flex;
-            align-self: center;
+
         }
         
         .subpræsentation .subpræsentationpic {
-            grid-column: 5/9;
+            grid-column: 3/5;
             grid-row: 1;
         }
         
        .subpræsentation .billedtekst {
-            grid-column: 5/9;
-            grid-row: 2;
+            grid-column: 1/3;
+            grid-row: 1;
         }
         
        .subpræsentation .billedtekst2 {
-            grid-column: 5/9;
-            grid-row: 3;
+            grid-column: 1/5;
+            grid-row: 2;
         }
         
 /* Tekstproduktion Start */
         
         .subtekst {
-            grid-column: span 4;
-            grid-row: 4;
+            grid-column: span 3;
+            grid-row: 3;
             display: flex;
-            align-self: center;
+
         }
         
         .subtekst .subtekstpic {
-            grid-column: 1/5;
-            grid-row: 4;
+            grid-column: 1/3;
+            grid-row: 1;
         }
         
        .subtekst .billedtekst {
-            grid-column: 1/5;
-            grid-row: 5;
+            grid-column: 3/5;
+            grid-row: 1;
         }
         
        .subtekst .billedtekst2 {
             grid-column: 1/5;
-            grid-row: 6;
+            grid-row: 2;
         }
         
 /* Business Model Canvas */
         
         .subbusiness {
-            grid-column: span 4;
+            grid-column: span 3;
             grid-row: 4;
             display: flex;
-            align-self: center;
+
         }
         
         .subbusiness .subbusinesspic {
-            grid-column: 5/9;
-            grid-row: 4;
+            grid-column: 3/5;
+            grid-row: 1;
         }
         
        .subbusiness .billedtekst {
-            grid-column: 5/9;
-            grid-row: 5;
+            grid-column: 1/3;
+            grid-row: 1;
         }
         
        .subbusiness .billedtekst2 {
-            grid-column: 5/9;
-            grid-row: 6;
+            grid-column: 1/5;
+            grid-row: 2;
         }
         
 /* Online Marketing */
@@ -1502,7 +1505,7 @@ CSS Grid layout for tablet:
             grid-column: span 8;
             grid-row: 1;
             display: flex;
-            align-self: center;
+
         }
         
         .submarketing .submarketingpic {
@@ -1523,10 +1526,10 @@ CSS Grid layout for tablet:
 /* Design Thinking */
         
         .subdthinking {
-            grid-column: span 8;
+            grid-column: span 3;
             grid-row: 1;
             display: flex;
-            align-self: center;
+
         }
         
         .subdthinking .subdthinkingpic {
@@ -1535,46 +1538,46 @@ CSS Grid layout for tablet:
         }
         
        .subdthinking .billedtekst {
-            grid-column: 1/9;
-            grid-row: 2;
+            grid-column: 3/5;
+            grid-row: 1;
         }
         
        .subdthinking .billedtekst2 {
-            grid-column: 1/9;
-            grid-row: 3;
+            grid-column: 1/5;
+            grid-row: 2;
         }
         
 /* Design Thinking Projekt */
         
-        .subdthinking {
-            grid-column: span 8;
-            grid-row: 4;
+        .subdtprojekt {
+            grid-column: span 3;
+            grid-row: 2;
             display: flex;
-            align-self: center;
+
         }
         
-        .subdthinking .subdthinkingpic {
+        .subdtprojekt .subdtprojektpic {
+            grid-column: 3/5;
+            grid-row: 1;
+        }
+        
+       .subdtprojekt .billedtekst {
             grid-column: 1/3;
-            grid-row: 4;
+            grid-row: 1;
         }
         
-       .subdthinking .billedtekst {
-            grid-column: 1/9;
-            grid-row: 5;
-        }
-        
-       .subdthinking .billedtekst2 {
-            grid-column: 1/9;
-            grid-row: 5;
+       .subdtprojekt .billedtekst2 {
+            grid-column: 1/5;
+            grid-row: 2;
         }
         
 /* One Page Projekt */
         
         .subonep {
-            grid-column: span 8;
+            grid-column: span 3;
             grid-row: 1;
             display: flex;
-            align-self: center;
+
         }
         
         .subonep .suboneppic {
@@ -1583,22 +1586,22 @@ CSS Grid layout for tablet:
         }
         
        .subonep .billedtekst {
-            grid-column: 1/9;
-            grid-row: 2;
+            grid-column: 3/5;
+            grid-row: 1;
         }
         
        .subonep .billedtekst2 {
-            grid-column: 1/9;
-            grid-row: 3;
+            grid-column: 1/5;
+            grid-row: 2;
         }
         
 /* Reflektioner */
         
         .subrefl {
-            grid-column: span 8;
+            grid-column: span 3;
             grid-row: 1;
             display: flex;
-            align-self: center;
+
         }
         
         .subrefl .subreflpic {
@@ -1607,16 +1610,16 @@ CSS Grid layout for tablet:
         }
         
        .subrefl .billedtekst {
-            grid-column: 1/9;
-            grid-row: 2;
+            grid-column: 3/5;
+            grid-row: 1;
         }
         
        .subrefl .billedtekst2 {
-            grid-column: 1/9;
-            grid-row: 3;
+            grid-column: 1/5;
+            grid-row: 2;
         }
 
-
+}
 /*--------------------------------------------------------------
 CSS Grid layout for mobil:
 --------------------------------------------------------------*/
@@ -1633,7 +1636,6 @@ CSS Grid layout for mobil:
 /* Main Side Start */
         
         .kort {
-          /*  margin: .5em 0;*/
             padding: .5em;
             display: grid;
             grid-gap: .3em;
@@ -1647,7 +1649,7 @@ CSS Grid layout for mobil:
             grid-row: 1;
             display: flex;
             justify-content: center;
-            align-self: center;
+
 		}
         
         .me .mepic {
@@ -1670,7 +1672,7 @@ CSS Grid layout for mobil:
             grid-row: 2;
             display: flex;
             justify-content: center;
-            align-self: center;
+
 		}
         
         .web .webpic {
@@ -1693,7 +1695,7 @@ CSS Grid layout for mobil:
             grid-row: 3;
             display: flex;
             justify-content: center;
-            align-self: center;
+
 		}
         
         .design .designpic {
@@ -1716,7 +1718,7 @@ CSS Grid layout for mobil:
             grid-row: 4;
             display: flex;
             justify-content: center;
-            align-self: center;
+
 		}
         
         .komm .kommpic {
@@ -1739,7 +1741,7 @@ CSS Grid layout for mobil:
             grid-row: 5;
             display: flex;
             justify-content: center;
-            align-self: center;
+
 		}
         
         .think .thinkpic {
@@ -1762,7 +1764,7 @@ CSS Grid layout for mobil:
             grid-row: 6;
             display: flex;
             justify-content: center;
-            align-self: center;
+
 		}
         
         .mark .markpic {
@@ -1785,7 +1787,7 @@ CSS Grid layout for mobil:
             grid-row: 7;
             display: flex;
             justify-content: center;
-            align-self: center;
+
 		}
         
         .onepage .onepagepic {
@@ -1808,7 +1810,7 @@ CSS Grid layout for mobil:
             grid-row: 8;
             display: flex;
             justify-content: center;
-            align-self: center;
+
 		}
         
         .refl .reflpic {
@@ -1825,10 +1827,9 @@ CSS Grid layout for mobil:
             grid-column: 1/4;
             grid-row: 2;
         }
-}
+
 
                                  /* Main Side Slut */
-}        
 /* Undersider Start */
         
         .subindex {
@@ -1836,7 +1837,7 @@ CSS Grid layout for mobil:
             margin: auto;
             max-width: none;
             display: grid;
-            grid-template-columns: repeat(8, 1fr);
+            grid-template-columns: 1fr;
             grid-gap: 1em;
             justify-content: center;
         }
@@ -1850,8 +1851,9 @@ CSS Grid layout for mobil:
             width: 100%;
         }
         
-        .subkort a {
+        .subkort {
 			max-width: 100%;
+            margin: .5em;
 			display: grid;
 			grid-template-columns: repeat(4, 1fr);
             grid-gap: 1em;
@@ -1863,7 +1865,7 @@ CSS Grid layout for mobil:
 /* Photoshop */
         
         .subpsd {
-            grid-column: span 4;
+            grid-column: 1;
             grid-row: 1;
             display: flex;
             justify-content: center;
@@ -1887,97 +1889,97 @@ CSS Grid layout for mobil:
 /* Illustrator */
         
         .subill {
-            grid-column: span 4;
-            grid-row: 1;
+            grid-column: 1;
+            grid-row: 2;
             display: flex;
-            align-self: center;
+
         }
         
         .subill .subillpic {
-            grid-column: 5/7;
+            grid-column: 3/5;
             grid-row: 1;
         }
         
        .subill .billedtekst {
-            grid-column: 7/9;
+            grid-column: 1/3;
             grid-row: 1;
         }
         
        .subill .billedtekst2 {
-            grid-column: 4/8;
+            grid-column: 1/5;
             grid-row: 2;
         }
         
 /* Farve og typografi */
         
         .subft {
-            grid-column: 1/3;
-            grid-row: 2;
+            grid-column: 1;
+            grid-row: 3;
             display: flex;
-            align-self: center;
+
         }
         
         .subft .subftpic {
-            grid-column: 1/5;
-            grid-row: 2;
+            grid-column: 1/3;
+            grid-row: 1;
         }
         
        .subft .billedtekst {
-            grid-column: 1/5;
-            grid-row: 3;
+            grid-column: 3/5;
+            grid-row: 1;
         }
         
        .subft .billedtekst2 {
             grid-column: 1/5;
-            grid-row: 4;
+            grid-row: 2;
         }
         
 /* Gestaltlove */
         
         .subges {
-            grid-column: 3/6;
-            grid-row: 2;
+            grid-column: 1;
+            grid-row: 4;
             display: flex;
-            align-self: center;
+
         }
         
         .subges .subgespic {
-            grid-column: 1/5;
-            grid-row: 3;
+            grid-column: 3/5;
+            grid-row: 1;
         }
         
        .subges .billedtekst {
-            grid-column: 1/5;
-            grid-row: 2;
+            grid-column: 1/3;
+            grid-row: 1;
         }
         
        .subges .billedtekst2 {
             grid-column: 1/5;
-            grid-row: 4;
+            grid-row: 2;
         }
         
 /* Fotografering */
         
         .subfoto {
-            grid-column: 6/9;
-            grid-row: 2;
+            grid-column: 1;
+            grid-row: 5;
             display: flex;
-            align-self: center;
+
         }
         
         .subfoto .subfotopic {
-            grid-column: 1/5;
-            grid-row: 3;
+            grid-column: 1/3;
+            grid-row: 1;
         }
         
        .subfoto .billedtekst {
-            grid-column: 1/5;
-            grid-row: 4;
+            grid-column: 3/5;
+            grid-row: 1;
         }
         
        .subfoto .billedtekst2 {
             grid-column: 1/5;
-            grid-row: 5;
+            grid-row: 2;
         }
         
 /* Webudvikling Start  */
@@ -1985,7 +1987,7 @@ CSS Grid layout for mobil:
 /* HTML */
         
         .subhtml {
-            grid-column: span 4;
+            grid-column: 1;
             grid-row: 1;
             display: flex;
             justify-content: center;
@@ -2009,145 +2011,145 @@ CSS Grid layout for mobil:
 /* CSS */
         
         .subcss {
-            grid-column: span 4;
-            grid-row: 1;
+            grid-column: 1;
+            grid-row: 2;
             display: flex;
-            align-self: center;
+
         }
         
         .subcss .subcsspic {
-            grid-column: 5/7;
+            grid-column: 3/5;
             grid-row: 1;
         }
         
        .subcss .billedtekst {
-            grid-column: 7/9;
+            grid-column: 1/3;
             grid-row: 1;
         }
         
        .subcss .billedtekst2 {
-            grid-column: 4/8;
+            grid-column: 1/5;
             grid-row: 2;
         }
         
 /* Server */
         
         .subserver {
-            grid-column: 1/3;
-            grid-row: 2;
+            grid-column: 1;
+            grid-row: 3;
             display: flex;
-            align-self: center;
+
         }
         
         .subserver .subserverpic {
-            grid-column: 1/5;
-            grid-row: 2;
+            grid-column: 1/3;
+            grid-row: 1;
         }
         
        .subserver .billedtekst {
-            grid-column: 1/5;
-            grid-row: 3;
+            grid-column: 3/5;
+            grid-row: 1;
         }
         
        .subserver .billedtekst2 {
             grid-column: 1/5;
-            grid-row: 4;
+            grid-row: 2;
         }
         
 /* Internettets historie */
         
         .subhistorie {
-            grid-column: 3/6;
-            grid-row: 2;
+            grid-column: 1;
+            grid-row: 7;
             display: flex;
-            align-self: center;
+
         }
         
         .subhistorie .subhistoriepic {
-            grid-column: 1/5;
-            grid-row: 3;
+            grid-column: 3/5;
+            grid-row: 1;
         }
         
        .subhistorie .billedtekst {
-            grid-column: 1/5;
-            grid-row: 2;
+            grid-column: 1/3;
+            grid-row: 1;
         }
         
        .subhistorie .billedtekst2 {
             grid-column: 1/5;
-            grid-row: 4;
+            grid-row: 2;
         }
         
 /* CSS Grid */
         
         .subgrid {
-            grid-column: 6/9;
-            grid-row: 2;
+            grid-column: 1;
+            grid-row: 4;
             display: flex;
-            align-self: center;
+
         }
         
         .subgrid .subgridpic {
-            grid-column: 1/5;
-            grid-row: 3;
+            grid-column: 3/5;
+            grid-row: 1;
         }
         
        .subgrid .billedtekst {
-            grid-column: 1/5;
-            grid-row: 4;
+            grid-column: 1/3;
+            grid-row: 1;
         }
         
        .subgrid .billedtekst2 {
             grid-column: 1/5;
-            grid-row: 5;
+            grid-row: 2;
         }
         
 /* Versionsstyring */
         
         .subversion {
-            grid-column: span 4;
-            grid-row: 4;
+            grid-column: 1;
+            grid-row: 6;
             display: flex;
-            align-self: center;
+
         }
         
         .subversion .subversionpic {
             grid-column: 1/3;
-            grid-row: 4;
+            grid-row: 1;
         }
         
        .subversion .billedtekst {
             grid-column: 3/5;
-            grid-row: 4;
+            grid-row: 1;
         }
         
        .subversion .billedtekst2 {
             grid-column: 1/5;
-            grid-row: 5;
+            grid-row: 2;
         }
         
 /* Informationarkitektur */
         
         .subarkitektur {
-            grid-column: span 4;
-            grid-row: 4;
+            grid-column: 1;
+            grid-row: 5;
             display: flex;
-            align-self: center;
+
         }
         
         .subarkitektur .subarkitekturpic {
-            grid-column: 5/7;
-            grid-row: 4;
+            grid-column: 1/3;
+            grid-row: 1;
         }
         
        .subarkitektur .billedtekst {
-            grid-column: 7/9;
-            grid-row: 4;
+            grid-column: 3/5;
+            grid-row: 1;
         }
         
        .subarkitektur .billedtekst2 {
-            grid-column: 5/9;
-            grid-row: 5;
+            grid-column: 1/5;
+            grid-row: 2;
         }
         
 /* Kommunikation Start */
@@ -2155,131 +2157,131 @@ CSS Grid layout for mobil:
 /* Præsentationsteknik */
         
         .subkommunikation {
-            grid-column: span 4;
+            grid-column: 1;
             grid-row: 1;
             display: flex;
-            align-self: center;
+
         }
         
         .subkommunikation .subkommunikationpic {
-            grid-column: 1/5;
+            grid-column: 3/5;
             grid-row: 1;
         }
         
        .subkommunikation .billedtekst {
-            grid-column: 1/5;
-            grid-row: 2;
+            grid-column: 1/3;
+            grid-row: 1;
         }
         
        .subkommunikation .billedtekst2 {
             grid-column: 1/5;
-            grid-row: 3;
+            grid-row: 2;
         }
         
         
 /* Præsentationsteknik */
         
         .subpræsentation {
-            grid-column: span 4;
-            grid-row: 1;
+            grid-column: 1;
+            grid-row: 2;
             display: flex;
-            align-self: center;
+
         }
         
         .subpræsentation .subpræsentationpic {
-            grid-column: 5/9;
+            grid-column: 1/3;
             grid-row: 1;
         }
         
        .subpræsentation .billedtekst {
-            grid-column: 5/9;
-            grid-row: 2;
+            grid-column: 3/5;
+            grid-row: 1;
         }
         
        .subpræsentation .billedtekst2 {
-            grid-column: 5/9;
-            grid-row: 3;
+            grid-column: 1/5;
+            grid-row: 2;
         }
         
 /* Tekstproduktion Start */
         
         .subtekst {
-            grid-column: span 4;
-            grid-row: 4;
+            grid-column: 1;
+            grid-row: 3;
             display: flex;
-            align-self: center;
+
         }
         
         .subtekst .subtekstpic {
-            grid-column: 1/5;
-            grid-row: 4;
+            grid-column: 3/5;
+            grid-row: 1;
         }
         
        .subtekst .billedtekst {
-            grid-column: 1/5;
-            grid-row: 5;
+            grid-column: 1/3;
+            grid-row: 1;
         }
         
        .subtekst .billedtekst2 {
             grid-column: 1/5;
-            grid-row: 6;
+            grid-row: 2;
         }
         
 /* Business Model Canvas */
         
         .subbusiness {
-            grid-column: span 4;
+            grid-column: 1;
             grid-row: 4;
             display: flex;
-            align-self: center;
+
         }
         
         .subbusiness .subbusinesspic {
-            grid-column: 5/9;
-            grid-row: 4;
+            grid-column: 1/3;
+            grid-row: 1;
         }
         
        .subbusiness .billedtekst {
-            grid-column: 5/9;
-            grid-row: 5;
+            grid-column: 5/3;
+            grid-row: 1;
         }
         
        .subbusiness .billedtekst2 {
-            grid-column: 5/9;
-            grid-row: 6;
+            grid-column: 1/5;
+            grid-row: 2;
         }
         
 /* Online Marketing */
         
         .submarketing {
-            grid-column: span 8;
+            grid-column: 1;
             grid-row: 1;
             display: flex;
-            align-self: center;
+
         }
         
         .submarketing .submarketingpic {
-            grid-column: 1/3;
+            grid-column: 1/5;
             grid-row: 1;
         }
         
        .submarketing .billedtekst {
-            grid-column: 1/9;
-            grid-row: 2;
+            grid-column: 3/5;
+            grid-row: 1;
         }
         
        .submarketing .billedtekst2 {
-            grid-column: 1/9;
-            grid-row: 3;
+            grid-column: 1/5;
+            grid-row: 2;
         }
         
 /* Design Thinking */
         
         .subdthinking {
-            grid-column: span 8;
+            grid-column: 1;
             grid-row: 1;
             display: flex;
-            align-self: center;
+
         }
         
         .subdthinking .subdthinkingpic {
@@ -2288,46 +2290,46 @@ CSS Grid layout for mobil:
         }
         
        .subdthinking .billedtekst {
-            grid-column: 1/9;
-            grid-row: 2;
+            grid-column: 3/5;
+            grid-row: 1;
         }
         
        .subdthinking .billedtekst2 {
-            grid-column: 1/9;
-            grid-row: 3;
+            grid-column: 1/5;
+            grid-row: 2;
         }
         
 /* Design Thinking Projekt */
         
-        .subdthinking {
-            grid-column: span 8;
-            grid-row: 4;
+        .subdthinkingp {
+            grid-column: 1;
+            grid-row:2;
             display: flex;
-            align-self: center;
+
         }
         
-        .subdthinking .subdthinkingpic {
-            grid-column: 1/3;
-            grid-row: 4;
+        .subdthinkingp .subdthinkingppic {
+            grid-column: 3/5;
+            grid-row: 1;
         }
         
-       .subdthinking .billedtekst {
-            grid-column: 1/9;
-            grid-row: 5;
+       .subdthinkingp .billedtekst {
+            grid-column: 1/5;
+            grid-row: 1;
         }
         
-       .subdthinking .billedtekst2 {
-            grid-column: 1/9;
-            grid-row: 5;
+       .subdthinkingp .billedtekst2 {
+            grid-column: 1/5;
+            grid-row: 2;
         }
         
 /* One Page Projekt */
         
         .subonep {
-            grid-column: span 8;
+            grid-column: 1;
             grid-row: 1;
             display: flex;
-            align-self: center;
+
         }
         
         .subonep .suboneppic {
@@ -2336,22 +2338,22 @@ CSS Grid layout for mobil:
         }
         
        .subonep .billedtekst {
-            grid-column: 1/9;
-            grid-row: 2;
+            grid-column: 5/3;
+            grid-row: 1;
         }
         
        .subonep .billedtekst2 {
-            grid-column: 1/9;
-            grid-row: 3;
+            grid-column: 1/5;
+            grid-row: 2;
         }
         
 /* Reflektioner */
         
         .subrefl {
-            grid-column: span 8;
+            grid-column: 1;
             grid-row: 1;
             display: flex;
-            align-self: center;
+
         }
         
         .subrefl .subreflpic {
@@ -2360,12 +2362,12 @@ CSS Grid layout for mobil:
         }
         
        .subrefl .billedtekst {
-            grid-column: 1/9;
-            grid-row: 2;
+            grid-column: 3/5;
+            grid-row: 1;
         }
         
        .subrefl .billedtekst2 {
-            grid-column: 1/9;
-            grid-row: 3;
+            grid-column: 1/5;
+            grid-row: 2;
         }
-
+}
