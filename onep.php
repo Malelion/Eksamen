@@ -11,7 +11,8 @@
 </head>
     <body>
         <?php 
-            include "onepmenu.html"; 
+            include "include/onepmenu.inc";
+            include "js/menu-script.inc";
             include "include/onep.inc";
             include "include/footer.inc";    
         ?>
