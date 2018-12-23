@@ -11,7 +11,8 @@
 </head>
     <body>
         <?php 
-            include "marketingmenu.html"; 
+            include "include/marketingmenu.inc";
+            include "js/menu-script.inc";
             include "include/marketing.inc";
             include "include/footer.inc";    
         ?>
