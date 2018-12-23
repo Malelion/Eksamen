@@ -11,7 +11,8 @@
 </head>
     <body>
         <?php 
-            include "dthinkingmenu.html"; 
+            include "include/dthinkingmenu.inc";
+            include "js/menu-script.inc";
             include "include/dthinking.inc";
             include "include/footer.inc";    
         ?>
