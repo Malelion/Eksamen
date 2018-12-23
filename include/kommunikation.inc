@@ -21,7 +21,7 @@
             <li class="subkort-emne subpræsentation" id="præs">
                 <a href="#">
                     <figure class="subkort">
-                        <img class="subpræsentationpic" src="F:\Arbejdsmappe\Eksamen/img/kommunikation.jpg" alt="Præsentationsteknik.">
+                        <img class="subpræsentationpic" src="img/praesentation.jpg" alt="Præsentationsteknik.">
                         <figcaption class="billedtekst">
                             <h2 class="billedtekst-titel">Præsentationsteknik</h2>
 							<p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
@@ -38,7 +38,7 @@
             <li class="subkort-emne subtekst" id="tekstp">
                 <a href="#">
                     <figure class="subkort">
-                        <img class="subtekstpic" src="F:\Arbejdsmappe\Eksamen/img/web-design.png" alt="Tekstproduktion.">
+                        <img class="subtekstpic" src="img/tekst.jpg" alt="Tekstproduktion.">
                         <figcaption class="billedtekst">
                             <h2 class="billedtekst-titel">Tekstproduktion</h2>
 							<p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
@@ -55,7 +55,7 @@
             <li class="subkort-emne subbusiness" id="business">
                 <a href="#">
                     <figure class="subkort">
-                        <img class="subbusinesspic" src="F:\Arbejdsmappe\Eksamen/img/dsthink.png" alt="Business Model Canvas">
+                        <img class="subbusinesspic" src="img/bmc.jpg" alt="Business Model Canvas">
                         <figcaption class="billedtekst">
                             <h2 class="billedtekst-titel">Business Model Canvas</h2>
 							<p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
