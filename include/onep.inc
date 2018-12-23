@@ -3,7 +3,7 @@
             <li class="subkort-emne subonep" id="onep">
                 <a href="#">
                     <figure class="subkort">
-                        <img class="suboneppic" src="F:\Arbejdsmappe\Eksamen/img/farvel.jpg" alt="One Page">
+                        <img class="suboneppic" src="img/ski.png" alt="One Page">
                         <figcaption class="billedtekst">
                             <h2 class="billedtekst-titel">One Page</h2>
 							<p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
