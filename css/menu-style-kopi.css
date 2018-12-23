@@ -1,0 +1,104 @@
+/*RESET*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline; background:transparent;} body {line-height: 1;}ol, ul{list-style:none;} blockquote, q{quotes:none;} blockquote:before, blockquote:after, q:before, q:after{content:'';content:none;} :focus{outline:0;} ins{text-decoration:none;} del{text-decoration:line-through;} table{border-collapse:collapse; border-spacing:0;}
+
+/*End Reset*/
+
+/*--------------------------------------------------------------
+Menu layout for desktop
+--------------------------------------------------------------*/
+
+.menu h1 {
+    font-size: 1em;
+}
+
+    .masterhead {
+        display: grid;
+        width: 97%;
+        margin: auto;
+        background-color: #b44057;
+        z-index: 1000;
+    }
+
+    nav li a {
+        color: #eef3fa;
+        font-family: 'Helvetica', 'Arial', sans-serif;
+        text-decoration: none;
+       /* font-weight: bold;*/
+    }
+
+    a:hover {
+        color: #d61414;
+
+    }
+
+    nav li {
+        display: inline-block;
+       /* grid-area: nav;*/
+        padding: 20px
+        
+    }
+
+/*--------------------------------------------------------------
+Burger menu telefon og tablet:
+--------------------------------------------------------------*/
+
+@media only screen and (max-width : 1199px) {
+
+    nav li {
+        display: block;
+        padding: 20px
+        
+    }
+
+    .dropbtn span{
+        background: #faebd7;
+        width: 30px;
+        height: 4px;
+        display: block;
+        margin-bottom: 4px;
+        position: relative;
+    
+    }
+
+    .dropbtn {
+        float: right;
+        padding: 15px;
+        border: none;
+        cursor: pointer;
+    
+    }
+
+    .dropbtn:hover, .dropbtn:focus {
+        background-color: #b6c6d1;
+    }
+
+    .dropdown {
+        float: right;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        float: left;
+        background-color: #a57e7e;
+        min-width: 260px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+    .dropdown-content li a {
+        min-width: 80%;
+        color: antiquewhite;
+        padding: 5px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown a:hover {
+        background-color: #7e5a5a;
+    }
+
+    .show {
+        display: block;
+    }   
+}
