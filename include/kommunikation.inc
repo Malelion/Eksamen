@@ -3,7 +3,7 @@
             <li class="subkort-emne subkommunikation" id="kommunikation">
                 <a href="#">
                     <figure class="subkort">
-                        <img class="subkommunikationpic" src="F:\Arbejdsmappe\Eksamen/img/farvel.jpg" alt="Kommunikation og produktions modeller">
+                        <img class="subkommunikationpic" src="img/komm.jpg" alt="Kommunikation og produktions modeller">
                         <figcaption class="billedtekst">
                             <h2 class="billedtekst-titel">Kommunikation og produktions modeller</h2>
 							<p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
