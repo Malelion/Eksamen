@@ -10,8 +10,9 @@
     <link rel="stylesheet" href="css/menu-style.css">
 </head>
     <body>
-        <?php 
-            include "kommunikationmenu.html"; 
+        <?php
+            include "include/kommunikationmenu.inc";
+            include "js/menu-script.inc";
             include "include/kommunikation.inc";
             include "include/footer.inc";    
         ?>
