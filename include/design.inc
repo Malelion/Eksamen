@@ -38,7 +38,7 @@
             <li class="subkort-emne subft">
                 <a href="#">
                     <figure class="subkort">
-                        <img class="subftpic" src="F:\Arbejdsmappe\Eksamen/img/web-design.png" alt="Farver og typografi.">
+                        <img class="subftpic" src="img/farve.jpg" alt="Farver og typografi.">
                         <figcaption class="billedtekst">
                             <h2 class="billedtekst-titel">Farver og typografi</h2>
 							<p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
@@ -55,15 +55,15 @@
             <li class="subkort-emne subges">
                 <a href="#">
                     <figure class="subkort">
-                        <img class="subgespic" src="F:\Arbejdsmappe\Eksamen/img/dsthink.png" alt="Gestaltlovene">
+                        <img class="subgespic" src="img/gestalt.png" alt="Gestaltlovene">
                         <figcaption class="billedtekst">
                             <h2 class="billedtekst-titel">Gestaltlove</h2>
 							<p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
                             <p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
                         </figcaption>
                         <figcaption class="billedtekst2">
-							<p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
-                            <p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
+							<p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.
+                            Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
                         </figcaption>
                     </figure>
                 </a>
@@ -72,7 +72,7 @@
             <li class="subkort-emne subfoto" id="foto">
                 <a href="#">
                     <figure class="subkort">
-                        <img class="subfotopic" src="F:\Arbejdsmappe\Eksamen/img/mark.jpg" alt="Fotografering.">
+                        <img class="subfotopic" src="img/objektiv.jpg" alt="Fotografering.">
                         <figcaption class="billedtekst">
                             <h2 class="billedtekst-titel">Fotografering</h2>
 							<p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
