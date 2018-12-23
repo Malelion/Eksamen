@@ -3,7 +3,7 @@
             <li class="subkort-emne submarketing" id="marketing">
                 <a href="#">
                     <figure class="subkort">
-                        <img class="submarketingpic" src="F:\Arbejdsmappe\Eksamen/img/farvel.jpg" alt="Online  Marketing">
+                        <img class="submarketingpic" src="img/marketing.png" alt="Online  Marketing">
                         <figcaption class="billedtekst">
                             <h2 class="billedtekst-titel">Online Marketing</h2>
 							<p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
