@@ -1,0 +1,63 @@
+<header class="masterhead">
+
+<!-- Burgermenu -->
+<nav>
+    <div class="dropdown">
+        <div onclick="myFunction()" class="dropbtn">
+                    <span ></span>
+                    <span></span>
+                    <span></span>
+    </div>
+    
+<!-- Menu indhold -->
+    <div id="myDropdown" class="dropdown-content">
+        <h1>
+            <ul>
+                <li><a href="http://gert3987.web.eadania.dk/eksamen/">Home</a></li>
+                <li><a href="webudvikling.php">Webudvikling</a></li>
+                <li><a href="kommunikation.php">Kommunikation</a></li>
+                <li><a href="design.php">Design</a></li>
+                <li><a href="marketing.php">Online marketing</a></li>
+                <li><a href="dthinking.php">Design thinking</a></li>
+                <li><a href="#">One page projekt</a></li>
+                <li><a href="#">Reflektioner</a></li>
+            </ul>
+            <ul>          
+                <li><a href="#dthinking">Design Thinking</a></li>
+                <li><a href="#dthinkingp">Præsentationsteknik</a></li>
+           <!--     <li><a href="#tekstp">Tekstproduktion</a></li>
+                <li><a href="#historie">Internettets historie</a></li>
+                <li><a href="#business">Business Model Canvas</a></li>
+                <li><a href="#version">Versionsstyring</a></li>
+                <li><a href="#arkitektur">Informationsarkitektur</a></li> -->
+            </ul>
+        </h1>
+    </div>
+</div>           
+</nav>
+        
+	</header>
+
+	
+
+<script>
+    // Skifter mellem at vise og skjule menuen når der klikkes på knappen.
+        function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Luk dropdown hvis brugeren klikker uden for menuen
+        window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
