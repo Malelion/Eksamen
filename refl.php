@@ -11,7 +11,8 @@
 </head>
     <body>
         <?php 
-            include "reflmenu.html"; 
+            include "include/reflmenu.inc"; 
+            include "js/menu-script.inc";
             include "include/refl.inc";
             include "include/footer.inc";    
         ?>
