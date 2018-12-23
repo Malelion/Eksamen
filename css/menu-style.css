@@ -7,7 +7,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 Menu layout for desktop
 --------------------------------------------------------------*/
 
-h1 {
+.menu h1 {
     font-size: 1em;
 }
 
@@ -23,7 +23,7 @@ h1 {
         color: #eef3fa;
         font-family: 'Helvetica', 'Arial', sans-serif;
         text-decoration: none;
-        font-weight: bold;
+       /* font-weight: bold;*/
     }
 
     a:hover {
@@ -31,17 +31,20 @@ h1 {
 
     }
 
-    nav ul {
-        list-style: none;
-
-    }
-
     nav li {
         display: inline-block;
-        grid-area: nav;
+       /* grid-area: nav;*/
         padding: 20px
         
     }
+
+a:link {
+  color: #faebd7;
+}
+
+a:visited {
+  color: #faebd7;
+}
 
 /*--------------------------------------------------------------
 Burger menu telefon og tablet:
@@ -56,7 +59,7 @@ Burger menu telefon og tablet:
     }
 
     .dropbtn span{
-        background: #726868;
+        background: #faebd7;
         width: 30px;
         height: 4px;
         display: block;
@@ -70,7 +73,6 @@ Burger menu telefon og tablet:
         padding: 15px;
         border: none;
         cursor: pointer;
-        grid-area: bgm;
     
     }
 
@@ -86,7 +88,7 @@ Burger menu telefon og tablet:
     .dropdown-content {
         display: none;
         float: left;
-        background-color: #f1f1f1;
+        background-color: #a57e7e;
         min-width: 260px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1;
@@ -94,14 +96,14 @@ Burger menu telefon og tablet:
 
     .dropdown-content li a {
         min-width: 80%;
-        color: black;
+        color: antiquewhite;
         padding: 5px 16px;
         text-decoration: none;
         display: block;
     }
 
     .dropdown a:hover {
-        background-color: #ddd;
+        background-color: #7e5a5a;
     }
 
     .show {
