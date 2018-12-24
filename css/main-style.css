@@ -1443,6 +1443,15 @@ CSS Grid layout for tablet:
             grid-row: 2;
         }
         
+       .subversion .billedtekst3 {
+            display: none;
+        }
+        
+       .subversion .billedtekst4 {
+            display: none;
+        }
+    
+        
 /* Informationarkitektur */
         
         .subarkitektur {
@@ -2213,6 +2222,14 @@ CSS Grid layout for mobil:
        .subversion .billedtekst2 {
             grid-column: 1/5;
             grid-row: 2;
+        }
+        
+       .subversion .billedtekst3 {
+            display: none;
+        }
+        
+       .subversion .billedtekst4 {
+            display: none;
         }
         
 /* Informationarkitektur */
