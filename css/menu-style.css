@@ -7,10 +7,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 Menu layout for desktop
 --------------------------------------------------------------*/
 
-.menu h1 {
-    font-size: 1em;
-}
-
     .masterhead {
         display: grid;
         width: 97%;
@@ -23,7 +19,6 @@ Menu layout for desktop
         color: #eef3fa;
         font-family: 'Helvetica', 'Arial', sans-serif;
         text-decoration: none;
-       /* font-weight: bold;*/
     }
 
     a:hover {
