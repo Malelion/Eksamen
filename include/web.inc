@@ -12,7 +12,7 @@
                         
                         <figcaption class="billedtekst2">
                             <p>Et HTML dokument består af elementer (også kaldet tags) og attributter.</p>
-                            <p>Et eksempel på et tag kunne være &lth2&gt som angiver en overskrift, langt de fleste tags skal lukkes med at sluttag, dette gøres ved at sætte en skråstreg ind &lt/h2&gt.</p>
+                            <p>Et eksempel på et tag kunne være &lth1&gt som angiver en overskrift, langt de fleste tags skal lukkes med at sluttag, dette gøres ved at sætte en skråstreg ind &lt/h1&gt.</p>
                             <p>Hvor tags angiver kommandoen, tilføjer attributter yderligere værdier, der konfigurerer elementerne eller justerer deres adfærd på forskellige måder, så de opfylder de kriterier brugerne ønsker.</p>
                             <p>Der skelnes mellem semantiske og ikke semantiske tags, der bør altid såfremt det er muligt anvendes semantiske tags, idet disse fortæller noget om indholdet og derfor er med til at give en bedre SEO.</p>
                             <p>I HTML er der mulighed for at anvende hypertext og hyperlinks, hypertekst er en samling af tekststumper der er indbyrdes forbundet i et netværk, ved at indsætte forbindelser (links), kan der springes rundt i teksten på en side, hyperlinks bruges ikke kun til at komme til bestemte steder  på den enkelte side, men kan også springe til andre sider end den pågældende.</p>
