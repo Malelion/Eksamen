@@ -15,7 +15,8 @@ Menu layout for desktop
         z-index: 1000;
     }
 
-    nav li a {
+    nav h1 {
+        font-size: 1.2em;
         color: #eef3fa;
         font-family: 'Helvetica', 'Arial', sans-serif;
         text-decoration: none;
@@ -28,7 +29,6 @@ Menu layout for desktop
 
     nav li {
         display: inline-block;
-       /* grid-area: nav;*/
         padding: 20px
         
     }
