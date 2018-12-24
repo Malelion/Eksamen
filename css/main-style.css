@@ -74,8 +74,7 @@ Index:
 .index a:hover {
 	font-size: 110%;
     box-shadow: 5px 5px 0px 0px #b3b3b3;
-}
-        
+} 
 .kort a {
     width: 100%;
 }
@@ -90,6 +89,20 @@ body h2 {
     margin: 0;
 	color: black;
 }
+
+body h3 {
+    font-size: 1em;
+    line-height: 1em;
+    margin: 0;
+	color: black;
+} 
+
+body .ital {
+    font-style: italic;
+    line-height: 1em;
+    margin: 0;
+	color: black;
+}   
 
 .billedtekst p {
 	margin-top: 0.5em;
