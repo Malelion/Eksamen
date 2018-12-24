@@ -12,7 +12,7 @@
                         
                         <figcaption class="billedtekst2">
                             <p>Et HTML dokument består af elementer (også kaldet tags) og attributter.</p>
-                            <p>Et eksempel på et tag kunne være &ltH1&gt som angiver en overskrift, langt de fleste tags skal lukkes med at sluttag, dette gøres ved at sætte en skråstreg ind &lt/H1&gt.</p>
+                            <p>Et eksempel på et tag kunne være &lth2&gt som angiver en overskrift, langt de fleste tags skal lukkes med at sluttag, dette gøres ved at sætte en skråstreg ind &lt/h2&gt.</p>
                             <p>Hvor tags angiver kommandoen, tilføjer attributter yderligere værdier, der konfigurerer elementerne eller justerer deres adfærd på forskellige måder, så de opfylder de kriterier brugerne ønsker.</p>
                             <p>Der skelnes mellem semantiske og ikke semantiske tags, der bør altid såfremt det er muligt anvendes semantiske tags, idet disse fortæller noget om indholdet og derfor er med til at give en bedre SEO.</p>
                             <p>I HTML er der mulighed for at anvende hypertext og hyperlinks, hypertekst er en samling af tekststumper der er indbyrdes forbundet i et netværk, ved at indsætte forbindelser (links), kan der springes rundt i teksten på en side, hyperlinks bruges ikke kun til at komme til bestemte steder  på den enkelte side, men kan også springe til andre sider end den pågældende.</p>
@@ -127,6 +127,21 @@
                             <p>Her kan en tjeneste som Github komme ind i billedet. GitHub er en web-baseret hosting service, som i samspil med Git gør det muligt at kontrollere den kontinuerlige udvikling af kildekode på et software udviklingsprojekt. Det var oprindelig tænkt som et site for kodedeling, men har også en social netværksdel hvorigennem bruger fra hele verden kan diskutere og dele erfaringer.</p>
                             <p>Github har features der gør det muligt at være flere der arbejder på samme projekt, du kan dele din data med andre, og selvfølgelig versionsstyre dine filer. Github kan både bruges i en browser eller installeret på en computer. Når du har Github installeret, kan du hele tiden følge med i historikken for dine filer, og uploade dem så du har en sikkerhedskopi i skyen.</p>
                             <p>
+                            <h3>Git begreber der er værd at kende:</h3>
+                            <p class="ital">Repository:</p> 
+                            <p>Et repository er det sted, du lagrer dit projekt. Det kan være en lokal mappe eller en ekstern server eller tjeneste som Github.</p>
+                            <p class="ital">Add:</p>
+                            <p>Tilføjer filer eller ændringer til det næste commit.</p>
+                            <p class="ital">Commit:</p>
+                            <p>Et commit er som et save game i et computerspil. Når du har nået et punkt, hvor det er en god idé at lave et save game, du kan vende tilbage til, så laver du et commit. Det gemmer de ændringer, du har lavet indtil videre.</p>
+                            <p class="ital">Push:</p>
+                            <p>Når de ændringer, du har samlet i et commit, skal sendes til dit repository, skal du lave et push.</p>
+                            <p class="ital">Branch:</p>
+                            <p>En branch er noget du bruger, når du har brug for at arbejde på en kopi af projektet og ikke vil gemme dine ændringer direkte i 'master'-kopien. Du skifter til en branch med checkout.</p>
+                            <p class="ital">Pull:</p>
+                            <p>Når du skal hente og integrere de ændringer i projektet, som ligger i repository'et, så laver du et pull.</p>
+                            <p class="ital">Merge:</p>
+                            <p>Når Git skal samle ændringer, bliver dit commit merget. Det kan dog give en konflikt, hvis to har ændret de samme steder i en fil.</p>
                         </figcaption>
                         
                         <figcaption class="billedtekst3">
@@ -141,6 +156,21 @@
                             <p>Her kan en tjeneste som Github komme ind i billedet. GitHub er en web-baseret hosting service, som i samspil med Git gør det muligt at kontrollere den kontinuerlige udvikling af kildekode på et software udviklingsprojekt. Det var oprindelig tænkt som et site for kodedeling, men har også en social netværksdel hvorigennem bruger fra hele verden kan diskutere og dele erfaringer.</p>
                             <p>Github har features der gør det muligt at være flere der arbejder på samme projekt, du kan dele din data med andre, og selvfølgelig versionsstyre dine filer. Github kan både bruges i en browser eller installeret på en computer. Når du har Github installeret, kan du hele tiden følge med i historikken for dine filer, og uploade dem så du har en sikkerhedskopi i skyen.</p>
                             <p>
+                            <h3>Git begreber der er værd at kende:</h3>
+                            <p class="ital">Repository:</p> 
+                            <p>Et repository er det sted, du lagrer dit projekt. Det kan være en lokal mappe eller en ekstern server eller tjeneste som Github.</p>
+                            <p class="ital">Add:</p>
+                            <p>Tilføjer filer eller ændringer til det næste commit.</p>
+                            <p class="ital">Commit:</p>
+                            <p>Et commit er som et save game i et computerspil. Når du har nået et punkt, hvor det er en god idé at lave et save game, du kan vende tilbage til, så laver du et commit. Det gemmer de ændringer, du har lavet indtil videre.</p>
+                            <p class="ital">Push:</p>
+                            <p>Når de ændringer, du har samlet i et commit, skal sendes til dit repository, skal du lave et push.</p>
+                            <p class="ital">Branch:</p>
+                            <p>En branch er noget du bruger, når du har brug for at arbejde på en kopi af projektet og ikke vil gemme dine ændringer direkte i 'master'-kopien. Du skifter til en branch med checkout.</p>
+                            <p class="ital">Pull:</p>
+                            <p>Når du skal hente og integrere de ændringer i projektet, som ligger i repository'et, så laver du et pull.</p>
+                            <p class="ital">Merge:</p>
+                            <p>Når Git skal samle ændringer, bliver dit commit merget. Det kan dog give en konflikt, hvis to har ændret de samme steder i en fil.</p>                            
                         </figcaption>
                     </figure>
                 </a>
