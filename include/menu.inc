@@ -11,7 +11,7 @@
     
 <!-- Menu indhold -->
     <div id="myDropdown" class="dropdown-content">
-        <h1>
+        <!-- <h1> -->
             <ul>
                 <li><a href="http://gert3987.web.eadania.dk/eksamen/">Home</a></li>
                 <li><a href="web.php">Webudvikling</a></li>
@@ -22,7 +22,7 @@
                 <li><a href="onep.php">One page projekt</a></li>
                 <li><a href="refl.php">Reflektioner</a></li>
             </ul>
-        </h1>
+       <!-- </h1> -->
     </div>
 </div>           
 </nav>
