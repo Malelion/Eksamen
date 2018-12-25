@@ -93,8 +93,16 @@ body h2 {
 body h3 {
     font-size: 1em;
     line-height: 1em;
-    margin: 0;
+    margin-top: .5em;
 	color: black;
+}
+
+body h4 {
+	font-size: .7em;
+    line-height: 1em;
+    margin-top: 1em;
+	color: black;
+    text-decoration: none;
 } 
 
 body .ital {
@@ -570,11 +578,19 @@ CSS Grid layout for desktop:
         }
         
        .subserver .billedtekst {
+            display: none;
+        }
+        
+       .subserver .billedtekst2 {
+            display: none;
+        }
+        
+       .subserver .billedtekst3 {
             grid-column: 3/5;
             grid-row: 1;
         }
         
-       .subserver .billedtekst2 {
+       .subserver .billedtekst4 {
             grid-column: 1/5;
             grid-row: 2;
         }
@@ -683,11 +699,19 @@ CSS Grid layout for desktop:
         }
         
        .subarkitektur .billedtekst {
+            display: none;
+        }
+        
+       .subarkitektur .billedtekst2 {
+            display: none;
+        }
+        
+       .subarkitektur .billedtekst3 {
             grid-column: 1/3;
             grid-row: 1;
         }
         
-       .subarkitektur .billedtekst2 {
+       .subarkitektur .billedtekst4 {
             grid-column: 1/5;
             grid-row: 2;
         }
@@ -1377,6 +1401,14 @@ CSS Grid layout for tablet:
             grid-row: 2;
         }
         
+       .subserver .billedtekst3 {
+            display: none;
+        }
+        
+       .subserver .billedtekst4 {
+            display: none;
+        }
+        
 /* Internettets historie */
         
         .subhistorie {
@@ -1488,6 +1520,14 @@ CSS Grid layout for tablet:
        .subarkitektur .billedtekst2 {
             grid-column: 1/5;
             grid-row: 2;
+        }
+        
+       .subarkitektur .billedtekst3 {
+            display: none;
+        }
+        
+       .subarkitektur .billedtekst4 {
+            display: none;
         }
         
 /* Kommunikation Start */
@@ -2158,6 +2198,14 @@ CSS Grid layout for mobil:
             grid-row: 2;
         }
         
+       .subserver .billedtekst3 {
+            display: none;
+        }
+        
+       .subserver .billedtekst4 {
+            display: none;
+        }
+        
 /* Internettets historie */
         
         .subhistorie {
@@ -2269,6 +2317,15 @@ CSS Grid layout for mobil:
             grid-column: 1/5;
             grid-row: 2;
         }
+        
+       .subarkitektur .billedtekst3 {
+            display: none;
+        }
+        
+       .subarkitektur .billedtekst4 {
+            display: none;
+        }
+    
         
 /* Kommunikation Start */
         
