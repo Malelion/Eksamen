@@ -22,11 +22,6 @@ Menu layout for desktop
         text-decoration: none;
     }
 
-    a:hover {
-        color: #d61414;
-
-    }
-
 nav li a {
         text-decoration: none;
     }
@@ -43,6 +38,11 @@ a:link {
 
 a:visited {
   color: #faebd7;
+}
+
+a:hover {
+    color: #a57e7e;
+
 }
 
 /*--------------------------------------------------------------
