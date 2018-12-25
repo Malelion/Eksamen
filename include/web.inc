@@ -51,7 +51,7 @@
                     <figure class="subkort">
                         <img class="subserverpic" src="img/server.png" alt="Servere.">
                         <figcaption class="billedtekst">
-                            <h2 class="billedtekst-titel">Servere</h2>
+                            <h2 class="billedtekst-titel id="Server">Servere</h2>
 							<p>I computeren er en server et computerprogram eller en enhed, der giver funktionalitet til andre programmer eller enheder, kaldet " klienter ". Denne arkitektur hedder klient-server-modellen.</p>
                         </figcaption>
                         <figcaption class="billedtekst2">
@@ -82,21 +82,60 @@
             </li>
             
             <li class="subkort-emne subhistorie" id="historie">
-                <a href="#">
+                
                     <figure class="subkort">
                         <img class="subhistoriepic" src="img/www.jpg" alt="Internettets historie">
                         <figcaption class="billedtekst">
                             <h2>Historie</h2>
-							<p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
-                            <p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
+							<p>Mange forbinder fejlagtigt Internet og World Wide Web som værende en og samme ting, men faktisk blev selve internettet opfundet længe før the World Wide Web.</p>
                         </figcaption>
+                        
                         <figcaption class="billedtekst2">
-							<p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
-                            <p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
+							<p>Licklider var den første, som forestillede sig et netværk af computere. Det gjorde han i 1962, og allerede i 1965 blev denne forestilling til virkelighed, da computerne TX-2 og Q-32 opnåede en forbindelse med hinanden via en telefonlinje.</p>
+                            <p>Dette var dog kun to computere i et netværk, og tricket var nu at få mere end to computere komplet på, på samme tid. Dette skete 4 år efter i 1969, hvor flere computere opnåede forbindelse med hinanden i en netværk der fik navnet ARPANET.</p>
+                            <p>ARPANET var det første bud på et eksisterende, Internet-lignende netværk. Et hold af dataloger fra UCLA i Los Angeles under ledelse af Leonard Kleinrock, førte an i en større gruppe af folk, der undersøgte, hvordan sådan et netværk kunne se ud</p>
+                            <p>Den 29. oktober 1969, koblede Kleinrock sammen med en assistent UCLAs computer sammen med en anden computer 550 km længere nord på i Silicon Valley, på Stanford Research Institute.</p>
+                            <p>Siden blev ARPANET langsomt udvidet og udvidet og i løbet af den første halvdel af 70’erne lod forskere verden over sig inspirere af ARPANET til at skabe deres egne netværk, herunder bl.a. CYCLADES-netværket i Frankrig.</p>
+                            <p>Alene i USA opstod der flere andre netværk, som følge heraf opstod ideen til, at disse netværk skulle kobles sammen, så ikke bare computerne, men også disse netværk kunne tale med hinanden. Altså et net af netværk, et Inter-Net.</p>
+                            <p>Bob Kahn og Vint Cerf, der havde arbejdet på ARPAnet under Leonard Kleinrock på UCLA. Udviklede sammen et regelsæt, en protokol, der definerede, hvordan computere kunne tale sammen på tværs af netværk. De kaldte protokollen for Transmission Control Protocol eller TCP.</p>
+                            <p>I december 1974 blev den færdige specifikation for protokollen præsenteret som ’Internet Transmission Control Program’, og det er første gang udtrykket Internet blev brugt i et offentligt forum.</p>
+                            <p>Protokollen, der blev beskrevet, er det vi i dag kender som TCP/IP, hvilket er en af nettets fundamentale byggesten. Det er det centrale regelsæt, eller fælles referenceramme, der gør, at servere og computere verden over kan tale sammen i det, vi kender som Internet.</p>
+                            <p>Vi skal dog helt frem til 1989, før Sir Timothy John Berners-Lee suscesfuldt opnår kommunikation mellem en Hypertext Transfer Protocol (HTTP) klient og en server via internettet.</p>
+                            <p>2 år efter i 1991 slippers World Wide Web og dets protokoller løs og gør dermed internettet tilgængeligt for alle, den 30. april 1993, frigives WWW til gratis brug.</p>
+                            <p>WWW er blot det program, en app, der kører ovenpå Internet, men som giver os mulighed for at opleve tekst, lyd, billeder og video i en webbrowser, der bruger Internet til at hente informationerne med.</p>
+                            <h4>Kilde: https://politiken.dk/forbrugogliv/digitalt/art5506303/Her-er-hele-historien-om-internettet-og-World-Wide-Web</h4>
                         </figcaption>
-                    </figure>
-                </a>
-            </li>
+                        
+                        <figcaption class="billedtekst3">
+                            <h2>Historie</h2>
+							<p>Mange forbinder fejlagtigt Internet og World Wide Web som værende en og samme ting, men faktisk blev selve internettet opfundet længe før the World Wide Web.</p>
+                            <p>Licklider var den første, som forestillede sig et netværk af computere. Det gjorde han i 1962, og allerede i 1965 blev denne forestilling til virkelighed, da computerne TX-2 og Q-32 opnåede en forbindelse med hinanden via en telefonlinje.</p>
+                            <p>Dette var dog kun to computere i et netværk, og tricket var nu at få mere end to computere komplet på, på samme tid. Dette skete 4 år efter i 1969, hvor flere computere opnåede forbindelse med hinanden i en netværk der fik navnet ARPANET.</p>
+                        </figcaption>
+                        
+                        <figcaption class="billedtekst4">
+							<p>ARPANET var det første bud på et eksisterende, Internet-lignende netværk. Et hold af dataloger fra UCLA i Los Angeles under ledelse af Leonard Kleinrock, førte an i en større gruppe af folk, der undersøgte, hvordan sådan et netværk kunne se ud</p>
+                            <p>Den 29. oktober 1969, koblede Kleinrock sammen med en assistent UCLAs computer sammen med en anden computer 550 km længere nord på i Silicon Valley, på Stanford Research Institute.</p>
+                            <p>Siden blev ARPANET langsomt udvidet og udvidet og i løbet af den første halvdel af 70’erne lod forskere verden over sig inspirere af ARPANET til at skabe deres egne netværk, herunder bl.a. CYCLADES-netværket i Frankrig.</p>
+                            <p>Alene i USA opstod der flere andre netværk, som følge heraf opstod ideen til, at disse netværk skulle kobles sammen, så ikke bare computerne, men også disse netværk kunne tale med hinanden. Altså et net af netværk, et Inter-Net.</p>
+                            <p>Bob Kahn og Vint Cerf, der havde arbejdet på ARPAnet under Leonard Kleinrock på UCLA. Udviklede sammen et regelsæt, en protokol, der definerede, hvordan computere kunne tale sammen på tværs af netværk. De kaldte protokollen for Transmission Control Protocol eller TCP.</p>
+                            <p>I december 1974 blev den færdige specifikation for protokollen præsenteret som ’Internet Transmission Control Program’, og det er første gang udtrykket Internet blev brugt i et offentligt forum.</p>
+                            <p>Protokollen, der blev beskrevet, er det vi i dag kender som TCP/IP, hvilket er en af nettets fundamentale byggesten. Det er det centrale regelsæt, eller fælles referenceramme, der gør, at servere og computere verden over kan tale sammen i det, vi kender som Internet.</p>
+                            <p>Vi skal dog helt frem til 1989, før Sir Timothy John Berners-Lee suscesfuldt opnår kommunikation mellem en Hypertext Transfer Protocol (HTTP) klient og en server via internettet.</p>
+                            <p>2 år efter i 1991 slippers World Wide Web og dets protokoller løs og gør dermed internettet tilgængeligt for alle, den 30. april 1993, frigives WWW til gratis brug.</p>
+                            <p>WWW er blot det program, en app, der kører ovenpå Internet, men som giver os mulighed for at opleve tekst, lyd, billeder og video i en webbrowser, der bruger Internet til at hente informationerne med.</p>
+                            <a href="https://politiken.dk/forbrugogliv/digitalt/art5506303/Her-er-hele-historien-om-internettet-og-World-Wide-Web" target="blank">
+                            <h4>Kilde: https://politiken.dk/forbrugogliv/digitalt/art5506303/Her-er-hele-historien-om-internettet-og-World-Wide-Web</h4>
+                            </a>
+                    </figcaption>
+                    
+                    <section>
+                            <a href="#">
+                            <h3 class="tiltop">Til toppen</h3
+                    </section>
+                </figure>
+            </a>
+        </li>
             
             <li class="subkort-emne subgrid" id="grid">
                 <a href="#">
