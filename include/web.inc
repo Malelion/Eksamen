@@ -57,7 +57,11 @@
                         <figcaption class="billedtekst2">
                             <p>Servere kan tilbyde forskellige funktioner, ofte kaldet "tjenester", såsom at dele data eller ressourcer blandt flere klienter, systemerne fungerer ved at en klient sender en anmodning til serveren, som udfører en handling og sender et svar tilbage til klienten. En enkelt server kan betjene flere klienter, og en enkelt klient kan bruge flere servere. En klientproces kan køre på samme enhed eller forbindes via et netværk enten lokalnetværk ( LAN ) eller et bredt netværk ( WAN ) over internettet til en server på en anden enhed. Typiske servere er databaseservere, filservere, mailservere, printernetkort, web-servere, spilservere og applikationsservere..</p>
                             <p>Hver type kører software, der er specifik for serverens formål. For eksempel kan en webserver køre Apache HTTP Server eller Microsoft IIS, som begge giver adgang til websteder over internettet. En mail-server kan køre et program som Exim eller iMail, som leverer SMTP- tjenester til afsendelse og modtagelse af e-mail. En filserver kan muligvis bruge Samba eller operativsystemets indbyggede fildelingstjenester til at dele filer via et netværk.</p>
+                            <a target="blank" href="https://politiken.dk/forbrugogliv/digitalt/art5506303/Her-er-hele-historien-om-internettet-og-World-Wide-Web">
+                            <h4>Kilde: https://politiken.dk/forbrugogliv/digitalt/art5506303/Her-er-hele-historien-om-internettet-og-World-Wide-Web</h4>
+                            <a target="blank" href="https://techterms.com/definition/server">
                             <h4>Kilde: https://techterms.com/definition/server</h4>
+                            </a>
                             <p>Mens serversoftwaren er specifik for typen af server, er hardware ikke lige så vigtig. Faktisk kan en almindelig stationær computer konverteres til en server ved at tilføje den relevante software. For eksempel kan en computer, der er tilsluttet et hjemmenetværk, betegnes som en filserver, printernetkort eller begge dele.</p>
                             <p>Servere tilgås med klienter, der findes også her specifikke typer klienter, det er derfor nødvendigt at anvende den korrekte klient for at opnå adgang til en bestemt servertype. Til en web-server skal anvendes en web-klient (browser) eksempelvis Firefox, Chrome eller Safari.</p>
                             <p>En ftp-server kommunikerer med en ftp-klient, der findes i lighed med browsere en lang række ftp-klienter og programmer med indbygget ftp-klient, det er som med valget af browser op til den enkelte at finde den man selv synes er den mest hensigtsmæssige ar arbejde med. Ftp-klienter er en typisk måde at up og downloade filer til en webserver.</p>
@@ -71,7 +75,9 @@
                         
                         <figcaption class="billedtekst4">
 							<p>Hver type kører software, der er specifik for serverens formål. For eksempel kan en webserver køre Apache HTTP Server eller Microsoft IIS, som begge giver adgang til websteder over internettet. En mail-server kan køre et program som Exim eller iMail, som leverer SMTP- tjenester til afsendelse og modtagelse af e-mail. En filserver kan muligvis bruge Samba eller operativsystemets indbyggede fildelingstjenester til at dele filer via et netværk.</p>
+                            <a target="blank" href="https://techterms.com/definition/server">
                             <h4>Kilde: https://techterms.com/definition/server</h4>
+                            </a>
                             <p>Mens serversoftwaren er specifik for typen af server, er hardware ikke lige så vigtig. Faktisk kan en almindelig stationær computer konverteres til en server ved at tilføje den relevante software. For eksempel kan en computer, der er tilsluttet et hjemmenetværk, betegnes som en filserver, printernetkort eller begge dele.</p>
                             <p>Servere tilgås med klienter, der findes også her specifikke typer klienter, det er derfor nødvendigt at anvende den korrekte klient for at opnå adgang til en bestemt servertype. Til en web-server skal anvendes en web-klient (browser) eksempelvis Firefox, Chrome eller Safari.</p>
                             <p>En ftp-server kommunikerer med en ftp-klient, der findes i lighed med browsere en lang række ftp-klienter og programmer med indbygget ftp-klient, det er som med valget af browser op til den enkelte at finde den man selv synes er den mest hensigtsmæssige ar arbejde med. Ftp-klienter er en typisk måde at up og downloade filer til en webserver.</p>
@@ -103,7 +109,9 @@
                             <p>Vi skal dog helt frem til 1989, før Sir Timothy John Berners-Lee suscesfuldt opnår kommunikation mellem en Hypertext Transfer Protocol (HTTP) klient og en server via internettet.</p>
                             <p>2 år efter i 1991 slippers World Wide Web og dets protokoller løs og gør dermed internettet tilgængeligt for alle, den 30. april 1993, frigives WWW til gratis brug.</p>
                             <p>WWW er blot det program, en app, der kører ovenpå Internet, men som giver os mulighed for at opleve tekst, lyd, billeder og video i en webbrowser, der bruger Internet til at hente informationerne med.</p>
+                            <a target="blank" href="https://politiken.dk/forbrugogliv/digitalt/art5506303/Her-er-hele-historien-om-internettet-og-World-Wide-Web">
                             <h4>Kilde: https://politiken.dk/forbrugogliv/digitalt/art5506303/Her-er-hele-historien-om-internettet-og-World-Wide-Web</h4>
+                            </a>
                         </figcaption>
                         
                         <figcaption class="billedtekst3">
@@ -124,15 +132,10 @@
                             <p>Vi skal dog helt frem til 1989, før Sir Timothy John Berners-Lee suscesfuldt opnår kommunikation mellem en Hypertext Transfer Protocol (HTTP) klient og en server via internettet.</p>
                             <p>2 år efter i 1991 slippers World Wide Web og dets protokoller løs og gør dermed internettet tilgængeligt for alle, den 30. april 1993, frigives WWW til gratis brug.</p>
                             <p>WWW er blot det program, en app, der kører ovenpå Internet, men som giver os mulighed for at opleve tekst, lyd, billeder og video i en webbrowser, der bruger Internet til at hente informationerne med.</p>
-                            <a href="https://politiken.dk/forbrugogliv/digitalt/art5506303/Her-er-hele-historien-om-internettet-og-World-Wide-Web" target="blank">
+                            <a target="blank" href="https://politiken.dk/forbrugogliv/digitalt/art5506303/Her-er-hele-historien-om-internettet-og-World-Wide-Web">
                             <h4>Kilde: https://politiken.dk/forbrugogliv/digitalt/art5506303/Her-er-hele-historien-om-internettet-og-World-Wide-Web</h4>
                             </a>
                     </figcaption>
-                    
-                    <section>
-                            <a href="#">
-                            <h3 class="tiltop">Til toppen</h3
-                    </section>
                 </figure>
             </a>
         </li>
@@ -246,7 +249,9 @@
                             <p>Begrebet udsprang af, at Richard Saul Wurmann i løbet af 1960erne var blevet mere og mere optaget af hvordan bygninger, transportmidler og mennesker spillede sammen og udvekslede informationer i den moderne storby. Hans udgangspunkt var som arkitekt, men hans faglige fokus blev i løbet af 1970´erne i højere og højere grad grafisk design og kommunikation</p>
                             <p>Vidensamfundet og specielt Internettets fremkomst har skabt et behov for at forstå og begrebsliggøre, hvordan vi forholder os til information.</p>
                             <p>I dag er problemet, hvordan vi producerer, sammensætter og lagrer informationer oven på den uendelig kaotiske strøm af data, der løber under vidensamfundet. Dermed er vi alle sammen informationsarkitekter. I renæssancen kunne Descartes udtrykke det moderne menneskes selvforståelse som cogito ergo sum jeg tænker altså er jeg . Med vidensamfundet kan vi i begyndelsen af det 20. århundrede sige: Jeg er informationsarkitekt, jeg er. Eller: IA, I AM.</p>
+                            <a target="blank" href="https://www.kommunikationsforum.dk/log/IAIAM.pdf">
                             <h4>Kilde: https://www.kommunikationsforum.dk/log/IAIAM.pdf</h4>
+                            </a>
                             <p>Selvom begrebet er udsprunget i en helt anden sammenhæng, kan vi bruge IA i vores arbejde til at organisere, opmærke, prioritere og forbinde websitets indhold for at understøtte brugeroplevelsen samt søgerobotternes anvendelse, forståelse og indeksering af dette. </p>
                             <p>Man kan sige at jo mere besværlig navigation og informationssøgning er jo dårligere informationsarkitektur er der på siden. God informationsarkitektur, er når man ikke behøver at søge efter informationerne, men intuitivt kan klikke sig frem til det de informationer der ønskes. Dårlig informationsarkitektur er hvis det kun giver mening for en meget smal målgruppe, eksempelvis en sortering over kunstnere der elsker lakrids.</p>
                             <p>Der findes flere metoder til opnå en bedre informationsarkitektur, en af dem er Wurmans LATCH model, der angiver 5 måder at kategorisere på.</p>
@@ -276,7 +281,9 @@
                         <figcaption class="billedtekst4">
 							<p>Vidensamfundet og specielt Internettets fremkomst har skabt et behov for at forstå og begrebsliggøre, hvordan vi forholder os til information.</p>
                             <p>I dag er problemet, hvordan vi producerer, sammensætter og lagrer informationer oven på den uendelig kaotiske strøm af data, der løber under vidensamfundet. Dermed er vi alle sammen informationsarkitekter. I renæssancen kunne Descartes udtrykke det moderne menneskes selvforståelse som cogito ergo sum jeg tænker altså er jeg . Med vidensamfundet kan vi i begyndelsen af det 20. århundrede sige: Jeg er informationsarkitekt, jeg er. Eller: IA, I AM.</p>
+                            <a target="blank" href="https://www.kommunikationsforum.dk/log/IAIAM.pdf">
                             <h4>Kilde: https://www.kommunikationsforum.dk/log/IAIAM.pdf</h4>
+                            </a>
                             <p>Selvom begrebet er udsprunget i en helt anden sammenhæng, kan vi bruge IA i vores arbejde til at organisere, opmærke, prioritere og forbinde websitets indhold for at understøtte brugeroplevelsen samt søgerobotternes anvendelse, forståelse og indeksering af dette. </p>
                             <p>Man kan sige at jo mere besværlig navigation og informationssøgning er jo dårligere informationsarkitektur er der på siden. God informationsarkitektur, er når man ikke behøver at søge efter informationerne, men intuitivt kan klikke sig frem til det de informationer der ønskes. Dårlig informationsarkitektur er hvis det kun giver mening for en meget smal målgruppe, eksempelvis en sortering over kunstnere der elsker lakrids.</p>
                             <p>Der findes flere metoder til opnå en bedre informationsarkitektur, en af dem er Wurmans LATCH model, der angiver 5 måder at kategorisere på.</p>
