@@ -52,12 +52,30 @@
                         <img class="subserverpic" src="img/server.png" alt="Servere.">
                         <figcaption class="billedtekst">
                             <h2 class="billedtekst-titel">Servere</h2>
-							<p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
-                            <p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
+							<p>I computeren er en server et computerprogram eller en enhed, der giver funktionalitet til andre programmer eller enheder, kaldet " klienter ". Denne arkitektur hedder klient-server-modellen.</p>
                         </figcaption>
                         <figcaption class="billedtekst2">
-                            <p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
-                            <p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
+                            <p>Servere kan tilbyde forskellige funktioner, ofte kaldet "tjenester", såsom at dele data eller ressourcer blandt flere klienter, systemerne fungerer ved at en klient sender en anmodning til serveren, som udfører en handling og sender et svar tilbage til klienten. En enkelt server kan betjene flere klienter, og en enkelt klient kan bruge flere servere. En klientproces kan køre på samme enhed eller forbindes via et netværk enten lokalnetværk ( LAN ) eller et bredt netværk ( WAN ) over internettet til en server på en anden enhed. Typiske servere er databaseservere, filservere, mailservere, printernetkort, web-servere, spilservere og applikationsservere..</p>
+                            <p>Hver type kører software, der er specifik for serverens formål. For eksempel kan en webserver køre Apache HTTP Server eller Microsoft IIS, som begge giver adgang til websteder over internettet. En mail-server kan køre et program som Exim eller iMail, som leverer SMTP- tjenester til afsendelse og modtagelse af e-mail. En filserver kan muligvis bruge Samba eller operativsystemets indbyggede fildelingstjenester til at dele filer via et netværk.</p>
+                            <h4>Kilde: https://techterms.com/definition/server</h4>
+                            <p>Mens serversoftwaren er specifik for typen af server, er hardware ikke lige så vigtig. Faktisk kan en almindelig stationær computer konverteres til en server ved at tilføje den relevante software. For eksempel kan en computer, der er tilsluttet et hjemmenetværk, betegnes som en filserver, printernetkort eller begge dele.</p>
+                            <p>Servere tilgås med klienter, der findes også her specifikke typer klienter, det er derfor nødvendigt at anvende den korrekte klient for at opnå adgang til en bestemt servertype. Til en web-server skal anvendes en web-klient (browser) eksempelvis Firefox, Chrome eller Safari.</p>
+                            <p>En ftp-server kommunikerer med en ftp-klient, der findes i lighed med browsere en lang række ftp-klienter og programmer med indbygget ftp-klient, det er som med valget af browser op til den enkelte at finde den man selv synes er den mest hensigtsmæssige ar arbejde med. Ftp-klienter er en typisk måde at up og downloade filer til en webserver.</p>
+                            <p>Web servere levere kode i form at HTML, PHP, CSS, Javascript, billeder mm. til klienten (browseren) som så omsætter det til noget mere læsbart i form af en hjemmeside.</p>
+                        </figcaption>
+                        
+                        <figcaption class="billedtekst3">
+                            <h2 class="billedtekst-titel">Servere</h2>
+							<p>I computeren er en server et computerprogram eller en enhed, der giver funktionalitet til andre programmer eller enheder, kaldet " klienter ". Denne arkitektur hedder klient-server-modellen. Servere kan tilbyde forskellige funktioner, ofte kaldet "tjenester", såsom at dele data eller ressourcer blandt flere klienter, systemerne fungerer ved at en klient sender en anmodning til serveren, som udfører en handling og sender et svar tilbage til klienten. En enkelt server kan betjene flere klienter, og en enkelt klient kan bruge flere servere. En klientproces kan køre på samme enhed eller forbindes via et netværk enten lokalnetværk ( LAN ) eller et bredt netværk ( WAN ) over internettet til en server på en anden enhed. Typiske servere er databaseservere, filservere, mailservere, printernetkort, web-servere, spilservere og applikationsservere.</p>
+                        </figcaption>
+                        
+                        <figcaption class="billedtekst4">
+							<p>Hver type kører software, der er specifik for serverens formål. For eksempel kan en webserver køre Apache HTTP Server eller Microsoft IIS, som begge giver adgang til websteder over internettet. En mail-server kan køre et program som Exim eller iMail, som leverer SMTP- tjenester til afsendelse og modtagelse af e-mail. En filserver kan muligvis bruge Samba eller operativsystemets indbyggede fildelingstjenester til at dele filer via et netværk.</p>
+                            <h4>Kilde: https://techterms.com/definition/server</h4>
+                            <p>Mens serversoftwaren er specifik for typen af server, er hardware ikke lige så vigtig. Faktisk kan en almindelig stationær computer konverteres til en server ved at tilføje den relevante software. For eksempel kan en computer, der er tilsluttet et hjemmenetværk, betegnes som en filserver, printernetkort eller begge dele.</p>
+                            <p>Servere tilgås med klienter, der findes også her specifikke typer klienter, det er derfor nødvendigt at anvende den korrekte klient for at opnå adgang til en bestemt servertype. Til en web-server skal anvendes en web-klient (browser) eksempelvis Firefox, Chrome eller Safari.</p>
+                            <p>En ftp-server kommunikerer med en ftp-klient, der findes i lighed med browsere en lang række ftp-klienter og programmer med indbygget ftp-klient, det er som med valget af browser op til den enkelte at finde den man selv synes er den mest hensigtsmæssige ar arbejde med. Ftp-klienter er en typisk måde at up og downloade filer til en webserver.</p>
+                            <p>Web servere levere kode i form at HTML, PHP, CSS, Javascript, billeder mm. til klienten (browseren) som så omsætter det til noget mere læsbart i form af en hjemmeside.</p>
                         </figcaption>
                     </figure>
                 </a>
@@ -182,12 +200,61 @@
                         <img class="subarkitekturpic" src="img/information.jpg" alt="Informationsarkitektur.">
                         <figcaption class="billedtekst">
                             <h2 class="billedtekst-titel">Informationsarkitektur</h2>
-							<p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
-                            <p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
+							<p>I 1976 bruger den amerikanske arkitekt Richard Saul Wurmann for første gang begrebet informationsarkitektur.</p>
                         </figcaption>
+                        
                         <figcaption class="billedtekst2">
-							<p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
-                            <p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
+                            <p>Begrebet udsprang af, at Richard Saul Wurmann i løbet af 1960erne var blevet mere og mere optaget af hvordan bygninger, transportmidler og mennesker spillede sammen og udvekslede informationer i den moderne storby. Hans udgangspunkt var som arkitekt, men hans faglige fokus blev i løbet af 1970´erne i højere og højere grad grafisk design og kommunikation</p>
+                            <p>Vidensamfundet og specielt Internettets fremkomst har skabt et behov for at forstå og begrebsliggøre, hvordan vi forholder os til information.</p>
+                            <p>I dag er problemet, hvordan vi producerer, sammensætter og lagrer informationer oven på den uendelig kaotiske strøm af data, der løber under vidensamfundet. Dermed er vi alle sammen informationsarkitekter. I renæssancen kunne Descartes udtrykke det moderne menneskes selvforståelse som cogito ergo sum jeg tænker altså er jeg . Med vidensamfundet kan vi i begyndelsen af det 20. århundrede sige: Jeg er informationsarkitekt, jeg er. Eller: IA, I AM.</p>
+                            <h4>Kilde: https://www.kommunikationsforum.dk/log/IAIAM.pdf</h4>
+                            <p>Selvom begrebet er udsprunget i en helt anden sammenhæng, kan vi bruge IA i vores arbejde til at organisere, opmærke, prioritere og forbinde websitets indhold for at understøtte brugeroplevelsen samt søgerobotternes anvendelse, forståelse og indeksering af dette. </p>
+                            <p>Man kan sige at jo mere besværlig navigation og informationssøgning er jo dårligere informationsarkitektur er der på siden. God informationsarkitektur, er når man ikke behøver at søge efter informationerne, men intuitivt kan klikke sig frem til det de informationer der ønskes. Dårlig informationsarkitektur er hvis det kun giver mening for en meget smal målgruppe, eksempelvis en sortering over kunstnere der elsker lakrids.</p>
+                            <p>Der findes flere metoder til opnå en bedre informationsarkitektur, en af dem er Wurmans LATCH model, der angiver 5 måder at kategorisere på.</p>
+                            <p class="ital">Location</p>
+                            <p>For eksemplel butikskæders placering i landet, samlevejledninger og lignende.</p>
+                            <p class="ital">Alfabet</p>
+                            <p>Alfabetisk sortering bruges bla. i indeksering af bøger, på biblioteker, telefonbøger mv.</p>
+                            <p class="ital">Time</p>
+                            <p>Kan være en liste over udgivelsesår for film eller musik</p>
+                            <p class="ital">Category</p>
+                            <p>Kategori sortering kan være en sortering efter farve, genre, annoncer sorteret efter fag.</p>
+                            <p class="ital">Hierarchy</p>
+                            <p>En hierarkisk sortering kan være efter størrelse, f.eks. mindste til største</p>
+                            <p>Det kan også være en kombination af flere måder, et eksempel kunne være en pladebutik, der har sorteret efter både genre (Category) og kunstner navn (Alfabet)</p>
+                            <p>Vi lavede en øvelse hvor vi i grupper fik til opgave at sortere lego klodser, her viste det sig hvor forskelligt opgaven kunne gribes an, nogle sortere efter størrelse, andre efter form eller farve, og nogle en kombination af førnævnte. Dette  viste hvor vigtigt det er med god informationsarkitektur, idet der stadig vil skulle søges yderligere, såfremt en bestemt form og størrelse i en bestemt farve er det der søges. Er sorteringen så lavet udelukkende efter farve, vil det stadig kræve yderligere søgning. </p>
+                            <p>En metode til brug for at klarlægge hvordan informationsarkitekturen skal opbygges er kortsortering, hvor man lader testpersoner kategoriserer de forskellige emner.</p> 
+                            <p>En anden metode kunne være ”gangstertesten” hvor man kan iagttage hvorledes testpersoner vil navigere på en side de aldrig har besøgt tidligere.</p>
+
+                        </figcaption>
+                        
+                        <figcaption class="billedtekst3">
+                            <h2 class="billedtekst-titel">Informationsarkitektur</h2>
+							<p>I 1976 bruger den amerikanske arkitekt Richard Saul Wurmann for første gang begrebet informationsarkitektur.</p>
+                            <p>Begrebet udsprang af, at Richard Saul Wurmann i løbet af 1960erne var blevet mere og mere optaget af hvordan bygninger, transportmidler og mennesker spillede sammen og udvekslede informationer i den moderne storby. Hans udgangspunkt var som arkitekt, men hans faglige fokus blev i løbet af 1970´erne i højere og højere grad grafisk design og kommunikation</p>
+                        </figcaption>
+                        
+                        <figcaption class="billedtekst4">
+							<p>Vidensamfundet og specielt Internettets fremkomst har skabt et behov for at forstå og begrebsliggøre, hvordan vi forholder os til information.</p>
+                            <p>I dag er problemet, hvordan vi producerer, sammensætter og lagrer informationer oven på den uendelig kaotiske strøm af data, der løber under vidensamfundet. Dermed er vi alle sammen informationsarkitekter. I renæssancen kunne Descartes udtrykke det moderne menneskes selvforståelse som cogito ergo sum jeg tænker altså er jeg . Med vidensamfundet kan vi i begyndelsen af det 20. århundrede sige: Jeg er informationsarkitekt, jeg er. Eller: IA, I AM.</p>
+                            <h4>Kilde: https://www.kommunikationsforum.dk/log/IAIAM.pdf</h4>
+                            <p>Selvom begrebet er udsprunget i en helt anden sammenhæng, kan vi bruge IA i vores arbejde til at organisere, opmærke, prioritere og forbinde websitets indhold for at understøtte brugeroplevelsen samt søgerobotternes anvendelse, forståelse og indeksering af dette. </p>
+                            <p>Man kan sige at jo mere besværlig navigation og informationssøgning er jo dårligere informationsarkitektur er der på siden. God informationsarkitektur, er når man ikke behøver at søge efter informationerne, men intuitivt kan klikke sig frem til det de informationer der ønskes. Dårlig informationsarkitektur er hvis det kun giver mening for en meget smal målgruppe, eksempelvis en sortering over kunstnere der elsker lakrids.</p>
+                            <p>Der findes flere metoder til opnå en bedre informationsarkitektur, en af dem er Wurmans LATCH model, der angiver 5 måder at kategorisere på.</p>
+                            <p class="ital">Location</p>
+                            <p>For eksemplel butikskæders placering i landet, samlevejledninger og lignende.</p>
+                            <p class="ital">Alfabet</p>
+                            <p>Alfabetisk sortering bruges bla. i indeksering af bøger, på biblioteker, telefonbøger mv.</p>
+                            <p class="ital">Time</p>
+                            <p>Kan være en liste over udgivelsesår for film eller musik</p>
+                            <p class="ital">Category</p>
+                            <p>Kategori sortering kan være en sortering efter farve, genre, annoncer sorteret efter fag.</p>
+                            <p class="ital">Hierarchy</p>
+                            <p>En hierarkisk sortering kan være efter størrelse, f.eks. mindste til største</p>
+                            <p>Det kan også være en kombination af flere måder, et eksempel kunne være en pladebutik, der har sorteret efter både genre (Category) og kunstner navn (Alfabet)</p>
+                            <p>Vi lavede en øvelse hvor vi i grupper fik til opgave at sortere lego klodser, her viste det sig hvor forskelligt opgaven kunne gribes an, nogle sortere efter størrelse, andre efter form eller farve, og nogle en kombination af førnævnte. Dette  viste hvor vigtigt det er med god informationsarkitektur, idet der stadig vil skulle søges yderligere, såfremt en bestemt form og størrelse i en bestemt farve er det der søges. Er sorteringen så lavet udelukkende efter farve, vil det stadig kræve yderligere søgning. </p>
+                            <p>En metode til brug for at klarlægge hvordan informationsarkitekturen skal opbygges er kortsortering, hvor man lader testpersoner kategoriserer de forskellige emner.</p> 
+                            <p>En anden metode kunne være ”gangstertesten” hvor man kan iagttage hvorledes testpersoner vil navigere på en side de aldrig har besøgt tidligere.</p>
                         </figcaption>
                     </figure>
                 </a>
