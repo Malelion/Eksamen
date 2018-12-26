@@ -1,13 +1,11 @@
     <main id="content" class="main-area">
         <ul class="index">
             <li class="kort-emne me">
-                <a>
-                    <figure class="kort">
-                        <img class="mepic" src="img/gj600.jpg" alt="Kursist billede.">
-                            <figcaption class="billedtekst">
+                <figure class="kort">
+                    <img class="mepic" src="img/gj600.jpg" alt="Kursist billede.">
+                        <figcaption class="billedtekst">
                             <h2 class="billedtekst-titel">Læringsportefolio</h2>
-							<p>Jeg hedder Gert, jeg studerer til multimediedesigner på Erhverveakademi Dania i Skive.</p>
-                            
+							<p>Jeg hedder Gert, jeg studerer til multimediedesigner på Erhverveakademi Dania i Skive.</p> 
                         </figcaption>
                         
                         <figcaption class="billedtekst2">
@@ -18,9 +16,9 @@
                             <p>Jeg vil også komme med lidt personlige reflektioner i forhold til uddannelsen.
                             </p>
                         </figcaption>
-                    </figure>
-                </a>
+                </figure>
             </li>
+            
             <li class="kort-emne web">
                 <a href="web.php">
                     <figure class="kort">
@@ -39,6 +37,7 @@
                     </figure>
                 </a>
             </li>
+            
             <li class="kort-emne design">
                 <a href="design.php">
                     <figure class="kort">
@@ -64,6 +63,7 @@
                     </figure>
                 </a>
             </li>
+            
             <li class="kort-emne komm">
                 <a href="kommunikation.php">
                     <figure class="kort">
@@ -80,6 +80,7 @@
                     </figure>
                 </a>
             </li>
+            
             <li class="kort-emne think">
                 <a href="dthinking.php">
                     <figure class="kort">
@@ -98,6 +99,7 @@
                     </figure>
                 </a>
             </li>
+            
             <li class="kort-emne mark">
                 <a href="marketing.php">
                     <figure class="kort">
@@ -116,6 +118,7 @@
                     </figure>
                 </a>
             </li>
+            
             <li class="kort-emne onepage">
                 <a href="onep.php">
                     <figure class="kort">
@@ -134,6 +137,7 @@
                     </figure>
                 </a>
             </li>
+            
             <li class="kort-emne refl">
                 <a href="refl.php">
                     <figure class="kort">
