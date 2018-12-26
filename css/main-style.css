@@ -70,6 +70,18 @@ Index:
 	text-decoration: none;
 }
 
+.subindex div a {
+    font-size: 1em;
+    line-height: 1em;
+    padding: .3em;
+    text-align: center;
+    background-color: #b44057; 
+}
+
+.subindex a:hover, subindex a:active {
+    box-shadow: 5px 5px 0px 0px #a57e7e;
+}  
+
 .index a:hover, index a:active {
 	font-size: 110%;
     box-shadow: 5px 5px 0px 0px #b3b3b3;
@@ -90,13 +102,6 @@ body h2 {
 }
 
 body h3 {
-    font-size: 1em;
-    line-height: 1em;
-    margin-top: .5em;
-	color: black;
-}
-
-body h3 .top {
     font-size: 1em;
     line-height: 1em;
     margin-top: .5em;
@@ -556,6 +561,11 @@ CSS Grid layout for desktop:
             grid-row: 2;
         }
         
+       .subserver .tiltop {
+            grid-column: 1/5;
+            grid-row: 3;
+        }
+        
 /* Internettets historie */
         
         .subhistorie {
@@ -569,21 +579,26 @@ CSS Grid layout for desktop:
         }
         
        .subhistorie .billedtekst {
-            display: none;
+           display: none;
         }
         
        .subhistorie .billedtekst2 {
-            display: none;
+           display: none;
         }
         
        .subhistorie .billedtekst3 {
-            grid-column: 3/5;
-            grid-row: 1;
+           grid-column: 3/5;
+           grid-row: 1;
         }
         
        .subhistorie .billedtekst4 {
-            grid-column: 1/5;
-            grid-row: 2;
+           grid-column: 1/5;
+           grid-row: 2;
+        }
+        
+       .subhistorie .tiltop {
+           grid-column: 1/5;
+           grid-row: 3;           
         }
         
 /* CSS Grid */
