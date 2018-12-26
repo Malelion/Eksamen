@@ -20,11 +20,9 @@
                             <p>
                         </figcaption>
                     </figure>
-                
             </li>
             
             <li class="subkort-emne subcss" id="css">
-                
                     <figure class="subkort">
                         <img class="subcsspic" src="img/css3_logo.png" alt="Noget om CSS.">
                         <figcaption class="billedtekst">
@@ -41,12 +39,10 @@
                             <p>External stylesheet. Stylingen lægges uden for html dokumentet i en selvstændig fil, der oprettes derfor link ihtml dokumentet der henviser til hvor stylingen skal hentes.</p>
                             <p>En af fordelene ved at placere CSS i en fil for sig selv er, at stylingen kan bruges i flere dokumenter. Hvis man ikke lægger det i en fil for sig vil man skulle gentage den samme kode på hver side hvor man ønsker samme effekt, hvilket ikke er hensigtsmæssigt.</p>
                         </figcaption>
-                    </figure>
-                
+                    </figure>  
            </li>
             
             <li class="subkort-emne subserver" id="server">
-                
                     <figure class="subkort">
                         <img class="subserverpic" src="img/server.png" alt="Servere.">
                         <figcaption class="billedtekst">
@@ -87,7 +83,6 @@
                 </li>
             
                 <li class="subkort-emne subhistorie" id="historie">
-                
                     <figure class="subkort">
                         <img class="subhistoriepic" src="img/www.jpg" alt="Internettets historie">
                         <figcaption class="billedtekst">
@@ -139,7 +134,6 @@
             </li>
             
             <li class="subkort-emne subgrid" id="grid">
-                
                     <figure class="subkort">
                         <img class="subgridpic" src="img/css_grid.png" alt="CSS Grid.">
                         <figcaption class="billedtekst">
@@ -167,11 +161,9 @@
                             <p><img class="subhistoriepic" src="img/morse.png" alt="Morsenøgle lavet med CSS Grid"></p>
                         </figcaption>
                     </figure>
-                
             </li>
             
             <li class="subkort-emne subversion" id="version">
-                
                     <figure class="subkort">
                         <img class="subversionpic" src="img/git_logo.jpg" alt="Versionsstyring.">
                         <figcaption class="billedtekst">
@@ -207,10 +199,10 @@
                             <p>Hvorfor er det nødvendigt at have versionsstyring? Den forklaring der ligger lige for er at det er bedre at benytte versionsstyring end at græde over tabt kode.</p>
 							<p>Hvilke muligheder er der så? For at være sikker på at få det gjort, er det en rigtig god ide at automatisere sin versionsstyring, til det kan man anvende Git.</p>
                             <p>Git er et open source versionsstyringssystem, det er en slags digital tidsmaskine, dog uden mulighed for at se ind i fremtiden, men alle ændringer der er foretaget siden et projekt er lagt ind kan findes frem igen, så hvis der er foretaget uhensigtsmæssige ændringer eller lavet fejl er der mulighed for at gå tilbage.</p>
+                            <p>Git kan installeres på din computer, en bagdel ved kun at have Git lokalt på en computer, og det er selvfølgelig bedre end ingentinger. Bagdelen ved kun at have Git lokalt på en computer, er risikoen for nedbrud, kan du ikke komme i kontakt med dine data, er det jo lige meget om der er kørt versionsstyring eller ej.</p>
                         </figcaption>
                         
                         <figcaption class="billedtekst4">
-                            <p>Git kan installeres på din computer, en bagdel ved kun at have Git lokalt på en computer, og det er selvfølgelig bedre end ingentinger. Bagdelen ved kun at have Git lokalt på en computer, er risikoen for nedbrud, kan du ikke komme i kontakt med dine data, er det jo lige meget om der er kørt versionsstyring eller ej.</p>
                             <p>Her kan en tjeneste som Github komme ind i billedet. GitHub er en web-baseret hosting service, som i samspil med Git gør det muligt at kontrollere den kontinuerlige udvikling af kildekode på et software udviklingsprojekt. Det var oprindelig tænkt som et site for kodedeling, men har også en social netværksdel hvorigennem bruger fra hele verden kan diskutere og dele erfaringer.</p>
                             <p>Github har features der gør det muligt at være flere der arbejder på samme projekt, du kan dele din data med andre, og selvfølgelig versionsstyre dine filer. Github kan både bruges i en browser eller installeret på en computer. Når du har Github installeret, kan du hele tiden følge med i historikken for dine filer, og uploade dem så du har en sikkerhedskopi i skyen.</p>
                             <p>
@@ -228,14 +220,12 @@
                             <p class="ital">Pull:</p>
                             <p>Når du skal hente og integrere de ændringer i projektet, som ligger i repository'et, så laver du et pull.</p>
                             <p class="ital">Merge:</p>
-                            <p>Når Git skal samle ændringer, bliver dit commit merget. Det kan dog give en konflikt, hvis to har ændret de samme steder i en fil.</p>                            
+                            <p>Når Git skal samle ændringer, bliver dit commit merget. Det kan dog give en konflikt, hvis to har ændret de samme steder i en fil.</p>      
                         </figcaption>
                     </figure>
-                
             </li>
             
             <li class="subkort-emne subarkitektur" id="arkitektur">
-                
                     <figure class="subkort">
                         <img class="subarkitekturpic" src="img/information.jpg" alt="Informationsarkitektur.">
                         <figcaption class="billedtekst">
@@ -274,10 +264,10 @@
                             <h2 class="billedtekst-titel">Informationsarkitektur</h2>
 							<p>I 1976 bruger den amerikanske arkitekt Richard Saul Wurmann for første gang begrebet informationsarkitektur.</p>
                             <p>Begrebet udsprang af, at Richard Saul Wurmann i løbet af 1960erne var blevet mere og mere optaget af hvordan bygninger, transportmidler og mennesker spillede sammen og udvekslede informationer i den moderne storby. Hans udgangspunkt var som arkitekt, men hans faglige fokus blev i løbet af 1970´erne i højere og højere grad grafisk design og kommunikation</p>
+							<p>Vidensamfundet og specielt Internettets fremkomst har skabt et behov for at forstå og begrebsliggøre, hvordan vi forholder os til information.</p>
                         </figcaption>
                         
                         <figcaption class="billedtekst4">
-							<p>Vidensamfundet og specielt Internettets fremkomst har skabt et behov for at forstå og begrebsliggøre, hvordan vi forholder os til information.</p>
                             <p>I dag er problemet, hvordan vi producerer, sammensætter og lagrer informationer oven på den uendelig kaotiske strøm af data, der løber under vidensamfundet. Dermed er vi alle sammen informationsarkitekter. I renæssancen kunne Descartes udtrykke det moderne menneskes selvforståelse som cogito ergo sum jeg tænker altså er jeg . Med vidensamfundet kan vi i begyndelsen af det 20. århundrede sige: Jeg er informationsarkitekt, jeg er. Eller: IA, I AM.</p>
                             <a target="blank" href="https://www.kommunikationsforum.dk/log/IAIAM.pdf">
                             <h4>Kilde: https://www.kommunikationsforum.dk/log/IAIAM.pdf</h4>
@@ -301,7 +291,6 @@
                             <p>En anden metode kunne være ”gangstertesten” hvor man kan iagttage hvorledes testpersoner vil navigere på en side de aldrig har besøgt tidligere.</p>
                         </figcaption>
                     </figure>
-
             </li>
         </ul>
     </main>
