@@ -179,10 +179,6 @@ CSS Grid layout for desktop:
         .me {
             grid-column: 3/5;
             grid-row: 1/3;
-            display: flex;
-            justify-content: flex-start;
-
-           
 		}
         
         .me .mepic {
@@ -203,8 +199,6 @@ CSS Grid layout for desktop:
         .web {
             grid-column: 1/3;
             grid-row: 1;
-            display: flex;
-            justify-content: flex-start;
 		}
         
         .web .webpic {
@@ -225,8 +219,6 @@ CSS Grid layout for desktop:
         .design {
             grid-column: 5/7;
             grid-row: 1;
-            display: flex;
-            justify-content: flex-start;
 		}
         
         .design .designpic {
@@ -247,9 +239,6 @@ CSS Grid layout for desktop:
         .komm {
             grid-column: 5/7;
             grid-row: 2;
-            display: flex;
-            justify-content: flex-start;
-
 		}
         
         .komm .kommpic {
@@ -270,9 +259,6 @@ CSS Grid layout for desktop:
         .think {
             grid-column: 1/3;
             grid-row: 2;
-            display: flex;
-            justify-content: flex-start;
-
 		}
         
         .think .thinkpic {
@@ -293,9 +279,6 @@ CSS Grid layout for desktop:
         .mark {
             grid-column: 1/3;
             grid-row: 3;
-            display: flex;
-            justify-content: flex-start;
-
 		}
         
         .mark .markpic {
@@ -316,9 +299,6 @@ CSS Grid layout for desktop:
         .onepage {
             grid-column: 3/5;
             grid-row: 3;
-            display: flex;
-            justify-content: flex-start;
-
 		}
         
         .onepage .onepagepic {
@@ -339,9 +319,6 @@ CSS Grid layout for desktop:
         .refl {
             grid-column: 5/7;
             grid-row: 3;
-            display: flex;
-            justify-content: flex-start;
-
 		}
         
         .refl .reflpic {
@@ -398,8 +375,6 @@ CSS Grid layout for desktop:
         .subpsd {
             grid-column: span 4;
             grid-row: 1;
-            display: flex;
-            justify-content: flex-start;
         }
         
         .subpsd .subpsdpic {
@@ -422,9 +397,6 @@ CSS Grid layout for desktop:
         .subill {
             grid-column: span 4;
             grid-row: 1;
-            display: flex;
-            justify-content: flex-start;
-
         }
         
         .subill .subillpic {
@@ -447,9 +419,6 @@ CSS Grid layout for desktop:
         .subft {
             grid-column: span 4;
             grid-row: 2;
-            display: flex;
-            justify-content: flex-start;
-
         }
         
         .subft .subftpic {
@@ -472,9 +441,6 @@ CSS Grid layout for desktop:
         .subges {
             grid-column: span 8;
             grid-row: 3;
-            display: flex;
-            justify-content: flex-start;
-
         }
         
         .subges .subgespic {
@@ -497,9 +463,6 @@ CSS Grid layout for desktop:
         .subfoto {
             grid-column: span 4;
             grid-row: 2;
-            display: flex;
-            justify-content: flex-start;
-
         }
         
         .subfoto .subfotopic {
@@ -524,8 +487,6 @@ CSS Grid layout for desktop:
         .subhtml {
             grid-column: span 4;
             grid-row: 1;
-            display: flex;            
-            justify-content: flex-start;
         }
         
         .subhtml .subhtmlpic {
@@ -548,9 +509,6 @@ CSS Grid layout for desktop:
         .subcss {
             grid-column: span 4;
             grid-row: 1;
-            display: flex;
-            justify-content: flex-start;
-
         }
         
         .subcss .subcsspic {
@@ -573,9 +531,6 @@ CSS Grid layout for desktop:
         .subserver {
             grid-column: 1/5;
             grid-row: 4;
-            display: flex;
-            justify-content: flex-start;
-
         }
         
         .subserver .subserverpic {
@@ -606,9 +561,6 @@ CSS Grid layout for desktop:
         .subhistorie {
             grid-column: 5/9;
             grid-row: 4;
-            display: flex;
-            justify-content: flex-start;
-
         }
         
         .subhistorie .subhistoriepic {
@@ -639,9 +591,6 @@ CSS Grid layout for desktop:
         .subgrid {
             grid-column: span 8;
             grid-row: 2;
-            display: flex;
-            justify-content: flex-start;
-
         }
         
         .subgrid .subgridpic {
@@ -667,9 +616,6 @@ CSS Grid layout for desktop:
         .subversion {
             grid-column: 5/9;
             grid-row: 3;
-            display: flex;
-            justify-content: flex-start;
-
         }
         
         .subversion .subversionpic {
@@ -702,9 +648,6 @@ CSS Grid layout for desktop:
         .subarkitektur {
             grid-column: 1/5;
             grid-row: 3;
-            display: flex;
-            justify-content: flex-start;
-
         }
         
         .subarkitektur .subarkitekturpic {
@@ -737,9 +680,6 @@ CSS Grid layout for desktop:
         .subkommunikation {
             grid-column: span 4;
             grid-row: 1;
-            display: flex;
-            justify-content: flex-start;
-
         }
         
         .subkommunikation .subkommunikationpic {
@@ -763,9 +703,6 @@ CSS Grid layout for desktop:
         .subpræsentation {
             grid-column: span 4;
             grid-row: 1;
-            display: flex;
-            justify-content: flex-start;
-
         }
         
         .subpræsentation .subpræsentationpic {
@@ -788,9 +725,6 @@ CSS Grid layout for desktop:
         .subtekst {
             grid-column: span 4;
             grid-row: 4;
-            display: flex;
-            justify-content: flex-start;
-
         }
         
         .subtekst .subtekstpic {
@@ -813,9 +747,6 @@ CSS Grid layout for desktop:
         .subbusiness {
             grid-column: span 4;
             grid-row: 4;
-            display: flex;
-            justify-content: flex-start;
-
         }
         
         .subbusiness .subbusinesspic {
@@ -838,9 +769,6 @@ CSS Grid layout for desktop:
         .submarketing {
             grid-column: span 8;
             grid-row: 1;
-            display: flex;
-            justify-content: flex-start;
-
         }
         
         .submarketing .submarketingpic {
@@ -863,9 +791,6 @@ CSS Grid layout for desktop:
         .subdthinking {
             grid-column: span 8;
             grid-row: 1;
-            display: flex;
-            justify-content: flex-start;
-
         }
         
         .subdthinking .subdthinkingpic {
@@ -888,9 +813,6 @@ CSS Grid layout for desktop:
         .subdtprojekt {
             grid-column: span 8;
             grid-row: 2;
-            display: flex;
-            justify-content: flex-start;
-
         }
         
         .subdtprojekt .subdtprojektpic {
@@ -913,9 +835,6 @@ CSS Grid layout for desktop:
         .subonep {
             grid-column: span 8;
             grid-row: 1;
-            display: flex;
-            justify-content: flex-start;
-
         }
         
         .subonep .suboneppic {
@@ -938,9 +857,6 @@ CSS Grid layout for desktop:
         .subrefl {
             grid-column: span 8;
             grid-row: 1;
-            display: flex;
-            justify-content: flex-start;
-
         }
         
         .subrefl .subreflpic {
@@ -997,10 +913,6 @@ CSS Grid layout for tablet:
        .me {
            grid-column: span 2;
            grid-row: 1;
-           display: flex;
-           justify-content: flex-start;
-           align-self: center;
-           
 		}
         
         .me .mepic {
@@ -1021,9 +933,6 @@ CSS Grid layout for tablet:
         .web {
             grid-column: 1;
             grid-row: 2;
-            display: flex;
-            justify-content: flex-start;
-
 		}
         
         .web .webpic {
@@ -1044,9 +953,6 @@ CSS Grid layout for tablet:
         .design {
             grid-column: 2;
             grid-row: 2;
-            display: flex;
-            justify-content: flex-start;
-
 		}
         
         .design .designpic {
@@ -1067,10 +973,7 @@ CSS Grid layout for tablet:
         .komm {
             grid-column: 1;
             grid-row: 3;
-            display: flex;
-            justify-content: flex-start;
-
-		}
+        }
         
         .komm .kommpic {
             grid-column: 5/7;
@@ -1090,9 +993,6 @@ CSS Grid layout for tablet:
         .think {
             grid-column: 2;
             grid-row: 3;
-            display: flex;
-            justify-content: flex-start;
-
 		}
         
         .think .thinkpic {
@@ -1113,9 +1013,6 @@ CSS Grid layout for tablet:
         .mark {
             grid-column: 1;
             grid-row: 4;
-            display: flex;
-            justify-content: flex-start;
-
 		}
         
         .mark .markpic {
@@ -1136,9 +1033,6 @@ CSS Grid layout for tablet:
         .onepage {
             grid-column: 2;
             grid-row: 4;
-            display: flex;
-            justify-content: flex-start;
-
 		}
         
         .onepage .onepagepic {
@@ -1159,9 +1053,6 @@ CSS Grid layout for tablet:
         .refl {
             grid-column: span 2;
             grid-row: 5;
-            display: flex;
-            justify-content: flex-start;
-
 		}
         
         .refl .reflpic {
@@ -1220,8 +1111,6 @@ CSS Grid layout for tablet:
         .subpsd {
             grid-column: 1;
             grid-row: 1;
-            display: flex;
-            justify-content: flex-start;
         }
         
         .subpsd .subpsdpic {
@@ -1244,9 +1133,6 @@ CSS Grid layout for tablet:
         .subill {
             grid-column: 2/3;
             grid-row: 1;
-            display: flex;
-            justify-content: flex-start;
-
         }
         
         .subill .subillpic {
@@ -1269,9 +1155,6 @@ CSS Grid layout for tablet:
         .subft {
             grid-column: 1;
             grid-row: 2;
-            display: flex;
-            justify-content: flex-start;
-
         }
         
         .subft .subftpic {
@@ -1294,9 +1177,6 @@ CSS Grid layout for tablet:
         .subges {
             grid-column: 2;
             grid-row: 2;
-            display: flex;
-            justify-content: flex-start;
-
         }
         
         .subges .subgespic {
@@ -1319,9 +1199,6 @@ CSS Grid layout for tablet:
         .subfoto {
             grid-column: 1/3;
             grid-row: 3;
-            display: flex;
-            justify-content: flex-start;
-
         }
         
         .subfoto .subfotopic {
@@ -1346,8 +1223,6 @@ CSS Grid layout for tablet:
         .subhtml {
             grid-column: 1;
             grid-row: 1;
-            display: flex;
-            justify-content: flex-start;
         }
         
         .subhtml .subhtmlpic {
@@ -1370,9 +1245,6 @@ CSS Grid layout for tablet:
         .subcss {
             grid-column: 2;
             grid-row: 1;
-            display: flex;
-            justify-content: flex-start;
-
         }
         
         .subcss .subcsspic {
@@ -1395,9 +1267,6 @@ CSS Grid layout for tablet:
         .subserver {
             grid-column: 1;
             grid-row: 4;
-            display: flex;
-            justify-content: flex-start;
-
         }
         
         .subserver .subserverpic {
@@ -1428,9 +1297,6 @@ CSS Grid layout for tablet:
         .subhistorie {
             grid-column: 1/3;
             grid-row: 3;
-            display: flex;
-            justify-content: flex-start;
-
         }
         
         .subhistorie .subhistoriepic {
@@ -1439,21 +1305,21 @@ CSS Grid layout for tablet:
         }
         
        .subhistorie .billedtekst {
+            display: none;
+        }
+        
+       .subhistorie .billedtekst2 {
+            display: none;
+        }
+        
+       .subhistorie .billedtekst3 {
             grid-column: 3/5;
             grid-row: 1;
         }
         
-       .subhistorie .billedtekst2 {
+       .subhistorie .billedtekst4 {
             grid-column: 1/5;
             grid-row: 2;
-        }
-        
-       .subhistorie .billedtekst3 {
-            display: none;
-        }
-        
-       .subhistorie .billedtekst4 {
-            display: none;
         }
         
 /* CSS Grid */
@@ -1461,9 +1327,6 @@ CSS Grid layout for tablet:
         .subgrid {
             grid-column: 2;
             grid-row: 4;
-            display: flex;
-            justify-content: flex-start;
-
         }
         
         .subgrid .subgridpic {
@@ -1490,9 +1353,6 @@ CSS Grid layout for tablet:
         .subversion {
             grid-column: 2;
             grid-row: 2;
-            display: flex;
-            justify-content: flex-start;
-
         }
         
         .subversion .subversionpic {
@@ -1524,9 +1384,6 @@ CSS Grid layout for tablet:
         .subarkitektur {
             grid-column: 1;
             grid-row: 2;
-            display: flex;
-            justify-content: flex-start;
-
         }
         
         .subarkitektur .subarkitekturpic {
@@ -1559,9 +1416,6 @@ CSS Grid layout for tablet:
         .subkommunikation {
             grid-column: span 3;
             grid-row: 1;
-            display: flex;
-            justify-content: flex-start;
-
         }
         
         .subkommunikation .subkommunikationpic {
@@ -1585,9 +1439,6 @@ CSS Grid layout for tablet:
         .subpræsentation {
             grid-column: span 3;
             grid-row: 2;
-            display: flex;
-            justify-content: flex-start;
-
         }
         
         .subpræsentation .subpræsentationpic {
@@ -1610,9 +1461,6 @@ CSS Grid layout for tablet:
         .subtekst {
             grid-column: span 3;
             grid-row: 3;
-            display: flex;
-            justify-content: flex-start;
-
         }
         
         .subtekst .subtekstpic {
@@ -1635,9 +1483,6 @@ CSS Grid layout for tablet:
         .subbusiness {
             grid-column: span 3;
             grid-row: 4;
-            display: flex;
-            justify-content: flex-start;
-
         }
         
         .subbusiness .subbusinesspic {
@@ -1660,9 +1505,6 @@ CSS Grid layout for tablet:
         .submarketing {
             grid-column: span 8;
             grid-row: 1;
-            display: flex;
-            justify-content: flex-start;
-
         }
         
         .submarketing .submarketingpic {
@@ -1685,9 +1527,6 @@ CSS Grid layout for tablet:
         .subdthinking {
             grid-column: span 3;
             grid-row: 1;
-            display: flex;
-            justify-content: flex-start;
-
         }
         
         .subdthinking .subdthinkingpic {
@@ -1710,9 +1549,6 @@ CSS Grid layout for tablet:
         .subdtprojekt {
             grid-column: 1/3;
             grid-row: 2;
-            display: flex;
-            justify-content: flex-start;
-
         }
         
         .subdtprojekt .subdtprojektpic {
@@ -1735,9 +1571,6 @@ CSS Grid layout for tablet:
         .subonep {
             grid-column: span 3;
             grid-row: 1;
-            display: flex;
-            justify-content: flex-start;
-
         }
         
         .subonep .suboneppic {
@@ -1760,9 +1593,6 @@ CSS Grid layout for tablet:
         .subrefl {
             grid-column: span 3;
             grid-row: 1;
-            display: flex;
-            justify-content: flex-start;
-
         }
         
         .subrefl .subreflpic {
@@ -1808,9 +1638,6 @@ CSS Grid layout for mobil:
         .me {
             grid-column: span 2;
             grid-row: 1;
-            display: flex;
-            justify-content: flex-start;
-
 		}
         
         .me .mepic {
@@ -1831,8 +1658,6 @@ CSS Grid layout for mobil:
         .web {
             grid-column: 1;
             grid-row: 2;
-            display: flex; 
-            justify-content: flex-start;
 		}
         
         .web .webpic {
@@ -1853,8 +1678,6 @@ CSS Grid layout for mobil:
         .design {
             grid-column: 1;
             grid-row: 3;
-            display: flex;
-            justify-content: flex-start;
 		}
         
         .design .designpic {
@@ -1875,8 +1698,6 @@ CSS Grid layout for mobil:
         .komm {
             grid-column: 1;
             grid-row: 4;
-            display: flex;
-            justify-content: flex-start;
 		}
         
         .komm .kommpic {
@@ -1897,9 +1718,6 @@ CSS Grid layout for mobil:
         .think {
             grid-column: 1;
             grid-row: 5;
-            display: flex;
-            justify-content: flex-start;
-
 		}
         
         .think .thinkpic {
@@ -1920,9 +1738,6 @@ CSS Grid layout for mobil:
         .mark {
             grid-column: 1;
             grid-row: 6;
-            display: flex;
-            justify-content: flex-start;
-
 		}
         
         .mark .markpic {
@@ -1943,9 +1758,6 @@ CSS Grid layout for mobil:
         .onepage {
             grid-column: 1;
             grid-row: 7;
-            display: flex;
-            justify-content: flex-start;
-
 		}
         
         .onepage .onepagepic {
@@ -1966,9 +1778,6 @@ CSS Grid layout for mobil:
         .refl {
             grid-column: 1;
             grid-row: 8;
-            display: flex;
-            justify-content: flex-start;
-
 		}
         
         .refl .reflpic {
@@ -2025,8 +1834,6 @@ CSS Grid layout for mobil:
         .subpsd {
             grid-column: 1;
             grid-row: 1;
-            display: flex;
-            justify-content: flex-start;
         }
         
         .subpsd .subpsdpic {
@@ -2049,9 +1856,6 @@ CSS Grid layout for mobil:
         .subill {
             grid-column: 1;
             grid-row: 2;
-            display: flex;
-            justify-content: flex-start;
-
         }
         
         .subill .subillpic {
@@ -2074,9 +1878,6 @@ CSS Grid layout for mobil:
         .subft {
             grid-column: 1;
             grid-row: 3;
-            display: flex;
-            justify-content: flex-start;
-
         }
         
         .subft .subftpic {
@@ -2099,9 +1900,6 @@ CSS Grid layout for mobil:
         .subges {
             grid-column: 1;
             grid-row: 4;
-            display: flex;
-            justify-content: flex-start;
-
         }
         
         .subges .subgespic {
@@ -2124,9 +1922,6 @@ CSS Grid layout for mobil:
         .subfoto {
             grid-column: 1;
             grid-row: 5;
-            display: flex;
-            justify-content: flex-start;
-
         }
         
         .subfoto .subfotopic {
@@ -2151,8 +1946,6 @@ CSS Grid layout for mobil:
         .subhtml {
             grid-column: 1;
             grid-row: 1;
-            display: flex;
-            justify-content: flex-start;
         }
         
         .subhtml .subhtmlpic {
@@ -2175,9 +1968,6 @@ CSS Grid layout for mobil:
         .subcss {
             grid-column: 1;
             grid-row: 2;
-            display: flex;
-            justify-content: flex-start;
-
         }
         
         .subcss .subcsspic {
@@ -2200,9 +1990,6 @@ CSS Grid layout for mobil:
         .subserver {
             grid-column: 1;
             grid-row: 3;
-            display: flex;
-            justify-content: flex-start;
-
         }
         
         .subserver .subserverpic {
@@ -2233,9 +2020,6 @@ CSS Grid layout for mobil:
         .subhistorie {
             grid-column: 1;
             grid-row: 7;
-            display: flex;
-            justify-content: flex-start;
-
         }
         
         .subhistorie .subhistoriepic {
@@ -2266,9 +2050,6 @@ CSS Grid layout for mobil:
         .subgrid {
             grid-column: 1;
             grid-row: 4;
-            display: flex;
-            justify-content: flex-start;
-
         }
         
         .subgrid .subgridpic {
@@ -2295,9 +2076,6 @@ CSS Grid layout for mobil:
         .subversion {
             grid-column: 1;
             grid-row: 5;
-            display: flex;
-            justify-content: flex-start;
-
         }
         
         .subversion .subversionpic {
@@ -2328,9 +2106,6 @@ CSS Grid layout for mobil:
         .subarkitektur {
             grid-column: 1;
             grid-row: 6;
-            display: flex; 
-            justify-content: flex-start;
-
         }
         
         .subarkitektur .subarkitekturpic {
@@ -2364,9 +2139,6 @@ CSS Grid layout for mobil:
         .subkommunikation {
             grid-column: 1;
             grid-row: 1;
-            display: flex;
-            justify-content: flex-start;
-
         }
         
         .subkommunikation .subkommunikationpic {
@@ -2390,9 +2162,6 @@ CSS Grid layout for mobil:
         .subpræsentation {
             grid-column: 1;
             grid-row: 2;
-            display: flex;
-            justify-content: flex-start;
-
         }
         
         .subpræsentation .subpræsentationpic {
@@ -2415,9 +2184,6 @@ CSS Grid layout for mobil:
         .subtekst {
             grid-column: 1;
             grid-row: 3;
-            display: flex;
-            justify-content: flex-start;
-
         }
         
         .subtekst .subtekstpic {
@@ -2440,9 +2206,6 @@ CSS Grid layout for mobil:
         .subbusiness {
             grid-column: 1;
             grid-row: 4;
-            display: flex;
-            justify-content: flex-start;
-
         }
         
         .subbusiness .subbusinesspic {
@@ -2465,9 +2228,6 @@ CSS Grid layout for mobil:
         .submarketing {
             grid-column: 1;
             grid-row: 1;
-            display: flex;
-            justify-content: flex-start;
-
         }
         
         .submarketing .submarketingpic {
@@ -2490,9 +2250,6 @@ CSS Grid layout for mobil:
         .subdthinking {
             grid-column: 1;
             grid-row: 1;
-            display: flex;
-            justify-content: flex-start;
-
         }
         
         .subdthinking .subdthinkingpic {
@@ -2515,9 +2272,6 @@ CSS Grid layout for mobil:
         .subdtprojekt {
             grid-column: 1;
             grid-row:2;
-            display: flex;
-            justify-content: flex-start;
-
         }
         
         .subdtprojekt .subdtprojektpic {
@@ -2540,9 +2294,6 @@ CSS Grid layout for mobil:
         .subonep {
             grid-column: 1;
             grid-row: 1;
-            display: flex;
-            justify-content: flex-start;
-
         }
         
         .subonep .suboneppic {
@@ -2565,9 +2316,6 @@ CSS Grid layout for mobil:
         .subrefl {
             grid-column: 1;
             grid-row: 1;
-            display: flex;
-            justify-content: flex-start;
-
         }
         
         .subrefl .subreflpic {
