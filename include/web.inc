@@ -1,7 +1,6 @@
     <main id="content" class="main-area">
         <ul class="subindex">
             <li class="subkort-emne subhtml" id="html">
-                <a href="#">
                     <figure class="subkort">
                         <img class="subhtmlpic" src="img/html_logo.png" alt="Noget om HTML">
                         <figcaption class="billedtekst">
@@ -21,11 +20,11 @@
                             <p>
                         </figcaption>
                     </figure>
-                </a>
+                
             </li>
             
             <li class="subkort-emne subcss" id="css">
-                <a href="#">
+                
                     <figure class="subkort">
                         <img class="subcsspic" src="img/css3_logo.png" alt="Noget om CSS.">
                         <figcaption class="billedtekst">
@@ -43,22 +42,22 @@
                             <p>En af fordelene ved at placere CSS i en fil for sig selv er, at stylingen kan bruges i flere dokumenter. Hvis man ikke lægger det i en fil for sig vil man skulle gentage den samme kode på hver side hvor man ønsker samme effekt, hvilket ikke er hensigtsmæssigt.</p>
                         </figcaption>
                     </figure>
-                </a>
+                
            </li>
             
             <li class="subkort-emne subserver" id="server">
-                <a href="#">
+                
                     <figure class="subkort">
                         <img class="subserverpic" src="img/server.png" alt="Servere.">
                         <figcaption class="billedtekst">
-                            <h2 class="billedtekst-titel id="Server">Servere</h2>
+                            <h2 class="billedtekst-titel" id="Server">Servere</h2>
 							<p>I computeren er en server et computerprogram eller en enhed, der giver funktionalitet til andre programmer eller enheder, kaldet " klienter ". Denne arkitektur hedder klient-server-modellen.</p>
                         </figcaption>
                         <figcaption class="billedtekst2">
                             <p>Servere kan tilbyde forskellige funktioner, ofte kaldet "tjenester", såsom at dele data eller ressourcer blandt flere klienter, systemerne fungerer ved at en klient sender en anmodning til serveren, som udfører en handling og sender et svar tilbage til klienten. En enkelt server kan betjene flere klienter, og en enkelt klient kan bruge flere servere. En klientproces kan køre på samme enhed eller forbindes via et netværk enten lokalnetværk ( LAN ) eller et bredt netværk ( WAN ) over internettet til en server på en anden enhed. Typiske servere er databaseservere, filservere, mailservere, printernetkort, web-servere, spilservere og applikationsservere..</p>
                             <p>Hver type kører software, der er specifik for serverens formål. For eksempel kan en webserver køre Apache HTTP Server eller Microsoft IIS, som begge giver adgang til websteder over internettet. En mail-server kan køre et program som Exim eller iMail, som leverer SMTP- tjenester til afsendelse og modtagelse af e-mail. En filserver kan muligvis bruge Samba eller operativsystemets indbyggede fildelingstjenester til at dele filer via et netværk.</p>
                             <a target="blank" href="https://politiken.dk/forbrugogliv/digitalt/art5506303/Her-er-hele-historien-om-internettet-og-World-Wide-Web">
-                            <h4>Kilde: https://politiken.dk/forbrugogliv/digitalt/art5506303/Her-er-hele-historien-om-internettet-og-World-Wide-Web</h4>
+                            <h4>Kilde: https://politiken.dk/forbrugogliv/digitalt/art5506303/Her-er-hele-historien-om-internettet-og-World-Wide-Web</h4></a>
                             <a target="blank" href="https://techterms.com/definition/server">
                             <h4>Kilde: https://techterms.com/definition/server</h4>
                             </a>
@@ -70,7 +69,8 @@
                         
                         <figcaption class="billedtekst3">
                             <h2 class="billedtekst-titel">Servere</h2>
-							<p>I computeren er en server et computerprogram eller en enhed, der giver funktionalitet til andre programmer eller enheder, kaldet " klienter ". Denne arkitektur hedder klient-server-modellen. Servere kan tilbyde forskellige funktioner, ofte kaldet "tjenester", såsom at dele data eller ressourcer blandt flere klienter, systemerne fungerer ved at en klient sender en anmodning til serveren, som udfører en handling og sender et svar tilbage til klienten. En enkelt server kan betjene flere klienter, og en enkelt klient kan bruge flere servere. En klientproces kan køre på samme enhed eller forbindes via et netværk enten lokalnetværk ( LAN ) eller et bredt netværk ( WAN ) over internettet til en server på en anden enhed. Typiske servere er databaseservere, filservere, mailservere, printernetkort, web-servere, spilservere og applikationsservere.</p>
+							<p>I computeren er en server et computerprogram eller en enhed, der giver funktionalitet til andre programmer eller enheder, kaldet " klienter ". Denne arkitektur hedder klient-server-modellen. Servere kan tilbyde forskellige funktioner, ofte kaldet "tjenester", såsom at dele data eller ressourcer blandt flere klienter, systemerne fungerer ved at en klient sender en anmodning til serveren, som udfører en handling og sender et svar tilbage til klienten.</p>
+                            <p>En enkelt server kan betjene flere klienter, og en enkelt klient kan bruge flere servere. En klientproces kan køre på samme enhed eller forbindes via et netværk enten lokalnetværk ( LAN ) eller et bredt netværk ( WAN ) over internettet til en server på en anden enhed. Typiske servere er databaseservere, filservere, mailservere, printernetkort, web-servere, spilservere og applikationsservere.</p>
                         </figcaption>
                         
                         <figcaption class="billedtekst4">
@@ -84,10 +84,9 @@
                             <p>Web servere levere kode i form at HTML, PHP, CSS, Javascript, billeder mm. til klienten (browseren) som så omsætter det til noget mere læsbart i form af en hjemmeside.</p>
                         </figcaption>
                     </figure>
-                </a>
-            </li>
+                </li>
             
-            <li class="subkort-emne subhistorie" id="historie">
+                <li class="subkort-emne subhistorie" id="historie">
                 
                     <figure class="subkort">
                         <img class="subhistoriepic" src="img/www.jpg" alt="Internettets historie">
@@ -135,13 +134,12 @@
                             <a target="blank" href="https://politiken.dk/forbrugogliv/digitalt/art5506303/Her-er-hele-historien-om-internettet-og-World-Wide-Web">
                             <h4>Kilde: https://politiken.dk/forbrugogliv/digitalt/art5506303/Her-er-hele-historien-om-internettet-og-World-Wide-Web</h4>
                             </a>
-                    </figcaption>
-                </figure>
-            </a>
-        </li>
+                        </figcaption>
+                    </figure>
+            </li>
             
             <li class="subkort-emne subgrid" id="grid">
-                <a href="#">
+                
                     <figure class="subkort">
                         <img class="subgridpic" src="img/css_grid.png" alt="CSS Grid.">
                         <figcaption class="billedtekst">
@@ -169,11 +167,11 @@
                             <p><img class="subhistoriepic" src="img/morse.png" alt="Morsenøgle lavet med CSS Grid"></p>
                         </figcaption>
                     </figure>
-                </a>
+                
             </li>
             
             <li class="subkort-emne subversion" id="version">
-                <a href="#">
+                
                     <figure class="subkort">
                         <img class="subversionpic" src="img/git_logo.jpg" alt="Versionsstyring.">
                         <figcaption class="billedtekst">
@@ -233,11 +231,11 @@
                             <p>Når Git skal samle ændringer, bliver dit commit merget. Det kan dog give en konflikt, hvis to har ændret de samme steder i en fil.</p>                            
                         </figcaption>
                     </figure>
-                </a>
+                
             </li>
             
             <li class="subkort-emne subarkitektur" id="arkitektur">
-                <a href="#">
+                
                     <figure class="subkort">
                         <img class="subarkitekturpic" src="img/information.jpg" alt="Informationsarkitektur.">
                         <figcaption class="billedtekst">
@@ -303,7 +301,7 @@
                             <p>En anden metode kunne være ”gangstertesten” hvor man kan iagttage hvorledes testpersoner vil navigere på en side de aldrig har besøgt tidligere.</p>
                         </figcaption>
                     </figure>
-                </a>
+
             </li>
         </ul>
     </main>
