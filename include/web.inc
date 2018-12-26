@@ -79,6 +79,8 @@
                             <p>En ftp-server kommunikerer med en ftp-klient, der findes i lighed med browsere en lang række ftp-klienter og programmer med indbygget ftp-klient, det er som med valget af browser op til den enkelte at finde den man selv synes er den mest hensigtsmæssige ar arbejde med. Ftp-klienter er en typisk måde at up og downloade filer til en webserver.</p>
                             <p>Web servere levere kode i form at HTML, PHP, CSS, Javascript, billeder mm. til klienten (browseren) som så omsætter det til noget mere læsbart i form af en hjemmeside.</p>
                         </figcaption>
+                        
+                        <div class=tiltop><h3><a href="#">Til toppen</a></h3></div>
                     </figure>
                 </li>
             
@@ -130,6 +132,10 @@
                             <h4>Kilde: https://politiken.dk/forbrugogliv/digitalt/art5506303/Her-er-hele-historien-om-internettet-og-World-Wide-Web</h4>
                             </a>
                         </figcaption>
+                        
+                        <div class=tiltop>
+                            <a href="#">Til toppen</a>
+                        </div
                     </figure>
             </li>
             
