@@ -19,6 +19,10 @@
                             <p>For at sikre sig at en HTML kode overholder standarderne bør den altid valideres på https://validator.w3.org/, det samme kan siges om din CSS.</p>
                             <p>
                         </figcaption>
+                        
+                        <section class=tiltop>
+                            <a href="#">Til toppen</a>
+                        </section>
                     </figure>
             </li>
             
@@ -39,6 +43,10 @@
                             <p>External stylesheet. Stylingen lægges uden for html dokumentet i en selvstændig fil, der oprettes derfor link ihtml dokumentet der henviser til hvor stylingen skal hentes.</p>
                             <p>En af fordelene ved at placere CSS i en fil for sig selv er, at stylingen kan bruges i flere dokumenter. Hvis man ikke lægger det i en fil for sig vil man skulle gentage den samme kode på hver side hvor man ønsker samme effekt, hvilket ikke er hensigtsmæssigt.</p>
                         </figcaption>
+                        
+                        <section class=tiltop>
+                            <a href="#">Til toppen</a>
+                        </section>
                     </figure>  
            </li>
             
@@ -80,7 +88,9 @@
                             <p>Web servere levere kode i form at HTML, PHP, CSS, Javascript, billeder mm. til klienten (browseren) som så omsætter det til noget mere læsbart i form af en hjemmeside.</p>
                         </figcaption>
                         
-                        <div class=tiltop><h3><a href="#">Til toppen</a></h3></div>
+                        <section class=tiltop>
+                            <a href="#">Til toppen</a>
+                        </section>
                     </figure>
                 </li>
             
@@ -133,9 +143,9 @@
                             </a>
                         </figcaption>
                         
-                        <div class=tiltop>
+                        <section class=tiltop>
                             <a href="#">Til toppen</a>
-                        </div
+                        </section>
                     </figure>
             </li>
             
@@ -166,6 +176,10 @@
                             <p>Herunder ses morsenøglen:</p>
                             <p><img class="subhistoriepic" src="img/morse.png" alt="Morsenøgle lavet med CSS Grid"></p>
                         </figcaption>
+                        
+                        <section class=tiltop>
+                            <a href="#">&uArr;</a>
+                        </section>
                     </figure>
             </li>
             
@@ -228,6 +242,10 @@
                             <p class="ital">Merge:</p>
                             <p>Når Git skal samle ændringer, bliver dit commit merget. Det kan dog give en konflikt, hvis to har ændret de samme steder i en fil.</p>      
                         </figcaption>
+                        
+                        <section class=tiltop>
+                            <a href="#">Til top</a>
+                        </section>
                     </figure>
             </li>
             
@@ -296,6 +314,10 @@
                             <p>En metode til brug for at klarlægge hvordan informationsarkitekturen skal opbygges er kortsortering, hvor man lader testpersoner kategoriserer de forskellige emner.</p> 
                             <p>En anden metode kunne være ”gangstertesten” hvor man kan iagttage hvorledes testpersoner vil navigere på en side de aldrig har besøgt tidligere.</p>
                         </figcaption>
+                        
+                        <section class=tiltop>
+                            <a href="#">Til toppen</a>
+                        </section>
                     </figure>
             </li>
         </ul>
