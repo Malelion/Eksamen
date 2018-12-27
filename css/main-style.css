@@ -70,15 +70,23 @@ Index:
 	text-decoration: none;
 }
 
-.subindex div a {
-    font-size: 1em;
+.subindex .tiltop {
+    font-size: 2em;
     line-height: 1em;
     padding: .3em;
     text-align: center;
-    background-color: #b44057; 
+    background-color: #b44057;  
 }
 
-.subindex a:hover, subindex a:active {
+.subindex .tiltop:link {
+  color: #faebd7;
+}
+
+.subindex .tiltop :visited {
+  color: #faebd7;
+}
+
+.subindex .tiltop:hover, subindex .tiltop:active {
     box-shadow: 5px 5px 0px 0px #a57e7e;
 }  
 
@@ -561,11 +569,6 @@ CSS Grid layout for desktop:
             grid-row: 2;
         }
         
-       .subserver .tiltop {
-            grid-column: 1/5;
-            grid-row: 3;
-        }
-        
 /* Internettets historie */
         
         .subhistorie {
@@ -594,11 +597,6 @@ CSS Grid layout for desktop:
        .subhistorie .billedtekst4 {
            grid-column: 1/5;
            grid-row: 2;
-        }
-        
-       .subhistorie .tiltop {
-           grid-column: 1/5;
-           grid-row: 3;           
         }
         
 /* CSS Grid */
