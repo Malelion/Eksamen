@@ -1,7 +1,6 @@
     <main id="content" class="main-area">
         <ul class="subindex">
             <li class="subkort-emne subpsd">
-                <a href="#">
                     <figure class="subkort">
                         <img class="subpsdpic" src="img/photoshop-logo.png" alt="Adobe Photoshop">
                         <figcaption class="billedtekst">
@@ -14,8 +13,11 @@
                     <p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
                             <p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
                         </figcaption>
+                        
+                        <section class=tiltop>
+                            <a href="#">Til toppen</a>
+                        </section>
                     </figure>
-                </a>
             </li>
             
             <li class="subkort-emne subill">
