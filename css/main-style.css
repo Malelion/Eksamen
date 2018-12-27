@@ -71,7 +71,7 @@ Index:
 }
 
 .subindex .tiltop {
-    font-size: 2em;
+    font-size: 1em;
     line-height: 1em;
     padding: .3em;
     text-align: center;
@@ -508,13 +508,26 @@ CSS Grid layout for desktop:
         }
         
        .subhtml .billedtekst {
+            display: none;
+        }
+        
+       .subhtml .billedtekst2 {
+            display: none;
+        }
+        
+       .subhtml .billedtekst3 {
             grid-column: 2/5;
             grid-row: 1;
         }
         
-       .subhtml .billedtekst2 {
+       .subhtml .billedtekst4 {
             grid-column: 1/5;
             grid-row: 2;
+        }
+    
+        .subhtml .tiltop {
+            grid-column: 1/5;
+            grid-row: 3;
         }
         
 /* CSS */
@@ -530,13 +543,26 @@ CSS Grid layout for desktop:
         }
         
        .subcss .billedtekst {
+            display: none;
+        }
+        
+       .subcss .billedtekst2 {
+            display: none;
+        }
+        
+       .subcss .billedtekst3 {
             grid-column: 2/5;
             grid-row: 1;
         }
         
-       .subcss .billedtekst2 {
+       .subcss .billedtekst4 {
             grid-column: 1/5;
             grid-row: 2;
+        }
+    
+        .subcss .tiltop {
+            grid-column: 1/5;
+            grid-row: 3;
         }
         
 /* Server */
@@ -568,6 +594,11 @@ CSS Grid layout for desktop:
             grid-column: 1/5;
             grid-row: 2;
         }
+    
+        .subserver .tiltop {
+            grid-column: 1/5;
+            grid-row: 3;
+        }
         
 /* Internettets historie */
         
@@ -598,6 +629,11 @@ CSS Grid layout for desktop:
            grid-column: 1/5;
            grid-row: 2;
         }
+    
+        .subhistorie .tiltop {
+            grid-column: 1/5;
+            grid-row: 3;
+        }
         
 /* CSS Grid */
         
@@ -622,6 +658,11 @@ CSS Grid layout for desktop:
        .subgrid .billedtekst3 {
             grid-column: 1/4;
             grid-row: 1;
+        }
+    
+        .subgrid .tiltop {
+            grid-column: 1/5;
+            grid-row: 3;
         }
         
 /* Versionsstyring */
@@ -652,6 +693,11 @@ CSS Grid layout for desktop:
        .subversion .billedtekst4 {
             grid-column: 1/5;
             grid-row: 2;
+        }
+    
+        .subversion .tiltop {
+            grid-column: 1/5;
+            grid-row: 3;
         }
         
 
@@ -685,6 +731,11 @@ CSS Grid layout for desktop:
             grid-column: 1/5;
             grid-row: 2;
         }
+    
+        .subarkitektur .tiltop {
+            grid-column: 1/5;
+            grid-row: 3;
+        }
         
 /* Kommunikation Start */
         
@@ -706,6 +757,11 @@ CSS Grid layout for desktop:
         }
         
        .subkommunikation .billedtekst2 {
+            grid-column: 1/5;
+            grid-row: 3;
+        }
+    
+        .subkommunikation .tiltop {
             grid-column: 1/5;
             grid-row: 3;
         }
@@ -1253,6 +1309,19 @@ CSS Grid layout for tablet:
             grid-row: 2;
         }
         
+       .subhtml .billedtekst3 {
+            display: none;
+        }
+        
+       .subhtml .billedtekst4 {
+            display: none;
+        }
+    
+        .subhtml .tiltop {
+            grid-column: 1/5;
+            grid-row: 3;
+        }
+        
 /* CSS */
         
         .subcss {
@@ -1273,6 +1342,19 @@ CSS Grid layout for tablet:
        .subcss .billedtekst2 {
             grid-column: 1/5;
             grid-row: 2;
+        }
+        
+       .subcss .billedtekst3 {
+            display: none;
+        }
+        
+       .subcss .billedtekst4 {
+            display: none;
+        }
+    
+        .subcss .tiltop {
+            grid-column: 1/5;
+            grid-row: 3;
         }
         
 /* Server */
@@ -1304,6 +1386,11 @@ CSS Grid layout for tablet:
        .subserver .billedtekst4 {
             display: none;
         }
+    
+        .subserver .tiltop {
+            grid-column: 1/5;
+            grid-row: 3;
+        }
         
 /* Internettets historie */
         
@@ -1334,6 +1421,11 @@ CSS Grid layout for tablet:
             grid-column: 1/5;
             grid-row: 2;
         }
+    
+        .subhistorie .tiltop {
+            grid-column: 1/5;
+            grid-row: 3;
+        }
         
 /* CSS Grid */
         
@@ -1359,6 +1451,11 @@ CSS Grid layout for tablet:
         
        .subgrid .billedtekst3 {
             display: none;
+        }
+    
+        .subgrid .tiltop {
+            grid-column: 1/5;
+            grid-row: 3;
         }
         
 /* Versionsstyring */
@@ -1391,6 +1488,11 @@ CSS Grid layout for tablet:
             display: none;
         }
     
+        .subversion .tiltop {
+            grid-column: 1/5;
+            grid-row: 3;
+        }
+    
         
 /* Informationarkitektur */
         
@@ -1420,6 +1522,11 @@ CSS Grid layout for tablet:
         
        .subarkitektur .billedtekst4 {
             display: none;
+        }
+    
+        .subarkitektur .tiltop {
+            grid-column: 1/5;
+            grid-row: 3;
         }
         
 /* Kommunikation Start */
@@ -1976,6 +2083,20 @@ CSS Grid layout for mobil:
             grid-row: 2;
         }
         
+       .subhtml .billedtekst3 {
+            display: none;
+        }
+        
+       .subhtml .billedtekst4 {
+            display: none;
+        }
+    
+        .subhtml .tiltop {
+            grid-column: 1/5;
+            grid-row: 3;
+        }
+        
+        
 /* CSS */
         
         .subcss {
@@ -1996,6 +2117,19 @@ CSS Grid layout for mobil:
        .subcss .billedtekst2 {
             grid-column: 1/5;
             grid-row: 2;
+        }
+        
+       .subcss .billedtekst3 {
+            display: none;
+        }
+        
+       .subcss .billedtekst4 {
+            display: none;
+        }
+    
+        .subcss .tiltop {
+            grid-column: 1/5;
+            grid-row: 3;
         }
         
 /* Server */
@@ -2027,6 +2161,11 @@ CSS Grid layout for mobil:
        .subserver .billedtekst4 {
             display: none;
         }
+    
+        .subserver .tiltop {
+            grid-column: 1/5;
+            grid-row: 3;
+        }
         
 /* Internettets historie */
         
@@ -2057,6 +2196,11 @@ CSS Grid layout for mobil:
        .subhistorie .billedtekst4 {
             display: none;
         }
+    
+        .subhistorie .tiltop {
+            grid-column: 1/5;
+            grid-row: 3;
+        }
         
 /* CSS Grid */
         
@@ -2082,6 +2226,11 @@ CSS Grid layout for mobil:
         
        .subgrid .billedtekst3 {
             display: none;
+        }
+    
+        .subgrid .tiltop {
+            grid-column: 1/5;
+            grid-row: 3;
         }
         
 /* Versionsstyring */
@@ -2113,6 +2262,11 @@ CSS Grid layout for mobil:
        .subversion .billedtekst4 {
             display: none;
         }
+    
+        .subversion .tiltop {
+            grid-column: 1/5;
+            grid-row: 3;
+        }
         
 /* Informationarkitektur */
         
@@ -2142,6 +2296,11 @@ CSS Grid layout for mobil:
         
        .subarkitektur .billedtekst4 {
             display: none;
+        }
+    
+        .subarkitektur .tiltop {
+            grid-column: 1/5;
+            grid-row: 3;
         }
     
         
