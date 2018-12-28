@@ -167,24 +167,42 @@
                         
                         <figcaption class="billedtekst">
                             <h2 class="billedtekst-titel">Tekstproduktion</h2>
-							<p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
-                            <p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
+							<p>Ved udarbejdelse af tekster, bør de 5 nyhedskriterier altid tages i betragtning: Væsentlighed, sensation, konflikt, identifikation, aktualitet.</p>
+							<p>Ved at anvende nyhedskriterierne opnås en højere kvalitet, der er større chance for at ramme den målgruppe teksten er skrevet til.</p>
                         </figcaption>
                         
                         <figcaption class="billedtekst2">
-                            <p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
-                            <p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
+                            <p>Dette vil kunne højne interessen så læseren fastholdes i længere tid, ved web tekster har det betydning for hvor mange delinger der vil komme på bla. de sociale medier. Det kan være afgørende for om din tekst er i stand til at trække besøgende til en webside eller ej.</p>
+                            <p>Den gode tekst er også med til at give en bedre SEO, som i sidste ende har stor betydning for, at opnå en bedre pladsering ved søgning via søgemaskiner.</p>
+                            <p>En meget vigtig ting at tage i betragtning, er hvor og til hvem teksten skrives. Det er jo ikke ligegyldigt, om du skriver et brev til tante Oda eller en nyhedsartikel.</p>
+                            <p>Hvor der ved, nyhedsartikler, brochure, annoncer og webtekster er mere klare regler der skal tages i anvendelse, er det på sociale medier ikke muligt på samme måde, at opsætte faste regler og modeller, da der her er en langt større grad af spontanitet.</p>
+                            <p>Nyhedstrekanten er en skrivemodel der også kan bruges ved udarbejdelse af webtekster, her startesr med at konkludere, hvad teksten handler om, det du vil fortælle. Derefter skrives de vigtigste oplysninger, der har fører dig frem til konklusionen.</p>
+                            <img src="img/nyhedstrekanten.jpg" alt="Nyhedstrekanten">
+                            <p>Vi har som opgave skullet udarbejde tre tekster til en virksomhed, en nyhedsartikel, en annonce og et opslag til sociale medier (Facebook).</p>
+                            <div class="dokumentlink">
+                            <a target="blank" href="pdf/webtekster.pdf">Se mine tekster her.</a>
+                            </div>
+                            <h3><p class="ital">Jeg gør opmærksom på at der er tale om ren fiktion, der er altså ikke tale om nyheder udgivet på opfordring af virksomheden.</p></h3>
                         </figcaption>
                         
                         <figcaption class="billedtekst3">
                             <h2 class="billedtekst-titel">Tekstproduktion</h2>
-							<p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
-                            <p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
+							<p>Ved udarbejdelse af tekster, bør de 5 nyhedskriterier altid tages i betragtning: Væsentlighed, sensation, konflikt, identifikation, aktualitet.</p>
+							<p>Ved at anvende nyhedskriterierne opnås en højere kvalitet, der er større chance for at ramme den målgruppe teksten er skrevet til.</p>
+                            <p>Dette vil kunne højne interessen så læseren fastholdes i længere tid, ved web tekster har det betydning for hvor mange delinger der vil komme på bla. de sociale medier. Det kan være afgørende for om din tekst er i stand til at trække besøgende til en webside eller ej.</p>
+                            <p>Den gode tekst er også med til at give en bedre SEO, som i sidste ende har stor betydning for, at opnå en bedre pladsering ved søgning via søgemaskiner.</p>
+                            <p>En meget vigtig ting at tage i betragtning, er hvor og til hvem teksten skrives. Det er jo ikke ligegyldigt, om du skriver et brev til tante Oda eller en nyhedsartikel.</p>
                         </figcaption>
                         
                         <figcaption class="billedtekst4">
-                            <p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
-                            <p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
+                            <p>Hvor der ved, nyhedsartikler, brochure, annoncer og webtekster er mere klare regler der skal tages i anvendelse, er det på sociale medier ikke muligt på samme måde, at opsætte faste regler og modeller, da der her er en langt større grad af spontanitet.</p>
+                            <p>Nyhedstrekanten er en skrivemodel der også kan bruges ved udarbejdelse af webtekster, her startesr med at konkludere, hvad teksten handler om, det du vil fortælle. Derefter skrives de vigtigste oplysninger, der har fører dig frem til konklusionen.</p>
+                            <img src="img/nyhedstrekanten.jpg" alt="Nyhedstrekanten">
+                            <p>Vi har som opgave skullet udarbejde tre tekster til en virksomhed, en nyhedsartikel, en annonce og et opslag til sociale medier (Facebook).</p>
+                            <div class="dokumentlink">
+                            <a target="blank" href="pdf/webtekster.pdf">Se mine tekster her.</a>
+                            </div>
+                            <h3><p class="ital">Jeg gør opmærksom på at der er tale om ren fiktion, der er altså ikke tale om nyheder udgivet på opfordring af virksomheden.</p></h3>
                         </figcaption>
                         
                         <section class=tiltop>
@@ -199,24 +217,134 @@
                         
                         <figcaption class="billedtekst">
                             <h2 class="billedtekst-titel">Business Model Canvas</h2>
-							<p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
-                            <p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
+							<p>Business Model Canvas er en analyse metode, der kan være med til at give en forståelse for en virksomhed på flere forskellige niveauer.</p>
+							<p>Det første der skal klarlægges er hvilken type virksomhed der er tale om.</p>
                         </figcaption>
                         
                         <figcaption class="billedtekst2">
-							<p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
-                            <p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
+                            <p>Herefter kommer en række spørgsmål omkring virksomhedens vision og mission. hvad er formålet med virksomheden, hvad ønsker virksomheden at gøre for hvem, hvem er virksomhedens målgruppe, i hvilket segment befinder virksomheden sig, osv.</p>
+							<p>Det gælder altså om at stille så mange spørgsmål som muligt, jo flere spørgemål jo mere præcist billede vil man få af, hvad det er for en virksomhed man har med at gøre.</p>
+                            <p>Vi har i forbindelse med et gruppearbejde benyttet Business Model Canvas metoden til en analyse af Ryan Air.</p>
+							<p>Det startede ud med, at vi i hver gruppe at sætte ting på hver vores Business Model Canvas, herfter skulle vi samle det til et fælles. der var flere sammenfaldende emner, men alligevel også en del forskelligheder, dette viser tydeligt at det kan være fornuftigt at involvere flere personer når en virksomhed skal analyseres.</p>
+                            <img src="img/bmc2.jpg" alt="Business Model Canvas gruppearbejde">
+							<p>Her er det samlet med gule og grønne sedler, som viser at de forskellige grupper havde forskellige ting med.</p>
+							<p>Mange virksomheder har stort fokus på Value Proposition. Det er her, man definerer og tydeliggør, hvilken værdi virksomhedens produkter og services giver dens kunder. Men selv en fantastisk Value Proposition, er ikke garanti for succes. Succes kræver nemlig, at din virksomhed samtidig har en forretningsmodel, der sikrer, at virksomheden har en struktur, der betyder, at du også kan tjene penge.</p>
                         </figcaption>
                         
                         <figcaption class="billedtekst3">
                             <h2 class="billedtekst-titel">Business Model Canvas</h2>
-							<p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
-                            <p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
+							<p>Business Model Canvas er en analyse metode, der kan være med til at give en forståelse for en virksomhed på flere forskellige niveauer.</p>
+							<p>Det første der skal klarlægges er hvilken type virksomhed der er tale om.</p>
+                            <p>Herefter kommer en række spørgsmål omkring virksomhedens vision og mission. hvad er formålet med virksomheden, hvad ønsker virksomheden at gøre for hvem, hvem er virksomhedens målgruppe, i hvilket segment befinder virksomheden sig, osv.</p>
+							<p>Det gælder altså om at stille så mange spørgsmål som muligt, jo flere spørgemål jo mere præcist billede vil man få af, hvad det er for en virksomhed man har med at gøre.</p>
+                            <p>Vi har i forbindelse med et gruppearbejde benyttet Business Model Canvas metoden til en analyse af Ryan Air.</p>
                         </figcaption>
                         
                         <figcaption class="billedtekst4">
-							<p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
-                            <p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
+							<p>Det startede ud med, at vi i hver gruppe at sætte ting på hver vores Business Model Canvas, herfter skulle vi samle det til et fælles. der var flere sammenfaldende emner, men alligevel også en del forskelligheder, dette viser tydeligt at det kan være fornuftigt at involvere flere personer når en virksomhed skal analyseres.</p>
+                            <img src="img/bmc2.jpg" alt="Business Model Canvas gruppearbejde">
+							<p>Her er det samlet med gule og grønne sedler, som viser at de forskellige grupper havde forskellige ting med.</p>
+							<p>Mange virksomheder har stort fokus på Value Proposition. Det er her, man definerer og tydeliggør, hvilken værdi virksomhedens produkter og services giver dens kunder. Men selv en fantastisk Value Proposition, er ikke garanti for succes. Succes kræver nemlig, at din virksomhed samtidig har en forretningsmodel, der sikrer, at virksomheden har en struktur, der betyder, at du også kan tjene penge.</p>
+                        </figcaption>
+                        
+                        <section class=tiltop>
+                            <a href="#">Til toppen</a>
+                        </section>
+                    </figure>
+            </li>
+            
+            <li class="subkort-emne subbruger" id="bruger">
+                    <figure class="subkort">
+                        <img class="subbrugerpic" src="img/videnskab.jpg" alt="Brugertest">
+                        <figcaption class="billedtekst">
+                            <h2 class="billedtekst-titel">Brugertest og videnskabsteori</h2>
+							<p>Hvad ser du? Et elskende par eller en flok delfiner?.</p>
+							<p>Videnskabsteori defineres som teorien om videnskab. Videnskabsteori beskæftiger sig med spørgsmål som: Hvad er egentlig videnskab? Hvordan producerer man viden? Forholdet mellem videnskab og virkelighed.</p>
+                        </figcaption>
+                        
+                        <figcaption class="billedtekst2">                        
+                            <h3>Brugertest:</h3>
+                            <p>Forskellige antagelser om sandhed. Er der en sand virkelighed - eller er alle sandheder relative? Altså at al sandhed er ”sandhed”. Videnskabsteori er søgen efter sandheden.</p>
+                            <p>Vigtigheden ved at anvende videnskabsteori er at klarlægge ting uden for vores egen antagelser, din oplevelse af virkeligheden er ikke nødvendigvis den samme for alle andre.</p>
+							<p>Når man udfører en eller flere brugertests gøres det ud fra en idé om brugerinddragelse. Brugerinddragelse handler om at forstå brugernes behov, motivation og adfærd.</p>
+							<p>Brugerinddragelse handler om at inddrage brugerne, for at validere den navigation, prioritering, kommunikation eller andet, der udvikles på den pågældende brugergrænseflade f.eks en hjemmeside.</p>
+                            <p>Når man arbejder med brugerinddragelse, fokuserer man på at inddrage brugerne som medudviklere af nye digitale løsninger og processer. Brugerne er således med til at kvalitetssikre løsningen.</p>
+                            <p>Man kan blandt andet udføre brugertest på:</p>
+                            <p>- en eksisterende hjemmeside</p>
+                            <p>– en digital/analog prototype (skitser på papir eller klikbare skitser på computer)</p>
+                            <p>– en nyimplementeret hjemmeside</p>
+                            <p>Formålet er at undersøge om brugerne kan finde rundt i en ny indholdsstruktur, forstå sproget, forstå navigationen, anvende funktionerne osv.</p>
+                            <p>Det er brugernes egne forståelser af fx funktion og navngivning, der fungerer som rettesnor.</p>
+                            <h3>Metodiske overvejelser:</h3>
+							<p>Hvad er det, jeg vil undersøge?  Hvilke spørgsmål, skal undersøgelsen besvare? Hvad skal undersøgelsens resultater bruges til?</p>
+                            <p>Vigtigt for at sikre en god undersøgelse og dermed indsamle korrekt og brugbar viden.</p>
+                            <p>Samlet: Hvordan udvikler jeg et undersøgelsesdesign, der bedst muligt besvarer mine spørgsmål?</p>
+                            <img src="img/datakilder.png" alt="Primære og sekundære datakilder">
+                            <h3>Research paradigmer:</h3>
+                            <p class="ital">Kvalitativ metode:</p>
+                            <p>I de kvalitative metoder indsamles data, som ikke kan udtrykkes i eksakte talstørrelser, fx om holdninger og adfærd, altså indsamling af bløde data.</p>
+                            <p>Kvalitativ metode handler om at forstå de tanker, følelser og overvejelser, respondenterne gør sig.</p>
+                            <p>Indsamlingsmetoder:</p>
+                            <p>Interview</p>
+                            <p>Fokusgrupper</p>
+                            <p>Observationer</p>
+                            <p>Man bruger åbne ”hv-spørgsmål”. Hvordan? Hvorfor? Osv.</p>
+                            <p>Data vil ofte være i form af lange/korte interviews/samtaler med en eller flere personer</p>
+                            <p>Databearbejdningen består af at fortolke og analysere</p>
+                            <img src="img/paradigmer.png" alt="Primære og sekundære datakilder">
+                            <p class="ital">Kvantitativ metode:</p>
+                            <p>I de kvalitative metoder indsamles hårde data, dvs. størrelser som det er muligt at sætte tal på (eks. spørgeskema)</p>
+                            <p>Handler ikke om at forstå, hvorfor folk mener eller gør, som de gør. Vi er groft sagt ligeglade med at forstå deres overvejelser.</p>
+                            <p>Antager, at det der måles kan måles og kvanitificeres.</p>
+                            <p>Oftest et større datamateriale end ved kvalitative undersøgelser.</p>
+                            <p>Det giver større mulighed for at generalisere resultaterne</p>
+                            <p>Det handler om at forklare – ikke forstå.</p>
+                            <p>Data vil ofte være i form af observationer eller besvarelser af såkaldte lukkede spørgsmål, hvor respondenterne har kunnet vælge mellem flere prædefinerede svarmuligheder.</p>
+                            <h4>Kilde: Mariann Platen Daugaards præsentation d.10.10.2018</h4>
+                        </figcaption>
+                        
+                        <figcaption class="billedtekst3">
+                            <h2 class="billedtekst-titel">Brugertest og videnskabsteori</h2>
+							<p>Videnskabsteori defineres som teorien om videnskab. Videnskabsteori beskæftiger sig med spørgsmål som: Hvad er egentlig videnskab? Hvordan producerer man viden? Forholdet mellem videnskab og virkelighed. Forskellige antagelser om sandhed. Er der en sand virkelighed - eller er alle sandheder relative? Altså at al sandhed er ”sandhed”. Videnskabsteori er søgen efter sandheden.</p>
+                            <h3>Brugertest:</h3>
+                            <p>Vigtigheden ved at anvende videnskabsteori er at klarlægge ting uden for vores egen antagelser, din oplevelse af virkeligheden er ikke nødvendigvis den samme for alle andre.</p>
+							<p>Når man udfører en eller flere brugertests gøres det ud fra en idé om brugerinddragelse. Brugerinddragelse handler om at forstå brugernes behov, motivation og adfærd.</p>
+							<p>Brugerinddragelse handler om at inddrage brugerne, for at validere den navigation, prioritering, kommunikation eller andet, der udvikles på den pågældende brugergrænseflade f.eks en hjemmeside.</p>
+                            <p>Når man arbejder med brugerinddragelse, fokuserer man på at inddrage brugerne som medudviklere af nye digitale løsninger og processer. Brugerne er således med til at kvalitetssikre løsningen.</p>
+                        </figcaption>
+                        
+                        <figcaption class="billedtekst4">
+                            <p>Man kan blandt andet udføre brugertest på:</p>
+                            <p>- en eksisterende hjemmeside</p>
+                            <p>– en digital/analog prototype (skitser på papir eller klikbare skitser på computer)</p>
+                            <p>– en nyimplementeret hjemmeside</p>
+                            <p>Formålet er at undersøge om brugerne kan finde rundt i en ny indholdsstruktur, forstå sproget, forstå navigationen, anvende funktionerne osv.</p>
+                            <p>Det er brugernes egne forståelser af fx funktion og navngivning, der fungerer som rettesnor.</p>
+                            <h3>Metodiske overvejelser:</h3>
+							<p>Hvad er det, jeg vil undersøge?  Hvilke spørgsmål, skal undersøgelsen besvare? Hvad skal undersøgelsens resultater bruges til?</p>
+                            <p>Vigtigt for at sikre en god undersøgelse og dermed indsamle korrekt og brugbar viden.</p>
+                            <img src="img/datakilder.png" alt="Primære og sekundære datakilder">
+                            <h3>Research paradigmer:</h3>
+                            <p class="ital">Kvalitativ metode:</p>
+                            <p>I de kvalitative metoder indsamles data, som ikke kan udtrykkes i eksakte talstørrelser, fx om holdninger og adfærd, altså indsamling af bløde data.</p>
+                            <p>Kvalitativ metode handler om at forstå de tanker, følelser og overvejelser, respondenterne gør sig.</p>
+                            <p>Indsamlingsmetoder:</p>
+                            <p>Interview</p>
+                            <p>Fokusgrupper</p>
+                            <p>Observationer</p>
+                            <p>Man bruger åbne ”hv-spørgsmål”. Hvordan? Hvorfor? Osv.</p>
+                            <p>Data vil ofte være i form af lange/korte interviews/samtaler med en eller flere personer</p>
+                            <p>Databearbejdningen består af at fortolke og analysere</p>
+                            <img src="img/paradigmer.png" alt="Primære og sekundære datakilder">
+                            <p class="ital">Kvantitativ metode:</p>
+                            <p>I de kvalitative metoder indsamles hårde data, dvs. størrelser som det er muligt at sætte tal på (eks. spørgeskema)</p>
+                            <p>Handler ikke om at forstå, hvorfor folk mener eller gør, som de gør. Vi er groft sagt ligeglade med at forstå deres overvejelser.</p>
+                            <p>Antager, at det der måles kan måles og kvanitificeres.</p>
+                            <p>Oftest et større datamateriale end ved kvalitative undersøgelser.</p>
+                            <p>Det giver større mulighed for at generalisere resultaterne</p>
+                            <p>Det handler om at forklare – ikke forstå.</p>
+                            <p>Data vil ofte være i form af observationer eller besvarelser af såkaldte lukkede spørgsmål, hvor respondenterne har kunnet vælge mellem flere prædefinerede svarmuligheder.</p>
+                            <h4>Kilde: Mariann Platen Daugaards præsentation d.10.10.2018</h4>
                         </figcaption>
                         
                         <section class=tiltop>
