@@ -18,6 +18,7 @@
                 <li><a href="#præs">Præsentationsteknik</a></li>
                 <li><a href="#tekstp">Tekstproduktion</a></li>
                 <li><a href="#business">Business Model Canvas</a></li>
+                <li><a href="#bruger">Brugertest</a></li>
             </ul>
         </h1>
     </div>
