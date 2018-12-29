@@ -22,28 +22,24 @@ Menu layout for desktop
         text-decoration: none;
     }
 
-    nav li a {
+    nav .menu a {
         text-decoration: none;
-    }
-
-    nav li {
         display: inline-block;
         padding: 20px
-        
     }
 
-a:link {
-  color: #faebd7;
-}
+    a:link {
+        color: #faebd7;
+    }
 
-a:visited {
-  color: #faebd7;
-}
+    a:visited {
+        color: #faebd7;
+    }
 
-a:hover {
-    color: #a57e7e;
+    a:hover {
+        color: #a57e7e;
 
-}
+    }
 
 /*--------------------------------------------------------------
 Burger menu telefon og tablet:
