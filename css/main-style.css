@@ -18,13 +18,37 @@ body {
 
 figure {
 	margin: 0;
-    }
+}
 
 img {
 	display: block;
 	border: 0;
 	width: 100%;
 	height: auto;
+}
+
+img.scalepic {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	max-width: 50%;
+	height: auto;
+}
+
+img.scalepic2 {
+	display: block;
+    float: right;
+    margin-bottom: 1em;
+	max-width: 20%;
+	height: auto;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+img.mepic {
+    border-radius: 50%;
 }
 
 footer {
@@ -47,10 +71,6 @@ main a:link {
 main a:visited {
   color: black;
 }
-
-/*--------------------------------------------------------------
-Index:
---------------------------------------------------------------*/
 
 .index {
 	max-width: 97%;
@@ -118,7 +138,7 @@ Index:
 .index a:hover, index a:active {
 	font-size: 110%;
     box-shadow: 5px 5px 0px 0px #b3b3b3;
-} 
+}
 .kort a {
     width: 100%;
 }
@@ -543,6 +563,11 @@ CSS Grid layout for desktop:
         
        .subges .billedtekst4 {
             grid-column: 1/5;
+            grid-row: 2;
+        }
+        
+       .subges .img {
+            grid-column: 5/9;
             grid-row: 2;
         }
         
@@ -2633,13 +2658,11 @@ CSS Grid layout for mobil:
         }
         
        .subhtml .billedtekst3 {
-            grid-column: 3/5;
-            grid-row: 1;
+            display: none;
         }
         
        .subhtml .billedtekst4 {
-            grid-column: 1/5;
-            grid-row: 2;
+            display: none;
         }
         
        .subhtml .tiltop {
