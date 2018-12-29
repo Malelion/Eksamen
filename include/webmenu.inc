@@ -13,14 +13,26 @@
     <div id="myDropdown" class="dropdown-content">
         <h1>
             <ul>
-                <li><a href="http://gert3987.web.eadania.dk/eksamen/">Home</a></li>
-                <li><a href="#html">HTML</a></li>
-                <li><a href="#css">CSS</a></li>
-                <li><a href="#server">Server</a></li>
-                <li><a href="#historie">Internettets historie</a></li>
-                <li><a href="#grid">CSS Grid</a></li>
-                <li><a href="#version">Versionsstyring</a></li>
-                <li><a href="#arkitektur">Informationsarkitektur</a></li>
+                <ul>
+                    <li class="menu"><a href="http://gert3987.web.eadania.dk/eksamen/">Home</a>
+                    <a href="web.php">Webudvikling</a>
+                    <a href="kommunikation.php">Kommunikation</a>
+                    <a href="design.php">Design</a>
+                    <a href="marketing.php">Online marketing</a>
+                    <a href="dthinking.php">Design thinking</a>
+                    <a href="onep.php">One page projekt</a>
+                    <a href="refl.php">Reflektioner</a></li>
+                </ul>
+                    
+                <ul>
+                    <li class="menu"><a href="#html">HTML</a>
+                    <a href="#css">CSS</a>
+                    <a href="#server">Server</a>
+                    <a href="#historie">Internettets historie</a>
+                    <a href="#grid">CSS Grid</a>
+                    <a href="#version">Versionsstyring</a>
+                    <a href="#arkitektur">Informationsarkitektur</a></li>
+                </ul>
             </ul>
         </h1>
     </div>
