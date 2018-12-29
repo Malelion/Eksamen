@@ -18,12 +18,12 @@
                     <a href="web.php">Webudvikling</a>
                     <a href="kommunikation.php">Kommunikation</a>
                     <a href="design.php">Design</a>
-                    <a href="marketing.php">Online marketing</a>
                     <a href="dthinking.php">Design thinking</a>
                     <a href="onep.php">One page projekt</a>
+                    <a href="marketing.php">Online marketing</a>
                     <a href="refl.php">Reflektioner</a></li>
                 </ul>
-                    
+                    <hr>
                 <ul>
                     <li class="menu"><a href="#photoshop">Photoshop</a>
                     <a href="#illustrator">Illustrator</a>
