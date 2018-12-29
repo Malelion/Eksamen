@@ -81,18 +81,18 @@
                             <h3>Det samfundsvidenskabelig paradigme.</h3>
                             <p>Metoder til analyse af det samfundsvidenskabelige paradigme.</p>
                             <h3 class="ital">Laswells formel:</h3>
-                            <img src="img/laswells.png" alt="Laswells metode">
+                            <img class="scalepic" src="img/laswells.png" alt="Laswells metode">
                             <p>og AIDA</p>
                             <p>AIDA modellen bruges til at forudsige effekten af en besked. (kvantitav data)</p>
                             <p>Benyttes eksempelvis, ved bruger undersøgelser der skal analyseres i forhold til de indkomne data. Således det bliver mere klart, hvordan kommunikationen målrettes i forhold til hvilken awareness der skal lægges mest vægt på</p> 
-                            <img src="img/aida.png" alt="AIDA modellen">
+                            <img class="scalepic" src="img/aida.png" alt="AIDA modellen">
                             <div class="dokumentlink">
                             <a target="blank" href="pdf/analyse_budweiser.pdf">Vi benyttede i et gruppearbejde begge modeller til at analysere en Budwieser reklame. Læs den her.</a>
                             </div>
                             <h3>Det humanistiske paradigme.</h3>
                             <p>Også kaldet interaktionsparadigmet, da der foregår en kommunikation mellem afsender og modtager. Undersøgelser lægger vægt på de kvalitative værdier. Her lægges vægt på individet, der bygges på få men nøje udvalgte modtagere.</p>
                             <p>Ved analyse af det humanistiske paradigme anvendes <h3>IMK modellen.</h3> (InterkulturelMarkedsKommunikation)</p>
-                            <img src="img/imk.png" alt="IMK modellen">
+                            <img class="scalepic" src="img/imk.png" alt="IMK modellen">
                             <p>I forbindelse med websites bør der bruges en kommunikationsform der engagere så målgruppen er medskaber, dette giver en symmetrisk tovejs kommunikation hvor målgruppen deltager og giver feedback.</p>
                             <h4>Kilde: Uddrag af Mariann Platen Daugaards præsentation d.11.09.2018</h4>
                         </figcaption>
@@ -147,10 +147,10 @@
                         </figcaption>
                         
                         <figcaption class="billedtekst4">
-                            <img src="img/peterp.png" alt="Peter Plys">
+                            <img class="scalepic" src="img/peterp.png" alt="Peter Plys">
                             <p>Det er vigtigt at gøre sig klart at taler skal varieres, der er naturligvis forskel på om talen er en juridisk tale i en retssal, om det er en politisk tale ved Folketingets åbning, om det talen onkel/morfars 75 års fødselsdag (eller ditto bryllupsdag), eller om der tales til åbningen af en bro, lukningen af en arbejdsplads eller om det er nytåret, der skydes ind.</p>
                             <p>Ved en tales opbygning kan man anvende fiskemodellen, herved sikrer man sig at det er til at finde hoved og hale i det der skal siges.</p>
-                            <img src="img/fisk.png" alt="Fiskemodellen">
+                            <img class="scalepic" src="img/fisk.png" alt="Fiskemodellen">
                             <p>Humor er altid godt til at fange publikum med, nok ikke lige til en begravelse men i de fleste tilfælde kan det give en god start. Og så er det vigtigt at tænke over at ens kropssprog svarer overens med det der siges, i modsat fald kan det let komme til at virke utroværdigt og overfladisk.</p>
                             <h4>Kilde: Uddrag af Mariann Platen Daugaards præsentation d.18.09.2018</h4>
                         </figcaption>
@@ -197,7 +197,7 @@
                         <figcaption class="billedtekst4">
                             <p>Hvor der ved, nyhedsartikler, brochure, annoncer og webtekster er mere klare regler der skal tages i anvendelse, er det på sociale medier ikke muligt på samme måde, at opsætte faste regler og modeller, da der her er en langt større grad af spontanitet.</p>
                             <p>Nyhedstrekanten er en skrivemodel der også kan bruges ved udarbejdelse af webtekster, her startesr med at konkludere, hvad teksten handler om, det du vil fortælle. Derefter skrives de vigtigste oplysninger, der har fører dig frem til konklusionen.</p>
-                            <img src="img/nyhedstrekanten.jpg" alt="Nyhedstrekanten">
+                            <img class="scalepic" src="img/nyhedstrekanten.jpg" alt="Nyhedstrekanten">
                             <p>Vi har som opgave skullet udarbejde tre tekster til en virksomhed, en nyhedsartikel, en annonce og et opslag til sociale medier (Facebook).</p>
                             <div class="dokumentlink">
                             <a target="blank" href="pdf/webtekster.pdf">Se mine tekster her.</a>
@@ -241,8 +241,8 @@
                         </figcaption>
                         
                         <figcaption class="billedtekst4">
+                            <img class="scalepic2" src="img/bmc2.jpg" alt="Business Model Canvas gruppearbejde">
 							<p>Det startede ud med, at vi i hver gruppe at sætte ting på hver vores Business Model Canvas, herfter skulle vi samle det til et fælles. der var flere sammenfaldende emner, men alligevel også en del forskelligheder, dette viser tydeligt at det kan være fornuftigt at involvere flere personer når en virksomhed skal analyseres.</p>
-                            <img src="img/bmc2.jpg" alt="Business Model Canvas gruppearbejde">
 							<p>Her er det samlet med gule og grønne sedler, som viser at de forskellige grupper havde forskellige ting med.</p>
 							<p>Mange virksomheder har stort fokus på Value Proposition. Det er her, man definerer og tydeliggør, hvilken værdi virksomhedens produkter og services giver dens kunder. Men selv en fantastisk Value Proposition, er ikke garanti for succes. Succes kræver nemlig, at din virksomhed samtidig har en forretningsmodel, der sikrer, at virksomheden har en struktur, der betyder, at du også kan tjene penge.</p>
                         </figcaption>
@@ -323,7 +323,7 @@
                             <h3>Metodiske overvejelser:</h3>
 							<p>Hvad er det, jeg vil undersøge?  Hvilke spørgsmål, skal undersøgelsen besvare? Hvad skal undersøgelsens resultater bruges til?</p>
                             <p>Vigtigt for at sikre en god undersøgelse og dermed indsamle korrekt og brugbar viden.</p>
-                            <img src="img/datakilder.png" alt="Primære og sekundære datakilder">
+                            <img class="scalepic" src="img/datakilder.png" alt="Primære og sekundære datakilder">
                             <h3>Research paradigmer:</h3>
                             <p class="ital">Kvalitativ metode:</p>
                             <p>I de kvalitative metoder indsamles data, som ikke kan udtrykkes i eksakte talstørrelser, fx om holdninger og adfærd, altså indsamling af bløde data.</p>
@@ -335,7 +335,7 @@
                             <p>Man bruger åbne ”hv-spørgsmål”. Hvordan? Hvorfor? Osv.</p>
                             <p>Data vil ofte være i form af lange/korte interviews/samtaler med en eller flere personer</p>
                             <p>Databearbejdningen består af at fortolke og analysere</p>
-                            <img src="img/paradigmer.png" alt="Primære og sekundære datakilder">
+                            <img class="scalepic" src="img/paradigmer.png" alt="Primære og sekundære datakilder">
                             <p class="ital">Kvantitativ metode:</p>
                             <p>I de kvalitative metoder indsamles hårde data, dvs. størrelser som det er muligt at sætte tal på (eks. spørgeskema)</p>
                             <p>Handler ikke om at forstå, hvorfor folk mener eller gør, som de gør. Vi er groft sagt ligeglade med at forstå deres overvejelser.</p>
