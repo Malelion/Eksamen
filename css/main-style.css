@@ -29,6 +29,7 @@ img {
 
 img.scalepic {
 	display: block;
+    margin-top: .5em;
     margin-left: auto;
     margin-right: auto;
 	max-width: 50%;
@@ -38,7 +39,7 @@ img.scalepic {
 img.scalepic2 {
 	display: block;
     float: right;
-    margin-bottom: 1em;
+    margin: .5em;
 	max-width: 20%;
 	height: auto;
 }
@@ -1161,12 +1162,12 @@ CSS Grid layout for desktop:
         }
         
        .subonep .billedtekst3 {
-            grid-column: 3/9;
+            grid-column: 3/5;
             grid-row: 1;
         }
         
        .subonep .billedtekst4 {
-            grid-column: 1/9;
+            grid-column: 1/5;
             grid-row: 2;
         }
         
@@ -1188,22 +1189,22 @@ CSS Grid layout for desktop:
         }
         
        .subrefl .billedtekst {
-            grid-column: 1/9;
+            grid-column: 3/5;
             grid-row: 2;
         }
         
        .subrefl .billedtekst2 {
-            grid-column: 1/9;
+            grid-column: 1/5;
             grid-row: 3;
         }
         
        .subrefl .billedtekst3 {
-            grid-column: 1/9;
+            grid-column: 3/5;
             grid-row: 2;
         }
         
        .subrefl .billedtekst4 {
-            grid-column: 1/9;
+            grid-column: 1/5;
             grid-row: 3;
         }
         
@@ -3125,18 +3126,18 @@ CSS Grid layout for mobil:
         }
         
         .subdtprojekt .subdtprojektpic {
-            grid-column: 1/5;
+            grid-column: 3/5;
             grid-row: 1;
         }
         
        .subdtprojekt .billedtekst {
-            grid-column: 1/5;
-            grid-row: 2;
+            grid-column: 1/3;
+            grid-row: 1;
         }
         
        .subdtprojekt .billedtekst2 {
             grid-column: 1/5;
-            grid-row: 3;
+            grid-row: 2;
         }
         
        .subdtprojekt .billedtekst3 {
