@@ -54,6 +54,14 @@ img.scalepic30m {
 	height: auto;
 }
 
+img.scalepic30l {
+	display: block;
+    float: left;
+    margin: .5em;
+	max-width: 30%;
+	height: auto;
+}
+
 img.scalepic20r {
 	display: block;
     float: right;
