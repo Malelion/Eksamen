@@ -27,7 +27,7 @@ img {
 	height: auto;
 }
 
-img.scalepic {
+img.scalepic50m {
 	display: block;
     margin-top: .5em;
     margin-left: auto;
@@ -36,7 +36,25 @@ img.scalepic {
 	height: auto;
 }
 
-img.scalepic2 {
+img.scalepic30r {
+	display: block;
+    float: right;
+    margin: .5em;
+	max-width: 30%;
+	height: auto;
+}
+
+img.scalepic30m {
+	display: block;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    margin-left: auto;
+    margin-right: auto;
+	max-width: 30%;
+	height: auto;
+}
+
+img.scalepic20r {
 	display: block;
     float: right;
     margin: .5em;
@@ -44,19 +62,21 @@ img.scalepic2 {
 	height: auto;
 }
 
-img.scalepic3 {
+img.scalepic20m {
 	display: block;
-    float: right;
-    margin: .5em;
-	max-width: 30%;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    margin-left: auto;
+    margin-right: auto;
+	max-width: 20%;
 	height: auto;
 }
 
-img.scalepic4 {
+img.scalepic20l {
 	display: block;
     float: left;
     margin: .5em;
-	max-width: 30%;
+	max-width: 20%;
 	height: auto;
 }
 
@@ -220,6 +240,15 @@ body .ital {
 	margin-bottom: .2em;
     color: black;
 }
+
+    .line {
+        display: block:
+        width: 90%;
+        height: 1px;
+        margin-left: 2%;
+        margin-right: 2%;
+        background: #717171;
+    }
 
 /*--------------------------------------------------------------
 CSS Grid layout for desktop:
@@ -3199,7 +3228,7 @@ CSS Grid layout for mobil:
         
        .subonep .tiltop {
             grid-column: 1/5;
-            grid-row: 3;
+            grid-row: 4;
         }
         
 /* Reflektioner */
