@@ -30,15 +30,32 @@
                             <p>Der var ikke mange mannesker i butikkerne på tidspunktet for vores eksterne undersøgelser, så vi havde en del interviews med medstuderende omkring deres kendskab til Biotex. Her fandt vi ud af at Biotex er et brand alle kender, men blandt unge mennesker anses det lidt som et produkt mor eller mormor bruger, det var senere med til beslutningen om at vi med vores onepage ville henvende os til det yngre publikum.</p>
 				        <a target="blank" href="img/interview.jpg"> <img class="scalepic30m" src="img/interview.jpg" alt="Bruger interview"></a>
                             <p>Da al den indkomne data var analyseret og efter endnu en brainstorm, endte vi med en beslutning om, at siden skulle være mere til information end til salg, og at målgruppen skulle være 18-34 år.</p>
+                            <p>Vi udarbejdede ud fra det vores user stories.</p>
                             
                         <div class="dokumentlink">
                             <a target="blank" href="pdf/userstories.pdf">3 User stories.</a>
                         </div>
                             
+                        <a target="blank" href="img/biobent.jpg"> <img class="scalepic50m" src="img/biobent.jpg" alt="Biotex Bent er født"></a>
                             <p>Her i starten af designfasen, kom der en ekstra "person" med i gruppen, om det var kedsomhed eller en pludselig indskydelse der fik Søren til at tegne en karakter på whiteboard ved jeg ikke, men en lidt nutty udseende type tone frem, han blev hurtigt døbt Biotex Bent og ende med at blive omdrejningpunktet for projektets videre forløb.</p>
-                            <p>Det var også Biotex Bent der var medvirkende til at holde humøret højt i de pressede situationer der opsto i de efterfølgende faser af projektet.</p>
+                            <p>Det var også Biotex Bent der var medvirkende til at holde humøret højt i de pressede situationer der opstod i de efterfølgende faser af projektet.</p>
                             <p>Vi udarbejdede feature/unfeature liste og indholdshieraki, så vi havde styr på hvad der skulle med på siden og i hvilken rækkefølge</p>
-                            <p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
+                            <p>Wireframes til tre forskellige skærmtyper blev tegnet på whiteboard, vi brugta farvemarkeringer så det var parret med vores indholdshieraki, det gav et hurtigt overblik om hvor de forskellige emner skulle placeres.</p>
+                            
+                        <div class="clearfix">
+                        <a target="blank" href="img/indhold.jpg"> <img class="scalepic30r" src="img/indhold.jpg" alt="Indholdshieraki"></a>
+                        <a target="blank" href="img/wireframe.jpg"> <img class="scalepic30l" src="img/wireframe.jpg" alt="Wireframes"></a>
+                        </div>
+                        
+                        <section class=tiltop>
+                            <a href="#">Til toppen</a>
+                        </section>
+                        <div class="clearfix">
+                        <a target="blank" href="img/moodboard.jpg"> <img class="scalepic30r" src="img/moodboard.jpg" alt="Moodboard"></a>
+                            <p>Vores moodboard blev vist merre vildledende end vejledende, der gik lidt meget normalmanden, Biotex Bent, hamp, og andet i til det var helt til at forstå hvor vi ville hen med det, men som Bent ville sige, hvad betyder det, bare man har det sjovt, og har Biotex i tankerne.</p>
+                        <a target="blank" href="img/kaffe.jpg"> <img class="scalepic30l" src="img/kaffe.jpg" alt="Kaffepause"></a>
+                            <p>Selv i en presset tid er der plads til en kop kaffe.</p>
+                        </div>
                             <p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
                             <p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
                             <p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
@@ -54,13 +71,17 @@
                             <p>I det hele taget kan man sige at det var første gang vi rigtigt kom ned substansen af uddannelsen, det var 2½ uge hvor man bagefter virkelig føler man har fået tilført en masse ny viden.</p>
                             <p>Niels havde ved projektets start medbragt en stribe produkter som blev fordelt ved lodtrækning, Søren og jeg fik udleveret en dunk Biotex Ultimate Color, der er et superkoncentreret vaskemiddel.</p>
                         </div>
+                        
                         </figcaption>
                         
                         <figcaption class="billedtekst4">
+                           
+                    <hr class="line">
                         <div class="clearfix">
                         
 				        <img class="scalepic20r" src="img/tavle.jpg" alt="Brainstorm kategoriseret">
 				        <img class="scalepic20l" src="img/fakta2.jpg" alt="Faktas reol med vaskemidler">
+                        
                             <p>Efter at have fået vores produkt, var det bare med at kome igang. vi gik straks igang med empathize fasen, Søren og jeg indledte en sand brainstorm, hvor alt vi vidste og ikke vidste om vaskemidler kom på tavlen, man kan sige vi vendte hver en sten for at få så mange ting frem som muligt. Ideerne var så mange at vi endte med at sortere dem i kategorier for at skabe overblik.</p>
                             <p>Den megen hjernegymnastik gjorde at vi dagen efter besluttede at tage en interview tur ud i den virkelige verden. Vi havde undret os over at biotex ikke havde nogen form for miljømærkning, det blandt de ting vi ville forsøge at finde et svar på. Vi lagede ud med et besøg hos Fakta, hvor en meget beredvillig butikschef fortalte hvordan deres reoler blev sat op, og hvad der bestemte placeringen at de enkelte mærker som butikken fører.</p>
 				        <img class="scalepic30m" src="img/føtex.jpg" alt="Føtex reol med vaskemidler">
@@ -83,8 +104,23 @@
                             <p>Det var også Biotex Bent der var medvirkende til at holde humøret højt i de pressede situationer der opstod i de efterfølgende faser af projektet.</p>
                         </div>
                     <hr class="line">
-                        
-                            <p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
+                        <div class="clearfix">
+                        <img class="scalepic20r" src="img/indhold.jpg" alt="Indholdshieraki">
+                        <img class="scalepic20l" src="img/wireframe.jpg" alt="Wireframes">
+                            <p>Vi udarbejdede feature/unfeature liste og indholdshieraki, så vi havde styr på hvad der skulle med på siden og i hvilken rækkefølge</p>
+                            <p>Wireframes til tre forskellige skærmtyper blev tegnet på whiteboard, vi brugta farvemarkeringer så det var parret med vores indholdshieraki, det gav et hurtigt overblik om hvor de forskellige emner skulle placeres.</p>
+                         </div>   
+                    <hr class="line">
+                    <div class="clearfix">
+                        <img class="scalepic20l" src="img/moodboard.jpg" alt="Moodboard">
+                        <img class="scalepic20r" src="img/kaffe.jpg" alt="Kaffepause">
+                            <p>Vores moodboard blev vist merre vildledende end vejledende, der gik lidt meget normalmanden, Biotex Bent, hamp, og andet i tli det var helt til at forstå hvor vi ville hen med det, men som Bent ville sige, hvad betyder det, bare man har det sjovt, og har Biotex i tankerne.</p>
+                            <p>Selv i en presset tid er der plads til en kop kaffe.</p>
+                        </div>
+                    <div class="clearfix">
+                            <p>Vores moodboard blev vist merre vildledende end vejledende, der gik lidt meget normalmanden, Biotex Bent, hamp, og andet i til det var helt til at forstå hvor vi ville hen med det, men som Bent ville sige, hvad betyder det, bare man har det sjovt, og har Biotex i tankerne.</p>
+                            <p>Selv i en presset tid er der plads til en kop kaffe.</p>
+                        </div>
                         </figcaption>                        
                         
                         <section class=tiltop>
