@@ -72,9 +72,21 @@
                             <a target="blank" href="img/sinful.png"> <img class="scalepic30l" src="img/sinful.png" alt="Sinful logo"></a>
                             <p>Ved ankomston til Sinful, blev vi budt velkommen af marketingchef Thomas Jensen.</p>
                             <p>Sinful havde 10 års jubilæum på dagen for vores besøg. Siden starten i en lille lejlighed er Sinful i dag vokset til at være skandinaviens største e-commerce virksomhed med sexlegetøj. De sidste 4 år er virksomheden blevet hædret med Børsens Gazellepris, der gives til vækstvirksomheder. En gazelle er en virksomhed, som i løbet af fire regnskabsår hvert år har haft positiv vækst og samlet set mindst fordoblet omsætningen over de fire år.</p>
-                            <p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
-                            <p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
-                            <p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
+                            <p>Thomas startede med at fortælle lidt om hvem er vi, hvad laver vi, hvor kommer vi fra og hvad laver vi. Det var stort set historien om Sinful fra den spæde start til der hvor virksomheden er i dag, og hvor de ser sig selv fremadrettet. Thomas kom ind på de udfordringer der er for en virksomhed som Sinful i forbindelse med de sociale medier, hvor mange kan reklamere via deres side på f.eks. facebook, er det for Sinful en større udfordring idet der ikke tillades billeder af sexlegetøj, det samme gør sig gældende på mange andre platforme. Sjovt nok kan det godt tillades, såfremt virksomheden betaler sig til en reklame. Moral er godt, dobbelt moral er åbenbart dobbelt så godt.</p>
+                            <p>Herefter fortalte han om en af de kampagner der var blevet kørt, Fifty Shades, udsprunget fra filmen Fifty Shades of Gray, der øgede interessen for BDSM, og bragte en meget stor efterspørgsel for legetøj inden for dette univers.</p>
+                            <p>Sinful laver deres egne produktbilleder, men video materiale bliver lavet externt.</p>
+                            <p>Vi afsluttede med et kort besøg på lageret.</p>
+                        </div>
+                            
+                            
+                        <div class="clearfix">
+                            <a target="blank" href="img/grundfos.png"> <img class="scalepic30l" src="img/grundfos.png" alt="Grundfos logo"></a>
+                            <p>Klokken 13 ankom vi til Grundfos i Bjerringbro, hvor Communication Director Manager Frank B. Winther og communicator Rasmus Reimer Larsen bød velkommen.</p>
+                            <p>Efter en kort gannemgang af Grundfos historie blev det taget fat på dagens emne som var brug af video, både i intern og ekstern kommunikation.</p>
+                            <p>Vi fik forevist en række eksempler på videoer, der var videoer produceret til sociale medier, til præsentation af løsninger og til intern brug på virksomhedens information skærme.</p>
+                            <p>Det var i det hele taget en bred vifte af videoer der blev vist, og vi fik et godt indblik i video kommunikation som et stærkt og brugbart værktøj til at få sit budskab ud.</p>
+                            <p>Der blev lagt meget vægt på at Grundfos er mere end blot en virksomhed der skal sælge sine produkter, man ønsker klart et fremstå som en partner der er her for at hjælpe med at finde løsninger til enhver opgave, det uanset om det er i udviklingslande eller til store prestige byggerier i de industrialiserede lande..</p>
+                            <p>Frank gjorde også en del ud af at forklare hvori foskellen på arbejdsmetoder når man sammenligner kommunikations afdelingen og marketing afdelingen på Grundfos, hvor marketing er langt flere personer ansat til at gennemføre de enkelte projekter, filmfotografer, tekstforfattere mv. er der i kommunikations afdelingen langt færre ansatte til at udføre opgaverne. Hvor marketing mange gange ofter er fire - fem personer der rejser ud på en opgave, er det for kommunikations afdelingen oftest kun en person, der herved både skal være fotograf, interviewer mm. Derfor stille der også langt større krav til flexibiliteten for en ansat i kommunikations afdelingen, som får et meget bredere arbejdsområde og derofr skal nødvendigvis skal kunne arbejde indefor langt flere områder..</p>
                         </div>
                         </figcaption>
                         
@@ -85,10 +97,23 @@
                         
                         <figcaption class="billedtekst4">
                         <div class="clearfix">
-                            <a target="blank" href="img/sinful.png"> <img class="scalepic30l" src="img/sinful.png" alt="Sinful logo"></a>
+                        <img class="scalepic30l" src="img/sinful.png" alt="Sinful logo"></a>
                             <p>Ved ankomston til Sinful, blev vi budt velkommen af marketingchef Thomas Jensen.</p>
                             <p>Sinful havde 10 års jubilæum på dagen for vores besøg. Siden starten i en lille lejlighed er Sinful i dag vokset til at være skandinaviens største e-commerce virksomhed med sexlegetøj. De sidste 4 år er virksomheden blevet hædret med Børsens Gazellepris, der gives til vækstvirksomheder. En gazelle er en virksomhed, som i løbet af fire regnskabsår hvert år har haft positiv vækst og samlet set mindst fordoblet omsætningen over de fire år.</p>
-                            <p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
+                            <p>Thomas startede med at fortælle lidt om hvem er vi, hvad laver vi, hvor kommer vi fra og hvad laver vi. Det var stort set historien om Sinful fra den spæde start til der hvor virksomheden er i dag, og hvor de ser sig selv fremadrettet. Thomas kom ind på de udfordringer der er for en virksomhed som Sinful i forbindelse med de sociale medier, hvor mange kan reklamere via deres side på f.eks. facebook, er det for Sinful en større udfordring idet der ikke tillades billeder af sexlegetøj, det samme gør sig gældende på mange andre platforme. Sjovt nok kan det godt tillades, såfremt virksomheden betaler sig til en reklame. Moral er godt, dobbelt moral er åbenbart dobbelt så godt.</p>
+                            <p>Herefter fortalte han om en af de kampagner der var blevet kørt, Fifty Shades, udsprunget fra filmen Fifty Shades of Gray, der øgede interessen for BDSM, og bragte en meget stor efterspørgsel for legetøj inden for dette univers.</p>
+                            <p>Sinful laver deres egne produktbilleder, men video materiale bliver lavet externt.</p>
+                            <p>Vi afsluttede med et kort besøg på lageret.</p>
+                        </div>
+                        
+                        <div class="clearfix">
+                        <img class="scalepic30l" src="img/grundfos.png" alt="Grundfos logo"></a>
+                            <p>Klokken 13 ankom vi til Grundfos i Bjerringbro, hvor Communication Director Manager Frank B. Winther og communicator Rasmus Reimer Larsen bød velkommen.</p>
+                            <p>Efter en kort gannemgang af Grundfos historie blev det taget fat på dagens emne som var brug af video, både i intern og ekstern kommunikation.</p>
+                            <p>Vi fik forevist en række eksempler på videoer, der var videoer produceret til sociale medier, til præsentation af løsninger og til intern brug på virksomhedens information skærme.</p>
+                            <p>Det var i det hele taget en bred vifte af videoer der blev vist, og vi fik et godt indblik i video kommunikation som et stærkt og brugbart værktøj til at få sit budskab ud.</p>
+                            <p>Der blev lagt meget vægt på at Grundfos er mere end blot en virksomhed der skal sælge sine produkter, man ønsker klart et fremstå som en partner der er her for at hjælpe med at finde løsninger til enhver opgave, det uanset om det er i udviklingslande eller til store prestige byggerier i de industrialiserede lande..</p>
+                            <p>Frank gjorde også en del ud af at forklare hvori foskellen på arbejdsmetoder når man sammenligner kommunikations afdelingen og marketing afdelingen på Grundfos, hvor marketing er langt flere personer ansat til at gennemføre de enkelte projekter, filmfotografer, tekstforfattere mv. er der i kommunikations afdelingen langt færre ansatte til at udføre opgaverne. Hvor marketing mange gange ofter er fire - fem personer der rejser ud på en opgave, er det for kommunikations afdelingen oftest kun en person, der herved både skal være fotograf, interviewer mm. Derfor stille der også langt større krav til en ansat i kommunikations afdelingen, som får et meget bredere arbejdsområde og derofr skal nødvendigvis skal kunne arbejde indefor langt flere områder.</p>
                         </div>
                         </figcaption>                        
                         
@@ -98,28 +123,42 @@
                     </figure>
             </li>
             
- <!--           <li class="subkort-emne subandet" id="andet">
+            <li class="subkort-emne submark" id="mark">
                     <figure class="subkort">
-                        <img class="subandetpic" src="img/andet.png" alt="Alt det andet">
+                        <img class="submarkpic" src="img/online-marketing.png" alt="mark">
                         
                         <figcaption class="billedtekst">
-                            <h2 class="billedtekst-titel">Alt det andet</h2>
-							<p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
-                            <p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
+                            <h2 class="billedtekst-titel">Online marketing</h2>
+							<p>Online marketing, et enormt emne som Carsten Guldborg Nielsen forsøgte at give os bare et lille indblik i.</p>
                         </figcaption>
                         
                         <figcaption class="billedtekst2">
-                    <p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
-                            <p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
+                            <p>Carsten gennemgik en meget bred vifte af marketing muligheder, selvfølgelig er der alle dem man skal betale for, Google AdWords, reklamer på Facebook og andre sociale medier. Det interessante er dog hvor og hvordan er der mulighed for at få gratis reklame. Det er der bla. ved at arbejde på en god SEO på sin side, herved kommer den højere op i søgeresultater. Det drejer sig i høj grad også om at kende algoritmerne der ligger bag de forskellige sociale medier man færdes på. Det er ikke noget der kommer nemt, der skal arbejdes med det konstant hvis der skal sikres gode placeringer.</p>
+                            <p>Det er også af stor betydning hvor god informationsarkitekturen er, for e-commerce virksomheder gælder det i høj grad om at gøre det så nemt som muligt at finde varerne der søges efter, her hjælper det ikke hvis en potientiel kunde søger efter højttaler, nytter det ikke at der bliver vist noget blot fordi der er to t'er i ordet, det er lige så galt hvis der bliver vist for meget, så kan den vare der efterspørges drukne i mængden. Det er derfor nødvendigt at gennemtænke opbygningen og optimere søgefunktioner løbende, så de til alle tider fungere mest hensigtsmæssigt.</p>
+                            <p>Nedenstående eksempel viser en søgning efter højttaler, og ikke en af de fremkomne resultater er en højtaler, det er ikke godt nok.</p>
+                    <div class="clearfix">
+                        <a target="blank" href="img/højtaler.png"> <img class="scalepic50m" src="img/højtaler.png" alt="Søgning efter højttaler"></a>
+                    </div>
+                            <p>Et andet sted hvor der mistes meget handel, er ved kassen, alt for mange falder fra netop her, besværlige valg af forsendelse, betalingsmuligheder, CAPTA bekræftelser, køber registrering mv. er med til at kunderne giver op og går andre steder hen. De mange klik for at komme frem til at ordren er afgivet, er ikke noget der gavner i et informationsmiljø hvor tingene går stærkt og tålmodigheden er kort.</p>
+                            <p>Ifølge Carstens præsentation falder 70% fra i betalingsprocessen, det er et uhyggeligt tal, hvis der sammenlignes med fysiske butikker, man kan forestille sig et kaos, hvis 70% af kunderne efterlod indkøbsvognen ved kassen, det ville være et omsætningstab der virkelig ville kunne mærkes.</p>
+                            <p>Desværre havde jeg ikke mulighed for at være til undervisning andet end et par timer den dag Carsten var og fortælle om Online markedsføring, men jeg var der længe nok til at finde ud af at det er noget der skal arbejdes meget med, såfremt man ønsker at være med helt deroppe hvor det er sjovt.</p>
                         </figcaption>
                         
                         <figcaption class="billedtekst3">
-                            <h2 class="billedtekst-titel">Alt det andet</h2>
-							<p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
-                            <p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
+                            <h2 class="billedtekst-titel">Online marketing</h2>
+							<p>Online marketing, et enormt emne som Carsten Guldborg Nielsen forsøgte at give os bare et lille indblik i.</p>
                         </figcaption>
                         
                         <figcaption class="billedtekst4">
+                            <p>Carsten gennemgik en meget bred vifte af marketing muligheder, selvfølgelig er der alle dem man skal betale for, Google AdWords, reklamer på Facebook og andre sociale medier. Det interessante er dog hvor og hvordan er der mulighed for at få gratis reklame. Det er der bla. ved at arbejde på en god SEO på sin side, herved kommer den højere op i søgeresultater. Det drejer sig i høj grad også om at kende algoritmerne der ligger bag de forskellige sociale medier man færdes på. Det er ikke noget der kommer nemt, der skal arbejdes med det konstant hvis der skal sikres gode placeringer.</p>
+                    <div class="clearfix">
+                        <a target="blank" href="img/højtaler.png"> <img class="scalepic30l" src="img/højtaler.png" alt="Søgning efter højttaler"></a>
+                            <p>Det er også af stor betydning hvor god informationsarkitekturen er, for e-commerce virksomheder gælder det i høj grad om at gøre det så nemt som muligt at finde varerne der søges efter, her hjælper det ikke hvis en potientiel kunde søger efter højttaler, nytter det ikke at der bliver vist noget blot fordi der er to t'er i ordet, det er lige så galt hvis der bliver vist for meget, så kan den vare der efterspørges drukne i mængden. Det er derfor nødvendigt at gennemtænke opbygningen og optimere søgefunktioner løbende, så de til alle tider fungere mest hensigtsmæssigt.</p>
+                            <p>i det indsatte eksempel viser en søgning efter højttaler, og ikke en af de fremkomne resultater er en højtaler, det er ikke godt nok.</p>
+                    </div>
+                            <p>Et andet sted hvor der mistes meget handel, er ved kassen, alt for mange falder fra netop her, besværlige valg af forsendelse, betalingsmuligheder, CAPTA bekræftelser, køber registrering mv. er med til at kunderne giver op og går andre steder hen. De mange klik for at komme frem til at ordren er afgivet, er ikke noget der gavner i et informationsmiljø hvor tingene går stærkt og tålmodigheden er kort.</p>
+                            <p>Ifølge Carstens præsentation falder 70% fra i betalingsprocessen, det er et uhyggeligt tal, hvis der sammenlignes med fysiske butikker, man kan forestille sig et kaos, hvis 70% af kunderne efterlod indkøbsvognen ved kassen, det ville være et omsætningstab der virkelig ville kunne mærkes.</p>
+                            <p>Desværre havde jeg ikke mulighed for at være til undervisning andet end et par timer den dag Carsten var og fortælle om Online markedsføring, men jeg var der længe nok til at finde ud af at det er noget der skal arbejdes meget med, såfremt man ønsker at være med helt deroppe hvor det er sjovt.</p>
                     <p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
                             <p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
                         </figcaption>                        
@@ -128,6 +167,6 @@
                             <a href="#">Til toppen</a>
                         </section>
                     </figure>
-            </li>-->
+            </li>
         </ul>
     </main>
