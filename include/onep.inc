@@ -63,7 +63,7 @@
                             <p>Selv i en presset tid er der plads til en kop kaffe.</p>
                         </div>
                     <div class="clearfix">
-                    <a target="blank" href="img/onepagefront.jpg"> <img class="scalepic30r" src="img/onepagefront.jpg" alt="Den første færdige "forside"></a>
+                            <a target="blank" href="img/onepagefront.jpg"> <img class="scalepic30r" src="img/onepagefront.jpg" alt="Den første færdige "forside"></a>
                             <p>Vi startede programeringen ud efter pricippet mobile first, det gik ganske smertefrit i starten, siden begyndte at tage form. Bi havde gemt billeder i 3 formater, tanken var at bruge et format til hver størrelse skærm, her havde vi loadtider i tankerne. Det skulle senere vise sig at give nogle problemer.</p>
                             <p>Vores "forside" så efterhånden ud som vi havde tænkt, og vi var klar til at gå videre med indholdet, vi præsenterede det foreløbige resultat for Carsten, han var ikke ubetinget imponeret, og mente at Biotex Bent ville blive alt for overeksponeret, medmindre vi havde tænkt os at fortsætte som en tegneserie. Dette ville dog efter Carstens mening kræve langt flere forskellige tegninger af Bent. Vi kunne godt se pointen idet, og da det ikke lå lige for at skulle tegne bent i mange flere versioner, blev det foreløbige layout til dels skrottet. Der skulle nytænkes, nye billeder skulle osv.</p>
                             <p>Nu skulle der efterhånden arbejdes hurtigt, der kom rimeligt hurtigt styr på de ændringer vi mente var nødvendige, det øvrige indhold kom stille og roligt på plads.</p>
