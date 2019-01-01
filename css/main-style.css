@@ -1142,6 +1142,7 @@ CSS Grid layout for desktop:
             display: none;
         }
         
+        
        .subvirk .billedtekst3 {
             grid-column: 3/5;
             grid-row: 1;
@@ -1150,6 +1151,14 @@ CSS Grid layout for desktop:
        .subvirk .billedtekst4 {
             grid-column: 1/5;
             grid-row: 2;
+        }
+        
+       .subvirk .billedtekst {
+            display: none;
+        }
+        
+       .subvirk .billedtekst2 {
+            display: none;
         }
         
        .subvirk .tiltop {
