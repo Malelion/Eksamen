@@ -125,7 +125,7 @@
             
             <li class="subkort-emne submark" id="mark">
                     <figure class="subkort">
-                        <img class="submarkpic" src="img/online-marketing.png" alt="mark">
+                        <img class="submarkpic" src="img/online-marketing.png" alt="Online marketing">
                         
                         <figcaption class="billedtekst">
                             <h2 class="billedtekst-titel">Online marketing</h2>
@@ -137,7 +137,7 @@
                             <p>Det er også af stor betydning hvor god informationsarkitekturen er, for e-commerce virksomheder gælder det i høj grad om at gøre det så nemt som muligt at finde varerne der søges efter, her hjælper det ikke hvis en potientiel kunde søger efter højttaler, nytter det ikke at der bliver vist noget blot fordi der er to t'er i ordet, det er lige så galt hvis der bliver vist for meget, så kan den vare der efterspørges drukne i mængden. Det er derfor nødvendigt at gennemtænke opbygningen og optimere søgefunktioner løbende, så de til alle tider fungere mest hensigtsmæssigt.</p>
                             <p>Nedenstående eksempel viser en søgning efter højttaler, og ikke en af de fremkomne resultater er en højtaler, det er ikke godt nok.</p>
                     <div class="clearfix">
-                        <a target="blank" href="img/højtaler.png"> <img class="scalepic50m" src="img/højtaler.png" alt="Søgning efter højttaler"></a>
+                        <a target="blank" href="img/højtaler.png"> src="img/højtaler.png" alt="Søgning efter højttaler"></a>
                     </div>
                             <p>Et andet sted hvor der mistes meget handel, er ved kassen, alt for mange falder fra netop her, besværlige valg af forsendelse, betalingsmuligheder, CAPTA bekræftelser, køber registrering mv. er med til at kunderne giver op og går andre steder hen. De mange klik for at komme frem til at ordren er afgivet, er ikke noget der gavner i et informationsmiljø hvor tingene går stærkt og tålmodigheden er kort.</p>
                             <p>Ifølge Carstens præsentation falder 70% fra i betalingsprocessen, det er et uhyggeligt tal, hvis der sammenlignes med fysiske butikker, man kan forestille sig et kaos, hvis 70% af kunderne efterlod indkøbsvognen ved kassen, det ville være et omsætningstab der virkelig ville kunne mærkes.</p>
@@ -159,8 +159,56 @@
                             <p>Et andet sted hvor der mistes meget handel, er ved kassen, alt for mange falder fra netop her, besværlige valg af forsendelse, betalingsmuligheder, CAPTA bekræftelser, køber registrering mv. er med til at kunderne giver op og går andre steder hen. De mange klik for at komme frem til at ordren er afgivet, er ikke noget der gavner i et informationsmiljø hvor tingene går stærkt og tålmodigheden er kort.</p>
                             <p>Ifølge Carstens præsentation falder 70% fra i betalingsprocessen, det er et uhyggeligt tal, hvis der sammenlignes med fysiske butikker, man kan forestille sig et kaos, hvis 70% af kunderne efterlod indkøbsvognen ved kassen, det ville være et omsætningstab der virkelig ville kunne mærkes.</p>
                             <p>Desværre havde jeg ikke mulighed for at være til undervisning andet end et par timer den dag Carsten var og fortælle om Online markedsføring, men jeg var der længe nok til at finde ud af at det er noget der skal arbejdes meget med, såfremt man ønsker at være med helt deroppe hvor det er sjovt.</p>
-                    <p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
-                            <p>Her kommer tekst mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle mumle.</p>
+                        </figcaption>                        
+                        
+                        <section class=tiltop>
+                            <a href="#">Til toppen</a>
+                        </section>
+                    </figure>
+            </li>
+            
+            <li class="subkort-emne subdialog" id="dialog">
+                    <figure class="subkort">
+                        <img class="subdialogpic" src="img/dialog1.jpg" alt="Dialog med håndgribelige genstande">
+                        
+                        <figcaption class="billedtekst">
+                            <h2 class="billedtekst-titel">Dialog med håndgribelige genstande</h2>
+                            <p>I forbindelse med Design Thinking havde vi en øvelse hvor vi skulle bruge genstande som en ekstra dimension i vores kommunikation.</p>
+                            <p>Der var for hver gruppe udnævnt en facilitator som var den der havde ansvar for tiden, være igangsætter  og sørge for at dialogen omkring de foreslåede emner.
+                        </figcaption>
+                        
+                        <figcaption class="billedtekst2"></p>
+                            <p>Der var også til hver gruppe en dokumentarist, hvis opgave det var at få dokumentationen på plads med notater, billeder mv.</p>
+							<p>Det var en sjov anderledes måde at kommunikerer på, det viser at kommunikation kan foretages på mange forskellige måder.</p>
+							<p>Ideen er at metoden kan bruges i interview situationer i emphathize fasen, det vil i mange tilfælde fremskaffe data som ellers ikke ville komme til udtryk, såfremt der kun blev kommunikeret verbalt.</p>
+                            <p>Vi gennemgik hver gruppe to forløb, facilitatoren var fast knyttet til et sted, herved fik hver facilitator mulighed for at drage erfaringer fra den første gruppe, som så kunne bruges til næste.</p>
+                            <p>Ved denne øvelse benyttede vi i det ene tilfælde logo klodser, i det andet var det tilfældige genstande i værkstedet der blav anvendt.</p>
+                            <p>Det er ikke væsentligt hvad der bruges, det kan i princippet være hvad som helst, ideen er at få frembragt informationer, der ellers ikke ville komme frem.</p>
+                    <div class="clearfix">
+                        <a target="blank" href="img/dialog2.jpg"> <img class="scalepic50m" src="img/dialog2.jpg" alt="Dialog med håndgribelige genstande"></a>
+                    </div>
+							<p>Efterfølgende havde vi en dialog i plenum omkring gruppernes oplevelse og forklaring på hvad de nogle af de mange billeder der var blevet taget illustrerede.</p>
+                            <p>Efter at have prøvet denne form for kommunikation, er jeg ikke i tvivl om at det vil kunne være et rigtig godt redskab at bruge i givne situationer</p>
+                        </figcaption>
+                        
+                        <figcaption class="billedtekst3">
+                            <h2 class="billedtekst-titel">Dialog med håndgribelige genstande</h2>
+                            <p>I forbindelse med Design Thinking havde vi en øvelse hvor vi skulle bruge genstande som en  ekstra dimension i vores kommunikation.</p>
+                            <p>Der var for hver gruppe udnævnt en facilitator som var den der havde ansvar for tiden, være igangsætter  og sørge for at dialogen omkring de foreslåede emner.
+                            <p>Der var også til hver gruppe en dokumentarist, hvis opgave det var at få dokumentationen på plads med notater, billeder mv.</p>
+							<p>Det var en sjov anderledes måde at kommunikerer på, det viser at kommunikation kan foretages på mange forskellige måder.</p>
+							<p>Ideen er at metoden kan bruges i interview situationer i emphathize fasen, det vil i mange tilfælde fremskaffe data som ellers ikke ville komme til udtryk, såfremt der kun blev kommunikeret verbalt.</p>
+                            <p>Vi gennemgik hver gruppe to forløb, facilitatoren var fast knyttet til et sted, herved fik hver facilitator mulighed for at drage erfaringer fra den første gruppe, som så kunne bruges til næste.</p>
+                            <p>Ved denne øvelse benyttede vi i det ene tilfælde logo klodser, i det andet var det tilfældige genstande i værkstedet der blav anvendt.</p>
+                            <p>Det er ikke væsentligt hvad der bruges, det kan i princippet være hvad som helst, ideen er at få frembragt informationer, der ellers ikke ville komme frem.</p>
+                        </figcaption>
+                        
+                        <figcaption class="billedtekst4">
+                    <div class="clearfix">
+                        <a target="blank" href="img/dialog2.jpg"> <img class="scalepic30l" src="img/dialog2.jpg" alt="Dialog med håndgribelige genstande"></a>
+							<p>Efterfølgende havde vi en dialog i plenum omkring gruppernes oplevelse og forklaring på hvad de nogle af de mange billeder der var blevet taget illustrerede.</p>
+                            <p>Efter at have prøvet denne form for kommunikation, er jeg ikke i tvivl om at det vil kunne være et rigtig godt redskab at bruge i givne situationer</p>
+                    </div>
                         </figcaption>                        
                         
                         <section class=tiltop>
