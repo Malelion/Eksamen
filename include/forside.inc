@@ -106,16 +106,15 @@
                 </a>
             </li>
             
-            <li class="kort-emne mark">
-                <a href="marketing.php">
+            <li class="kort-emne andet">
+                <a href="andet.php">
                     <figure class="kort">
-                        <img class="markpic" src="img/mark.jpg" alt="Marketing.">
+                        <img class="andetpic" src="img/andet.jpg" alt="Alt det andet.">
                         <figcaption class="billedtekst">
-                            <h2 class="billedtekst-titel">Online Marketing</h2>
-							<p>SEO. Sociale medier. Google Add Words.</p>
-                            <p>Online marketing er mere end blot betalte annoncer.
-                            </p>
-                            <p>Vil man betale for al sin annoncering eller er tanken mere at få den gratis reklame med.
+                            <h2 class="billedtekst-titel">Alt det andet</h2>
+							<p>Her kan læses lidt om Online Marketing.</p>
+                            <p>Virksomhedsbesøg</p>
+                            <p>Quick and Dirty video og Dialog med håndgribelige genstande.
                             </p>
                         </figcaption>
                     </figure>
