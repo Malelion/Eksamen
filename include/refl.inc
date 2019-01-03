@@ -1,18 +1,14 @@
     <main id="content" class="main-area">
         <ul class="subindex">
             <li class="subkort-emne subrefl" id="refl">
-                <a href="#">
                     <figure class="subkort">
                         <img class="subreflpic" src="img/reflektioner.jpg" alt="Reflektioner">
                         <figcaption class="billedtekst">
                             <h2 class="billedtekst-titel">Reflektioner</h2>
 							<p>Her vi jeg forsøge at give udtryk for processen igennem dette eksamensprojekt.</p>
                             <p>Allerede inden vi havde fået den endelige projekt beskrivelse, var der taget initiativ til en studiegruppe med henblik på deling af notater mv. Her var vi nogle stykker som mødtes på skolen, og fik lavet hver vores notater til den tekst der senere skulle danne basen for vores portefolio.</p>
-                        </figcaption>
-                        
-                        <figcaption class="billedtekst2"  id="tekst1">
                             <p>Jeg var meget spændt på hvordan det skulle komme til at gå med opbygningen af en så omfattende side som jeg så en læringportefolio ville kunne udvikle sig til. Jeg gjorde mig nogle tanker om hvordan siden skulle opbygges, jeg var ikke i tvivl om at jeg ville skulle anvende CSS Grid til at styre tekst og billeder.</p>
-                            <p>Det første jeg gerne vile have på plads var en menu til navigation på side, jeg downloadede flere forskellige, bland andet fra W3s hjemmeside, man da jeg gerne ville have noget der adskildte sig fra den jeg blev klar over flere andre benyttede, fik jeg en anden igang. Det viste sig dog ret hurtige at den burgemenu der var ikke kunne swipes, så når det nederste af menuen ikke var synligt var den jo umulig at anvende.</p> 
+                            <p>Det første jeg gerne ville have på plads var en menu til navigation på side, jeg downloadede flere forskellige, bland andet fra W3s hjemmeside, man da jeg gerne ville have noget der adskildte sig fra den jeg blev klar over flere andre benyttede, fik jeg en anden igang. Det viste sig dog ret hurtige at den burgemenu der var ikke kunne swipes, så når det nederste af menuen ikke var synligt var den jo umulig at anvende.</p> 
                             <p>Der ville helt sikkert have kunnet findes en løsning på det problem, jeg anså bare at der ville gå alt for lang tid med det, så jeg andte med selv at lave min burger til en menu, selve menuen fandt jeg i en instruktionsvideo på Lynda, derfra kunne jeg copy/paste den del jeg havde brug for, incl noget javascript som var nødvendigt. Det lykkedes at få det sat sammen til en funktionel menu, som siden er blevet tilrette yderligere så den opfylder det behov jeg mener der er.</p>
                     <div class="clearfix">
 				        <img class="scalepic30r" src="img/github.png" alt="Billede af min GitHub">
@@ -28,9 +24,12 @@
                             <p>Den støreste ting jeg har lavet en ikke helt optimal løsning på, er teksterne, under opbygningen mit grid fandt jeg en stump kode som jeg mente var den helt rigtige, desværre opdagede jeg for sent at det gav nogle begrænsninger i forhol til de forskellige skærmstørrelser, enten var der meget lidt tekst ved siden af billedet, eller også var der alt for lidt billede. Løsningen blev at jeg har sat teksterne ind dobbelt, så jeg kan styre hvilken teksdel der skal bruges hvor. Det er jeg udemærket klar over ikke er særligt hensigtsmæssigt men det fungerer og var på tidspunktet den hurtige løsning jeg lige kunne finde på.</p>
                             <p>I skrivende stund mangler jeg nu blot at få gået det hele igennem så det står sakrpt, der kommer nok lidt små tilretninger, men det store træk er overstået, og så må jeg bare se om bukserøven holder.</p>
                     </div>
-                        </figcaption>
+                        </figcaption>                        
+                        
+                        <section class=tiltop>
+                            <a href="#">Til toppen</a>
+                        </section
                     </figure>
-                </a>
             </li>
         </ul>
     </main>
