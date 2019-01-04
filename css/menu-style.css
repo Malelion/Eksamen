@@ -24,7 +24,7 @@ Menu layout for desktop
         background: #faebd7;
     }
 
-    nav h1 {
+    nav {
         font-size: 1.2em;
         color: #eef3fa;
         font-family: 'Helvetica', 'Arial', sans-serif;
@@ -35,6 +35,13 @@ Menu layout for desktop
         text-decoration: none;
         display: inline-block;
         padding: 20px
+    }
+
+    h1  {
+        font-size: 1.3em;
+        color: black;
+        font-family: 'Helvetica', 'Arial', sans-serif;
+        text-decoration: none;
     }
 
     a:link {
