@@ -13,7 +13,7 @@
     <div id="myDropdown" class="dropdown-content">
         
                 <ul>
-                    <li class="menu"><a href="http://gert3987.web.eadania.dk/eksamen/">Home</a>
+                    <li class="menu"><a href="http://gert3987.web.eadania.dk/eksamen/start.php">Home</a>
                     <a href="web.php">Webudvikling</a>
                     <a href="kommunikation.php">Kommunikation</a>
                     <a href="design.php">Design</a>
