@@ -11,7 +11,7 @@
     
 <!-- Menu indhold -->
     <div id="myDropdown" class="dropdown-content">
-        <h1>
+        
             <ul>
                 <ul>
                     <li class="menu"><a href="http://gert3987.web.eadania.dk/eksamen/">Home</a>
@@ -25,14 +25,14 @@
                 </ul>
                     <hr>
                 <ul>
-                    <li class="menu"><a href="#kommunikation">Kommunikation og produktions modeller</a>
-                    <a href="#præs">Præsentationsteknik</a>
-                    <a href="#tekstp">Tekstproduktion</a>
-                    <a href="#business">Business Model Canvas</a>
-                    <a href="#bruger">Brugertest</a></li>
+                    <li class="menu">
+                    <a href="#virk">Quick and Dirty video</a>
+                    <a href="#business">Virksomhedsbesøg</a>
+                    <a href="#mark">Online marketing</a>
+                    <a href="#dialog">Dialog med håndgribelige genstande</a></li>
                 </ul>
             </ul>
-        </h1>
+        
     </div>
 </div>           
 </nav>
