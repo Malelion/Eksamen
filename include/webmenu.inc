@@ -11,10 +11,9 @@
     
 <!-- Menu indhold -->
     <div id="myDropdown" class="dropdown-content">
-        <h1>
             <ul>
                 <ul>
-                    <li class="menu"><a href="http://gert3987.web.eadania.dk/eksamen/">Home</a>
+                    <li class="menu"><a href="http://gert3987.web.eadania.dk/test/">Home</a>
                     <a href="web.php">Webudvikling</a>
                     <a href="kommunikation.php">Kommunikation</a>
                     <a href="design.php">Design</a>
@@ -34,7 +33,6 @@
                     <a href="#arkitektur">Informationsarkitektur</a></li>
                 </ul>
             </ul>
-        </h1>
     </div>
 </div>           
 </nav>        
