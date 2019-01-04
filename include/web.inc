@@ -127,7 +127,8 @@
                                             <p>Man er ikke begrænset i forhold til størrelse på den enkelte celler men kan have en variation i størrelsen afhængig af hvor meget ens indhold skal fylde. Dette kan give en mere spændende oplevelse af en webside. CSS grid har også medvirket til at gøre det nemmere at lave responsive designs.</p>
                                         <p>I forbindelse med vores introduktion til CSS, havde vi en øvelse med at lave en morsenøgle, selvom det i dag forekommer som en meget simpel øvelse, var den på daværende tidspunkt en rigelig stor udfordring, det gav dog et indblik i hvordan CSS Grid fungere.</p>
                                     <p>Herunder ses morsenøglen</p>
-                                <p><img class="scalepic50m" src="img/morse.png" alt="Morsenøgle lavet med CSS Grid">
+                                    <a href="img/morse.png" target="_blank">
+                                 <img class="scalepic50m" src="img/morse.png" alt="Morsenøgle lavet med CSS Grid"></a>
                     </div>
                         </section>
                         
