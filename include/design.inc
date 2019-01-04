@@ -19,7 +19,8 @@
                             <p>Ved at navngive de enkelte layers, vil man være i stand til hurtigt af finde netop det element man ønsker at arbejde med. Ved brug af selection tools kan der markeres et område af et motiv, som det herefter er muligt at arbejde indenfor uden at påvirke det af motivet der ligger uden for markeringen. Den nemmeste at arbejde med er quick selection tool, idet denne giver mulighed for at flytte sin selection såfremt der er blevet markeret for lidt eller for meget, denne mulighed er ikke tilstede ved de øvrige selection tools der er tilgængelige.</p>
                             <p>Programmet giver mulighed for at opsætte interfacet så menuer mv. fremstår forskelligt alt efter hvilke funktioner der lægges vægt på, og hvordan den enkelte bruger finder det mest hensigtsmæssigt.</p>
                             <p>Vi har i semesteret blot krattet i overfladen af ganske få af de muligheder som photoshop tilbyder, men man er dog ikke i tvivl om at det er det rette værktøj såfremt der ønskes at arbejde professionelt med redigering/manipulation.</p>
-                    <img class="scalepic50m" src="img/outoff.jpg" alt="Outoff frame picture">
+                        <a href="img/outoff.jpg" target="_blank">
+                    <img class="scalepic50m" src="img/outoff.jpg" alt="Outoff frame picture"></a>
                 </div>
             </section>
 
@@ -42,7 +43,8 @@
                             <p>Der er mulighed for at tegne i frihånd, men der er også en lang række andre muligheder for tegning af sectioner ved hjælp af Shape tool, her kan laves en mængde former og sectioner som efterfølgende kan tilpasses som brugeren lyster</p>
                             <p>De forskellige sectioner kan samles til en sammenhængende enhed, således kan to forskellige sectionr blive til en uden det er muligt at se for udenforstående at det ikke er lavet sådan fra starten.</p>
                             <p>I lighed med Adobe Photoshop arbejdes der i Illustrator i layers, således vil man kunne rette i de enkelte layers uden at påvirke de øvrige, igen er der tale om en non destruktiv arbejdsform.</p>
-                    <img class="scalepic50m" src="img/badge.png" alt="Badge lavet i Illustrator">
+                        <a href="img/badge.png" target="_blank">
+                    <img class="scalepic50m" src="img/badge.png" alt="Badge lavet i Illustrator"></a>
                             <p>Illustrator, er et eminent program til at tegne logoer, det er blot et spørgsmål om, hvor godt den enkelte bruger er inde i programmet.</p>
                 </div>
             </section>
