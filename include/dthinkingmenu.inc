@@ -11,7 +11,7 @@
     
 <!-- Menu indhold -->
     <div id="myDropdown" class="dropdown-content">
-        <h1>
+        
             <ul>
                 <ul>
                     <li class="menu"><a href="http://gert3987.web.eadania.dk/eksamen/">Home</a>
@@ -29,7 +29,7 @@
                     <a href="#dtprojekt">Design Thinking Projekt</a>
                 </ul>
             </ul>
-        </h1>
+        
     </div>
 </div>           
 </nav>
