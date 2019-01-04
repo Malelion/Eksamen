@@ -41,32 +41,38 @@
         <section class="subkort">
             <section class="billedtekst">
                 <div class="clearfix">
-                    <img class="scalepic30r" src="img/dtkontrakt.jpg" alt="Design Thinking Projekt">
+                <a href="img/dtkontrakt.jpg" target="_blank">
+                    <img class="scalepic30r" src="img/dtkontrakt.jpg" alt="Design Thinking Projekt"></a>
                         <h2 class="billedtekst-titel">Design Thinking Projekt</h2>
                             <p>Det første længerevarende gruppearbejde bestod af Design Thinking projektet. Opgaven var at udarbejde et oplæg til en webbaseret app til reservation og udlån. Projektet havde en varighed på en uge.</p>
                             <p>Rene, Nikolas og jeg var sat i gruppe sammen. Som indledning lavede vi en gruppekontrakt, hvori vi beskrev mødetider, tilgang til gruppearbejdet mv.</p>
                             <p>Vi indledte arbejdet med en brainstorm for at få så mange emner på banen som muligt, herefter skulle vi tage stilling til hvilket emne vi ville arbejde videre med. Vi valgte at det skulle være et system der både kunne bruges til reservation af lokaler og udstyr.</p>
-                            <p>Da vi ønskede at få et så godt grundlag som muligt for at tage endelig stilling hvad der skulle med og ikke med, havde vi nogle samtaler med bland andre Mette på kontoret. da disse viste at det ikke var så ligetil med hensyn til reservation af lokaler, valgte vi alene at gå videre med reservation og udlån af udstyr på uddannelsessteder. Vi havde først Dania Skives udlån af fotoudstyr i tankerne, men ønskede at ende op med en løsning som kunne bruges også andre steder til andet udstyr.</p>
-                    <img class="scalepic30m" src="img/dtbstorm1.jpg" alt="Indledende brainstorm">
+                            <p>Da vi ønskede at få et så godt grundlag som muligt for at tage endelig stilling hvad der skulle med og ikke med, havde vi nogle samtaler med bland andre Mette på kontoret. da disse viste at det ikke var så ligetil med hensyn til reservation af lokaler, valgte vi alene at gå videre med reservation og udlån af udstyr på uddannelsessteder. Vi havde først Dania Skives udlån af fotoudstyr i tankerne, men ønskede at ende op med en løsning som kunne bruges også andre steder til andet udstyr.</p>                            
+                        <a href="img/dtbstorm1.jpg" target="_blank">
+                    <img class="scalepic30m" src="img/dtbstorm1.jpg" alt="Indledende brainstorm"></a>
                 </div>
                 <div class="clearfix">
-                    <a target="blank" href="img/dtbstorm3.jpg"> <img class="scalepic30r" src="img/dtbstorm3.jpg" alt="Kategorisering af emner"></a>
+                    <a target="blank" href="img/dtbstorm3.jpg">
+                    <img class="scalepic30r" src="img/dtbstorm3.jpg" alt="Kategorisering af emner"></a>
                         <p>Efter at have valgt hvad vi ville arbejde videre med, havde vi igen en brainstorm, igen for at få så mange ideer som muligt frem i lyset. Herefter kunne vi begynde at kategorisere de forskellige, så vi fik en ide om hvilket omfang der ville ligge i opgaven.</p>
                         <p>Vi ønskede at lave et system der både indeholdt en brugerdel og en administrator del, så det skulle være en fuld funktionsdygtig app, og ikke blot noget der fokuserede alene på brugerdelen.</p>
                         <p>Vi gik nu i gang med brugerundersøgelser, hvordan oplevede dem der brugte systemet i dag tingene fungerede, hvor så de problemerne, vi havde en samtale med både Niels og Carsten for at høre hvordan de håndterede det i dag, og hvilke ønsker de kunne have til et mere velfungerende system.</p>
                         <p>Ud over det, var Nikolas på SOSU-skolen i Skive, Rene forsøgte at få nogen i snak på VIA i Skive, og endelig var Nikolas og jeg i Viborg, hvor vi havde samtaler med de ansvarlige på både Dania og VIA. Via har rigtig godt styr på hvem der har lånt hvad, idet det styres gennem deres bibliotekssystem, de kunne dog godt ønske sig et reservationssystem. Hos Dania er det mere det tilfældige søms princip der hersker, enten skrives et udlån i en kalender eller en seddel hænges på opslagstavlen, der er derfor meget begrænset hvor meget styr der er på hvem har lånt hvad og er det afleveret tilbage rettidigt.</p>
                 </div>
                 <div class="clearfix">
-                    <a target="blank" href="img/userpath.jpg"> <img class="scalepic30r" src="img/userpath.jpg" alt="User path"></a>
+                    <a target="blank" href="img/userpath.jpg"> 
+                    <img class="scalepic30r" src="img/userpath.jpg" alt="User path"></a>
                         <p>Da vi mente der var indsamlet tilstrækkeligt data og bearbejdet det, lavede vi et user path, for at få et overblik over hvordan systemet fungere i dag, og hvad kan gøres for at optimere det.</p>
                         <p>Tiden var nu inde til at få samlet trådene til en struktur som ville kunne bruges, vi gjorde igen brug af brainstorms, og lavede en grovskitse af hvordan vi gerne ville opbygge vores app.</p>
                 </div>
                 <div class="clearfix">
-                    <a target="blank" href="img/ideate.jpg"> <img class="scalepic30r" src="img/ideate.jpg" alt="Skitse over app"></a>
+                    <a target="blank" href="img/ideate.jpg"> 
+                    <img class="scalepic30r" src="img/ideate.jpg" alt="Skitse over app"></a>
                         <p>Vi benyttede os flittgigt af tavlen under prototyping fasen, her tegnede vi de enkelte skærmbilleder op, på den måde kunne vi se om det fungerede som tænkt.</p>
                 </div>
                 <div class="clearfix">
-                    <a target="blank" href="img/prototyping.jpg"> <img class="scalepic30r" src="img/prototyping.jpg" alt="Prototyper tegnes på tavle"></a>
+                    <a target="blank" href="img/prototyping.jpg"> 
+                    <img class="scalepic30r" src="img/prototyping.jpg" alt="Prototyper tegnes på tavle"></a>
                         <p>Da vi havde et tilfredsstillende, blev der lavet tegninger til udprintning. Disse blev efterfølgende brugt i brugertest som gav anledning til nogle rettelser. Endnu en gang brugertest blev kørt igennem, og herefter kunne vi lave de sidste ændringer og gøre vores prototype klar til implemetering.</p>
                         <p>Implementeringen bestod af at vi skulle overdrage projektet til datamatikerne, dette skulle være i form af en video der forklarede hvordan app'en var tænkt at fungere, herefter kunne der stilles opklarende spørgsmål. Datamatikerne skulle bruge det til en projektopgave, desværre har vi ikke hørt hvordan det siden er gået.</p>
                 </div>
