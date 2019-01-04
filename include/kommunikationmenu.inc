@@ -11,7 +11,7 @@
     
 <!-- Menu indhold -->
     <div id="myDropdown" class="dropdown-content">
-        <h1>
+        
             <ul>
                 <ul>
                     <li class="menu"><a href="http://gert3987.web.eadania.dk/eksamen/">Home</a>
@@ -32,7 +32,7 @@
                     <a href="#bruger">Brugertest</a></li>
                 </ul>
             </ul>
-        </h1>
+        
     </div>
 </div>           
 </nav>
