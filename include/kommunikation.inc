@@ -44,7 +44,8 @@
                     <p>og AIDA</p>
                     <p>AIDA modellen bruges til at forudsige effekten af en besked. (kvantitav data)</p>
                     <p>Benyttes eksempelvis, ved bruger undersøgelser der skal analyseres i forhold til de indkomne data. Således det bliver mere klart, hvordan kommunikationen målrettes i forhold til hvilken awareness der skal lægges mest vægt på</p>
-                    <img class="scalepic50m" src="img/aida.png" alt="AIDA modellen">
+                    <a href="img/aida.png" target="_blank">
+                    <img class="scalepic50m" src="img/aida.png" alt="AIDA modellen"></a>
                     <div class="dokumentlink">
                         <a target="blank" href="pdf/analyse_budweiser.pdf">Vi benyttede i et gruppearbejde begge modeller til at analysere en Budwieser reklame. Læs den her.</a>
                     </div>
@@ -82,10 +83,12 @@
                         </div>
                         <p>Hvad er det værste der kan ske?</p>
                         <p>Og tag så en dyb indånding.</p>
-                        <img class="scalepic50m" src="img/peterp.png" alt="Peter Plys">
+                        <a href="img/peterp.png" target="_blank">
+                        <img class="scalepic50m" src="img/peterp.png" alt="Peter Plys"></a>
                         <p>Det er vigtigt at gøre sig klart at taler skal varieres, der er naturligvis forskel på om talen er en juridisk tale i en retssal, om det er en politisk tale ved Folketingets åbning, om det talen onkel/morfars 75 års fødselsdag (eller ditto bryllupsdag), eller om der tales til åbningen af en bro, lukningen af en arbejdsplads eller om det er nytåret, der skydes ind.</p>
                         <p>Ved en tales opbygning kan man anvende fiskemodellen, herved sikrer man sig at det er til at finde hoved og hale i det der skal siges.</p>
-                        <img class="scalepic50m" src="img/fisk.png" alt="Fiskemodellen">
+                        <a href="img/fisk.png" target="_blank">
+                        <img class="scalepic50m" src="img/fisk.png" alt="Fiskemodellen"></a>
                         <p>Humor er altid godt til at fange publikum med, nok ikke lige til en begravelse men i de fleste tilfælde kan det give en god start. Og så er det vigtigt at tænke over at ens kropssprog svarer overens med det der siges, i modsat fald kan det let komme til at virke utroværdigt og overfladisk.</p>
                         <h4>Kilde: Uddrag af Mariann Platen Daugaards præsentation d.18.09.2018</h4>
                     
@@ -112,7 +115,8 @@
                         <p>En meget vigtig ting at tage i betragtning, er hvor og til hvem teksten skrives. Det er jo ikke ligegyldigt, om du skriver et brev til tante Oda eller en nyhedsartikel.</p>
                         <p>Hvor der ved, nyhedsartikler, brochure, annoncer og webtekster er mere klare regler der skal tages i anvendelse, er det på sociale medier ikke muligt på samme måde, at opsætte faste regler og modeller, da der her er en langt større grad af spontanitet.</p>
                         <p>Nyhedstrekanten er en skrivemodel der også kan bruges ved udarbejdelse af webtekster, her startes med at konkludere, hvad teksten handler om, det du vil fortælle. Derefter skrives de vigtigste oplysninger, der har fører dig frem til konklusionen.</p>
-                        <img class="scalepic50m" src="img/nyhedstrekanten.jpg" alt="Nyhedstrekanten">
+                        <a href="img/nyhedstrekanten.jpg" target="_blank">
+                        <img class="scalepic50m" src="img/nyhedstrekanten.jpg" alt="Nyhedstrekanten"></a>
                         <p>Vi har som opgave skullet udarbejde tre tekster til en virksomhed, en nyhedsartikel, en annonce og et opslag til sociale medier (Facebook).</p>
                         <div class="dokumentlink">
                             <a target="blank" href="pdf/webtekster.pdf">Se mine tekster her.</a>
@@ -141,7 +145,8 @@
                         <p>Det gælder altså om at stille så mange spørgsmål som muligt, jo flere spørgsmål jo mere præcist billede vil man få af, hvad det er for en virksomhed man har med at gøre.</p>
                         <p>Vi har i forbindelse med et gruppearbejde benyttet Business Model Canvas metoden til en analyse af Ryan Air.</p>
                         <p>Det startede ud med, at vi i hver gruppe at sætte ting på hver vores Business Model Canvas, herefter skulle vi samle det til et fælles. der var flere sammenfaldende emner, men alligevel også en del forskelligheder, dette viser tydeligt at det kan være fornuftigt at involvere flere personer når en virksomhed skal analyseres.</p>
-                        <img class="scalepic50m" src="img/bmc2.jpg" alt="Business Model Canvas gruppearbejde">
+                        <a href="img/bmc2.jpg" target="_blank">
+                        <img class="scalepic50m" src="img/bmc2.jpg" alt="Business Model Canvas gruppearbejde"></a>
                         <p>Her er det samlet med gule og grønne sedler, som viser at de forskellige grupper havde forskellige ting med.</p>
                         <p>Mange virksomheder har stort fokus på Value Proposition. Det er her, man definerer og tydeliggør, hvilken værdi virksomhedens produkter og services giver dens kunder. Men selv en fantastisk Value Proposition, er ikke garanti for succes. Succes kræver nemlig, at din virksomhed samtidig har en forretningsmodel, der sikrer, at virksomheden har en struktur, der betyder, at du også kan tjene penge.</p>
                     </div>
@@ -193,7 +198,8 @@
                         <p>Man bruger åbne ”hv-spørgsmål”. Hvordan? Hvorfor? Osv.</p>
                         <p>Data vil ofte være i form af lange/korte interviews/samtaler med en eller flere personer</p>
                         <p>Databearbejdningen består af at fortolke og analysere</p>
-                        <img class="scalepic50m" src="img/paradigmer.png" alt="Primære og sekundære datakilder">
+                        <a href="img/paradigmer.png" target="_blank">
+                        <img class="scalepic50m" src="img/paradigmer.png" alt="Primære og sekundære datakilder"></a>
                         <p class="ital">Kvantitativ metode:</p>
                         <p>I de kvalitative metoder indsamles hårde data, dvs. størrelser som det er muligt at sætte tal på (eks. spørgeskema)</p>
                         <p>Handler ikke om at forstå, hvorfor folk mener eller gør, som de gør. Vi er groft sagt ligeglade med at forstå deres overvejelser.</p>
